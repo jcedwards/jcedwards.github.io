@@ -50,6 +50,62 @@ class HotLoadIndicator {
 }
 
 //-----------------------------------------------------------------------------
+// Debug websocket
+//-----------------------------------------------------------------------------
+console.log('ws://'+window.location.hostname+':8080');
+let debugUrl = 'ws://'+window.location.hostname+':8080';
+let debugSocket = new WebSocket(debugUrl);
+debugSocket.binaryType = "arraybuffer";
+debugSocket.onclose = (event) => {
+    console.log("ConnectionToServer.onclose");
+    debugSocket = null;
+};
+debugSocket.onerror = (event) => {
+    console.log("ConnectionToServer.onerror:", event.data);
+};
+debugSocket.onmessage = (event) => {
+    let data = JSON.parse(event.data)
+    console.log('data', data);
+
+    if (data.cmd == 'prepare-hot-load') {
+        hotLoading = true;
+        hotLoadIndicator.setState('hot-loading');
+    } else if (data.cmd == 'cancel-hot-load') {
+        hotLoading = false;
+        hotLoadIndicator.setState('failed');
+    } else if (data.cmd == 'hot-load') {
+        console.log('Hot loading ...');
+        let hotLoadCpp = (onComplete) => {
+            if (data.cpp.length == 0) { return onComplete(); }
+            bootloader.hotUnload();
+            bootloader.hotLoad(onComplete);
+        };
+        let hotLoadShaders = (onComplete) => {
+            if (data.shaders.length == 0) { return onComplete(); }
+            fetch('./shaders.mjs').then(response => {
+                return response.text();
+            }).then(text => {
+                let newShaders;
+                eval(text.replace('var Shaders', 'newShaders').replace('export { Shaders };', ''));
+                gfx.hotLoadShaders(newShaders, data.shaders);
+                onComplete();
+            });
+        };
+        hotLoadCpp(() => {
+            hotLoadShaders(() => {
+                console.log('... Complete!');
+                hotLoading = false;
+                hotLoadIndicator.setState('complete');
+            });
+        });
+    } else {
+        console.log('Unknown debug message: ', event.data);
+    }
+};
+debugSocket.onopen = (event) => {
+};
+
+//-----------------------------------------------------------------------------
 // Update loop
 //-----------------------------------------------------------------------------
 function update(timestamp) {
