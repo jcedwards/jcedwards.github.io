@@ -1,1 +1,26 @@
-Alpha
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">-->
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <!--<link rel="manifest" href="manifest.json">-->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="wasm-test">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="application-name" content="wasm-test">
+    <title>Wasm test</title>
+    <style>
+      canvas {
+        image-rendering: -webkit-crisp-edges;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: pixelated;
+      }
+    </style>
+  </head>
+  <body style="margin: 0px; overflow: hidden;">
+    <script type="module" src="index.mjs"></script>
+  </body>
+</html>
