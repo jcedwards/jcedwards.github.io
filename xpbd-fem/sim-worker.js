@@ -53,7 +53,7 @@ env['performance_now'] = function performance_now() {
 // Actually load up the code
 wasmInstance = null;
 console.log('Worker: Attempting to load wasm ...');
-fetch('/sim.wasm?'+Math.random()).then(function(response) {
+fetch('sim.wasm?'+Math.random()).then(function(response) {
 	if (!response.ok) {
 		throw new Error(`HTTP error! status: ${response.status}`);
 	}
