@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>XPBD FEM Demo</title>
+
+    <link rel="stylesheet" href="/styles.css">
+
+    <meta name="description" content="Interactive walkthrough of various FEM techniques integrated with XPBD">
+    <meta property="og:title" content="XPBD FEM Demo">
+    <meta property="og:description" content="Interactive walkthrough of various FEM techniques integrated with XPBD">
+    <meta property="og:image" content="https://www.mywebsite.com/image.jpg">
+    <meta property="og:image:alt" content="Image description">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://www.mywebsite.com/page">
+    <link rel="canonical" href="https://www.mywebsite.com/page">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💥</text></svg>">
+    <!--
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	-->
+	<!--
+    <link rel="manifest" href="/my.webmanifest">
+	-->
+    <meta name="theme-color" content="#FFFFFF">
+</head>
+
+<body>
+    <div id="content">
+    </div>
+    <div id="toc">
+    </div>
+    <div id="slides">
+        <script>
+            var slideFns = [];
+            function addBlock(type, width, height, xScale, yScale) {
+                rpc('AddBlock', type, width, height, xScale, yScale);
+            }
+        </script>
+        <div class="slide" id="slide-intro">
+            <script>
+                slideFns.push(function(){
+                    addBlock(Element_T3, 25, 7, 1.0, 1.0);
+                    addBlock(Element_Q4, 25, 7, 1.0, 1.0);
+                    addBlock(Element_Q5, 25, 7, 1.0, 1.0);
+                    addBlock(Element_Q9, 25, 7, 1.0, 1.0);
+                    addBlock(Element_H8, 9, 3, 3.0, 3.0);
+                    addBlock(Element_H27, 9, 3, 3.0, 3.0);
+                });
+                document.addEventListener('DOMContentLoaded', function(event) {
+                    let parentElement = document.getElementById('slide-intro');
+
+                    addRadioButtons(parentElement, 'Element Type:', Settings_ElementTypeBit, Settings_ElementTypeMask,
+                        ['∅', 'T3', 'Q4', 'Q5', 'Q9', 'H8', 'H27']);
+                    addRadioButtons(parentElement, 'Energy Function:', Settings_EnergyBit, Settings_EnergyMask,
+                        ['Neo-Hookean', 'Preintegrated Neo-Hookean', 'Stable Neo-Hookean',
+                         '<span style="color:#910">Under Integrated</span>']);
+                    addRadioButtons(parentElement, 'Shape:', Settings_ShapeBit, Settings_ShapeMask,
+                        ['Single', 'Line', 'Beam L', 'M', 'H', 'Box L', 'M', 'H']);
+                    addRangeWithTextField(parentElement, 'Wonkiness:', 'wonkiness', 0, 100,
+                        (value) => (value / 100));
+                    addRadioButtons(parentElement, 'Constraint Order:', Settings_ConstraintOrderBit, Settings_ConstraintOrderMask,
+                        ['Linear', 'Checker', 'SIMD']);
+                    addCheckbox(parentElement, 'XPBD:', Settings_SimultaneousXpbd, 'Simultaneous');
+
+                    addRangeWithTextField(parentElement, 'Steps/Second:', 'stepsPerSecond', 0, 100,
+                        (value) => (200.0 * 10 ** (2.0 * value / 100)));
+                    addRangeWithTextField(parentElement, 'Time Scale:', 'timeScale', 0, 100,
+                        (value) => (value / 100));
+                    addRangeWithTextField(parentElement, 'Gravity:', 'gravity', 0, 100,
+                        (value) => (0.1 * value));
+                    addRangeWithTextField(parentElement, 'Compliance:', 'compliance', 0, 100,
+                        (value) => (0.01 / 1000.0 * 10 ** (6.0 * value / 100.0)));
+                    addRangeWithTextField(parentElement, 'Rayleigh Damp:', 'damping', 0, 100,
+                        (value) => ((10 ** (6.0 * value / 100.0) - 1.0)));
+                    addRangeWithTextField(parentElement, '𝑣 *= (1-x) Drag:', 'drag', 0, 100,
+                        (value) => (1.0 / 1000.0 * (10 ** (3.0 * value / 100.0) - 1.0)));
+                    addRangeWithTextField(parentElement, 'Poisson\'s Ratio:', 'poissonsRatio', 0, 100,
+                        (value) => (0.5 * (value / 100.0)));
+                    addRangeWithTextField(parentElement, 'Volume Conservation:', 'volumeConservationMult', 0, 100,
+                        (value) => (value / 100.0));
+
+                    addCheckbox(parentElement, 'Lock:', Settings_LockLeft, 'Left');
+                    addCheckbox(parentElement, 'Lock:', Settings_LockRight, 'Right');
+                    addCheckbox(parentElement, 'Lock:', Settings_RotateLock, 'Rotate');
+                    addCheckbox(parentElement, 'Render:', Settings_RenderHigherOrderFeatures, 'Higher Order Features');
+
+                    updateSettings();
+                });
+            </script>
+            Hi, I'm slide #1!
+            <button type="button" onclick="resetBlocks();">Reset</button>
+        </div>
+        <div class="slide">
+            <script>slideFns.push(function(){
+                addBlock(Block_Q9, 15, 15, 1.0, 1.0);
+            });</script>
+            Hi, I'm slide #2!
+        </div>
+        <div class="slide">
+            <script>slideFns.push(function(){
+                addBlock(Block_Q9, 99, 99, 0.3, 0.3);
+            });</script>
+            Hi, I'm slide #3!
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="slides.js"></script>
+</body>
+</html>
