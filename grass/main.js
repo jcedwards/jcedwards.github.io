@@ -1132,6 +1132,7 @@ const SpriteId = {
 	'skull': { bounds: [0,43, 40,45] },
 	'skull_small': { bounds: [40,58, 22,24] },
 	'hand_push_grass': { bounds: [74,0, 16,27] },
+	'rock': { bounds: [72,128-83, 56,83] },
 };
 
 class Sprites {
@@ -1446,6 +1447,7 @@ function update(timestamp) {
 	sprites.addSprite('ghost', -2.0, 1.75, -2.4);
 	sprites.addSprite('skull', -0.75, 1.0, 2.0);
 	sprites.addSprite('skull_small', -2.5, 0.5, 2.0);
+	sprites.addSprite('rock', -8.0, 1.9, -5.0);
 
 	gfx.render();
 	grass.render(gl);
