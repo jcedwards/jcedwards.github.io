@@ -133,6 +133,7 @@ async function clearFeed() {
             elems[i].addEventListener('transitionend', (event) => {
                 if (transitionResolve) { transitionResolve(); }
                 textContainer.innerHTML = '';
+                window.scrollTo(0, 0);
             });
         }
     }
