@@ -187,84 +187,50 @@ async function gameLoop() {
     let { realms, shops, challenges, challengeResults, rumors, endings } = gameData;
 
     while (true) {
-        let acts, shopText, shops, rumors, challengeResults, endings;
-
-        let log = { acts: [] };
+        let log = { realms: [] };
 
         let inventory = [];
 
-        // Ask the player which game they want to play
-        {
-            let confirmationResolve = null;
-            let feedClear = false;
-            let gameLoaded = false;
-
-            let wrapper = document.createElement('div');
-            wrapper.classList.add('text-wrapper-inner');
-            wrapper.innerHTML = markdownToHtml(`Choose a theme`);
-
-            let buttons = [];
-            let addButton = (label, path) => {
-                wrapper.appendChild(document.createElement('br'));
-                let button = document.createElement('button');
-                buttons.push(button);
-                button.innerHTML = label;
-                button.addEventListener('click', function() {
-                    buttons.forEach(button => { button.disable = true; });
-                    clearFeed().then(() => {
-                        feedClear = true;
-                        if (gameLoaded) {
-                            confirmationResolve();
-                        }
-                    });
-                    fetch(`./${path}/game-data.json`).then(response => response.json()).then(gameData => {
-                        ({ acts, shops, shopText, challengeResults, rumors, endings } = gameData);
-                        gameLoaded = true;
-                        if (feedClear) {
-                            confirmationResolve();
-                        }
-                    }).catch(error => {
-                        console.error(error);
-                    });
-                });
-                wrapper.appendChild(button);
-            };
-            addButton('English Cozy', 'english-cosy');
-
-            pushToFeed(wrapper);
-
-            await new Promise((resolve, reject) => { confirmationResolve = resolve; });
+        let welcomeText = '###Welcome traveler!\n\nYour journey will take you across the following realms:';
+        for (let realmIdx = 0; realmIdx < realms.length; realmIdx++) {
+            welcomeText += '\n\n&nbsp;\n\n###'+realms[realmIdx].name+'\n\n'+realms[realmIdx].desc;
         }
+        displayText(welcomeText);
+        await waitForConfirmation('continue');
+        await clearFeed();
 
-        // There used to be a welcome screen here. Do we still need it?
+        for (let realmIdx = 0; realmIdx < realms.length; realmIdx++) {
+            let realmLog = { challengeResults: [] };
+            log.realms.push(realmLog);
 
-        for (let actIdx = 0; actIdx < acts.length; actIdx++) {
-            let act = acts[actIdx];
-            let actLog = { challengeResults: [] };
-            log.acts.push(actLog);
-
-            function displayAct() {
-                act.name = act.name || `Act ${actIdx + 1}`; //@HACK:!!!
-                // Display the current act
-                let actContainer = document.createElement('div');
-                actContainer.classList.add('text-wrapper-inner');
-                actContainer.style.color = '#777';
-                actContainer.innerHTML = markdownToHtml('###'+act.name+'\n\n'+act.introduction);
-                pushToFeed(actContainer);
+            function displayRealm() {
+                // Display the current realm
+                let realmContainer = document.createElement('div');
+                realmContainer.classList.add('text-wrapper-inner');
+                realmContainer.style.color = '#777';
+                realmContainer.innerHTML = markdownToHtml('###'+realms[realmIdx].name+'\n\n'+realms[realmIdx].desc);
+                pushToFeed(realmContainer);
             }
 
             //
             // Shop
             //
-            displayAct();
+            displayRealm();
             
-            let buyCount = actIdx == 0 ? 4 : 2;
+            let buyCount = realmIdx == 0 ? 4 : 2;
             let shopContainer = document.createElement('div');
             shopContainer.classList.add('text-wrapper-inner');
-            let shopTextFilledIn =
-                shopText.replace('<|rumor|>', '\n\n###'+rumors[actIdx]+'\n\n').replace('<|count|>', `${buyCount}`);
-            shopContainer.innerHTML = markdownToHtml('###Requisitions\n\n'+shopTextFilledIn);
-            let shop = shops[actIdx];
+            shopContainer.innerHTML = markdownToHtml(
+                '###Requisitions\n\n'+
+                `A small, breathless monk excitedly approaches you:`+
+                '\n\n'+
+                `"Adventurer, I've finally found you! Please hear my message:`+
+                '\n\n'+
+                `###${rumors[realmIdx]}`+
+                '\n\n'+
+                `And please accept from me **${buyCount}** precious boons!"`
+            );
+            let shop = shops[realmIdx];
             let displayedItems = [];
             for (let i = 0; i < shop.length; i++) {
                 if (!inventory.includes(shop[i])) { displayedItems.push(shop[i]); }
@@ -306,12 +272,12 @@ async function gameLoop() {
             //
             // Challenges
             //
-            for (let i = 0; i < act.challenges.length; i++) {
-                let challenge = act.challenges[i];
+            for (let i = 0; i < challenges[realmIdx].length; i++) {
+                let challenge = challenges[realmIdx][i];
 
-                displayAct();
+                displayRealm();
 
-                displayText('###'+challenge.name+'\n\n'+challenge.description);
+                displayText('###'+challenge.name+'\n\n'+challenge.desc);
 
                 // Let the player select from their inventory
                 let invContainer = document.createElement('div');
@@ -335,21 +301,29 @@ async function gameLoop() {
                 }
                 disableItems(invContainer);
 
+                if (selectedInventoryItems.length != 1) {
+                    displayText('###AUTO FAIL\n\nNo Item selected\n\n###AUTO FAIL');
+                    realmLog.challengeResults.push({success: false});
+                    await waitForConfirmation('Continue');
+                    await clearFeed();
+                    continue;
+                }
+
                 let itemName = selectedInventoryItems[0];
-                let result = challengeResults[actIdx][i][itemName];
+                let result = challengeResults[realmIdx][i][itemName];
                 if (!result) {
                     displayText('###AUTO FAIL\n\n'+`Error: No result for ${itemName}`+'\n\n###AUTO FAIL');
-                    actLog.challengeResults.push({success: false});
+                    realmLog.challengeResults.push({success: false});
                     await waitForConfirmation('Continue');
                     await clearFeed();
                     continue;
                 }
 
                 displayText(`###${result.success ? 'SUCCESS' : 'FAILURE'}`+'\n\n'+result.text);
-                actLog.challengeResults.push(result);
+                realmLog.challengeResults.push(result);
 
                 let score = 0;
-                log.acts.forEach(act => act.challengeResults.forEach(result => score += result.success ? 1 : 0));
+                log.realms.forEach(realm => realm.challengeResults.forEach(result => score += result.success ? 1 : 0));
                 displayText(`Score: ${score}`);
 
                 await waitForConfirmation('Continue');
@@ -360,15 +334,18 @@ async function gameLoop() {
         // The player has finished the quest! Give them an ending.
         {
             let score = 0, scorePossible = 0;
-            log.acts.forEach(act => act.challengeResults.forEach(result => { score += result.success ? 1 : 0; ++scorePossible; }));
+            log.realms.forEach(realm => realm.challengeResults.forEach(result => { score += result.success ? 1 : 0; ++scorePossible; }));
 
             let scoreMap = [
-                { score: 6.0 / 20.0, desc: 'terrible' },
-                { score: 10.0 / 20.0, desc: 'bad' },
-                { score: 14.0 / 20.0, desc: 'middling' },
-                { score: 17.0 / 20.0, desc: 'good' },
-                { score: 20.0 / 20.0, desc: 'great' },
-                { score: 21.0 / 20.0, desc: 'perfect' },
+                { score: 8.0 / 25.0, desc: 'terrible' },
+                { score: 11.0 / 25.0, desc: 'bad' },
+                { score: 14.0 / 25.0, desc: 'poor-to-middling' },
+                { score: 16.0 / 25.0, desc: 'middling' },
+                { score: 18.0 / 25.0, desc: 'decent' },
+                { score: 20.0 / 25.0, desc: 'good' },
+                { score: 22.0 / 25.0, desc: 'great' },
+                { score: 25.0 / 25.0, desc: 'amazing' },
+                { score: 26.0 / 25.0, desc: 'perfect' },
             ];
             let scoreDesc = scoreMap[0].desc;
             for (let i = 0; i < scoreMap.length; i++) {
@@ -378,16 +355,16 @@ async function gameLoop() {
                 }
             }
 
-            displayText(`###${endings[scoreDesc].name}`+'\n\n'+`${endings[scoreDesc].text}`);
-
             let msg =
-                `Final score: ${score}/${scorePossible}`+'\n\n'+
+                `###Your journey is complete!`+'\n\n&nbsp;\n\n'+
+                `Final score: ${score}/${scorePossible}`+'\n\n&nbsp;\n\n'+
                 `Breakdown:`+'\n\n';
-            for (let i = 0; i < acts.length; i++) {
+            for (let i = 0; i < realms.length; i++) {
                 let score = 0, scorePossible = 0;
-                log.acts[i].challengeResults.forEach(result => { score += result.success ? 1 : 0; ++scorePossible; });
-                msg += `Act ${i + 1} - ${acts[i].name}:`.padEnd(20)+`${score}/${scorePossible}`+'\n\n';
+                log.realms[i].challengeResults.forEach(result => { score += result.success ? 1 : 0; ++scorePossible; });
+                msg += `${realms[i].name}:`.padEnd(20)+`${score}/${scorePossible}`+'\n\n';
             }
+            msg += '&nbsp;\n\n'+endings[scoreDesc];
             displayText(msg);
 
             await waitForConfirmation('Play Again');
