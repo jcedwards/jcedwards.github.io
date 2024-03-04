@@ -207,6 +207,7 @@ async function gameLoop() {
             let addButton = (label, path) => {
                 wrapper.appendChild(document.createElement('br'));
                 let button = document.createElement('button');
+                button.style.marginTop = '0.5rem';
                 buttons.push(button);
                 button.innerHTML = label;
                 button.addEventListener('click', function() {
@@ -230,6 +231,8 @@ async function gameLoop() {
                 wrapper.appendChild(button);
             };
             addButton('English Cozy', 'english-cosy');
+            addButton('Friends of the Library', 'shoreline-library');
+            addButton('Wall Street', 'wall-street');
 
             pushToFeed(wrapper);
 
@@ -244,21 +247,18 @@ async function gameLoop() {
             log.acts.push(actLog);
 
             // Introduce the act
-            act.name = act.name || `Act ${actIdx + 1}`; //@HACK:!!!
-            displayText(`###Act ${actIdx + 1}: ${act.name}`+'\n\n'+act.introduction);
+            // displayText(`###Act ${actIdx + 1}: ${act.name}`+'\n\n'+act.introduction);
+            displayText(`###Act ${actIdx + 1}: ${act.name}`);
             await waitForConfirmation('Continue');
             await clearFeed();
 
 
-            //@NOTE: Will likely remove this soon ...
             function displayAct() {
-                return;
-                act.name = act.name || `Act ${actIdx + 1}`; //@HACK:!!!
                 // Display the current act
                 let actContainer = document.createElement('div');
                 actContainer.classList.add('text-wrapper-inner');
                 actContainer.style.color = '#777';
-                actContainer.innerHTML = markdownToHtml('###'+act.name+'\n\n'+act.introduction);
+                actContainer.innerHTML = markdownToHtml(`###Act ${actIdx + 1}: ${act.name}`);
                 pushToFeed(actContainer);
             }
 
@@ -267,9 +267,7 @@ async function gameLoop() {
             //
             displayAct();
 
-            displayText(`@TODO: Smooth out transition to shop`);
-            
-            let buyCount = actIdx == 0 ? 4 : 2;
+            let buyCount = actIdx == 0 ? 6 : 4;
             let shopContainer = document.createElement('div');
             shopContainer.classList.add('text-wrapper-inner');
             let shopTextFilledIn =
@@ -358,6 +356,14 @@ async function gameLoop() {
 
                 displayText(`###${result.success ? 'SUCCESS' : 'FAILURE'}`+'\n\n'+result.text);
                 actLog.challengeResults.push(result);
+
+                if (result.lost) {
+                    inventory.splice(inventory.indexOf(itemName), 1);
+                    displayText(`###${itemName} lost.`);
+                } else if (result.newItem) {
+                    inventory.splice(inventory.indexOf(itemName), 1, result.newItem);
+                    displayText(`###${itemName} is now ${result.newItem}.`);
+                }
 
                 let score = 0;
                 log.acts.forEach(act => act.challengeResults.forEach(result => score += result.success ? 1 : 0));
