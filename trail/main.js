@@ -243,7 +243,16 @@ async function gameLoop() {
             let actLog = { challengeResults: [] };
             log.acts.push(actLog);
 
+            // Introduce the act
+            act.name = act.name || `Act ${actIdx + 1}`; //@HACK:!!!
+            displayText(`###Act ${actIdx + 1}: ${act.name}`+'\n\n'+act.introduction);
+            await waitForConfirmation('Continue');
+            await clearFeed();
+
+
+            //@NOTE: Will likely remove this soon ...
             function displayAct() {
+                return;
                 act.name = act.name || `Act ${actIdx + 1}`; //@HACK:!!!
                 // Display the current act
                 let actContainer = document.createElement('div');
@@ -257,13 +266,15 @@ async function gameLoop() {
             // Shop
             //
             displayAct();
+
+            displayText(`@TODO: Smooth out transition to shop`);
             
             let buyCount = actIdx == 0 ? 4 : 2;
             let shopContainer = document.createElement('div');
             shopContainer.classList.add('text-wrapper-inner');
             let shopTextFilledIn =
                 shopText.replace('<|rumor|>', '\n\n###'+rumors[actIdx]+'\n\n').replace('<|count|>', `${buyCount}`);
-            shopContainer.innerHTML = markdownToHtml('###Requisitions\n\n'+shopTextFilledIn);
+            shopContainer.innerHTML = markdownToHtml(shopTextFilledIn);
             let shop = shops[actIdx];
             let displayedItems = [];
             for (let i = 0; i < shop.length; i++) {
@@ -355,10 +366,16 @@ async function gameLoop() {
                 await waitForConfirmation('Continue');
                 await clearFeed();
             }
+
+            // End the act
+            displayText(`###End of Act ${actIdx + 1}`);
+            await waitForConfirmation('Continue');
         }
 
         // The player has finished the quest! Give them an ending.
         {
+            await clearFeed();
+
             let score = 0, scorePossible = 0;
             log.acts.forEach(act => act.challengeResults.forEach(result => { score += result.success ? 1 : 0; ++scorePossible; }));
 
@@ -378,6 +395,7 @@ async function gameLoop() {
                 }
             }
 
+            displayText('###Epilogue');
             displayText(`###${endings[scoreDesc].name}`+'\n\n'+`${endings[scoreDesc].text}`);
 
             let msg =
