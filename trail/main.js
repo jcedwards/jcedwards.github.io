@@ -184,10 +184,8 @@ function waitForConfirmation(confirmButtonLabel) {
 }
 
 async function gameLoop() {
-    let { realms, shops, challenges, challengeResults, rumors, endings } = gameData;
-
     while (true) {
-        let acts, shopText, shops, rumors, challengeResults, endings;
+        let acts, shopText, shops, rumors, challengeResults, intro, endings;
 
         let log = { acts: [] };
 
@@ -211,7 +209,7 @@ async function gameLoop() {
                 buttons.push(button);
                 button.innerHTML = label;
                 button.addEventListener('click', function() {
-                    buttons.forEach(button => { button.disable = true; });
+                    buttons.forEach(button => { button.disabled = true; });
                     clearFeed().then(() => {
                         feedClear = true;
                         if (gameLoaded) {
@@ -219,7 +217,7 @@ async function gameLoop() {
                         }
                     });
                     fetch(`./${path}/game-data.json`).then(response => response.json()).then(gameData => {
-                        ({ acts, shops, shopText, challengeResults, rumors, endings } = gameData);
+                        ({ acts, shops, shopText, challengeResults, rumors, intro, endings } = gameData);
                         gameLoaded = true;
                         if (feedClear) {
                             confirmationResolve();
@@ -230,16 +228,22 @@ async function gameLoop() {
                 });
                 wrapper.appendChild(button);
             };
+            addButton('Fantasy', 'fantasy-rpg');
             addButton('English Cozy', 'english-cosy');
             addButton('Friends of the Library', 'shoreline-library');
             addButton('Wall Street', 'wall-street');
+            addButton('Dumb Sherlock', 'dumb-sherlock');
 
             pushToFeed(wrapper);
 
             await new Promise((resolve, reject) => { confirmationResolve = resolve; });
         }
 
-        // There used to be a welcome screen here. Do we still need it?
+        // Intro
+        intro = intro || { title: 'Temp Title', text: 'Introduction not implemented.' }; //@HACK:!!!
+        displayText(`###${intro.title}`+'\n\n'+intro.text);
+        await waitForConfirmation('Continue');
+        await clearFeed();
 
         for (let actIdx = 0; actIdx < acts.length; actIdx++) {
             let act = acts[actIdx];
@@ -252,22 +256,70 @@ async function gameLoop() {
             await waitForConfirmation('Continue');
             await clearFeed();
 
+            function createProgressBarElement(color, chalIdx) {
+                let progressContainer = document.createElement('div');
+                let completionPercentage = (100.0 * (6 * actIdx + chalIdx + 1) / 24.0).toFixed(3);
+                progressContainer.innerHTML =
+                    `<div style="position: relative; width: 100%; height: 1.25rem; padding: 0 0.1rem;">
+                        <div style="position: absolute; display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%">
+                            <div style="width: 99.5%; height: 0.125rem; background-color: ${color};"></div>
+                        </div>
+                        <div style="position: absolute; display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; margin: 0 -0.1rem">
+                            <div style="width: 0.2rem; height: 100%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 60%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 60%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 60%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 30%; background-color: ${color};"></div>
+                            <div style="width: 0.2rem; height: 100%; background-color: ${color};"></div>
+                        </div>
+                        <div style="position: absolute; display: flex; align-items: center; justify-content: flex-start; width: 100%; height: 100%">
+                            <div style="width: ${completionPercentage}%; height: 60%; background-color: ${color}; opacity: 0.2;"></div>
+                        </div>
+                        <div style="position: absolute; display: flex; align-items: center; justify-content: flex-start; width: 100%; height: 100%">
+                            <div style="width: ${completionPercentage}%; height: 60%; background-image: radial-gradient(${color} 40%, transparent 40%), radial-gradient(${color} 40%, transparent 40%); background-position: 0.0625rem 0.0625rem, -0.0625rem -0.0625rem; background-size: 0.25rem 0.25rem; opacity: 0.6;"></div>
+                        </div>
+                    </div>`;
+                return progressContainer;
+            }
 
-            function displayAct() {
-                // Display the current act
+            function displayAct(chalIdx) {
                 let actContainer = document.createElement('div');
                 actContainer.classList.add('text-wrapper-inner');
                 actContainer.style.color = '#777';
-                actContainer.innerHTML = markdownToHtml(`###Act ${actIdx + 1}: ${act.name}`);
+                // Display the current act
+                let textContainer = document.createElement('div');
+                textContainer.innerHTML = markdownToHtml(`###Act ${actIdx + 1}: ${act.name}`);
+                actContainer.appendChild(textContainer);
+                // Show a progress bar
+                actContainer.appendChild(createProgressBarElement('#777', chalIdx));
                 pushToFeed(actContainer);
             }
 
             //
             // Shop
             //
-            displayAct();
+            displayAct(-1);
 
-            let buyCount = actIdx == 0 ? 6 : 4;
+            let buyCount = actIdx == 0 ? 5 : Math.max(3, 5 - inventory.length);
             let shopContainer = document.createElement('div');
             shopContainer.classList.add('text-wrapper-inner');
             let shopTextFilledIn =
@@ -318,7 +370,7 @@ async function gameLoop() {
             for (let i = 0; i < act.challenges.length; i++) {
                 let challenge = act.challenges[i];
 
-                displayAct();
+                displayAct(i);
 
                 displayText('###'+challenge.name+'\n\n'+challenge.description);
 
@@ -374,7 +426,16 @@ async function gameLoop() {
             }
 
             // End the act
-            displayText(`###End of Act ${actIdx + 1}`);
+            {
+                let endContainer = document.createElement('div');
+                endContainer.classList.add('text-wrapper-inner');
+                // endContainer.style.color = '#777';
+                let textContainer = document.createElement('div');
+                textContainer.innerHTML = markdownToHtml(`###End of Act ${actIdx + 1}`);
+                endContainer.appendChild(textContainer);
+                endContainer.appendChild(createProgressBarElement('#777', act.challenges.length));
+                pushToFeed(endContainer);
+            }
             await waitForConfirmation('Continue');
         }
 
