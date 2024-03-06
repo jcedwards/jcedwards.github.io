@@ -251,8 +251,7 @@ async function gameLoop() {
             log.acts.push(actLog);
 
             // Introduce the act
-            // displayText(`###Act ${actIdx + 1}: ${act.name}`+'\n\n'+act.introduction);
-            displayText(`###Act ${actIdx + 1}: ${act.name}`);
+            displayText(`###Act ${actIdx + 1}: ${act.title}`+'\n\n'+act.description);
             await waitForConfirmation('Continue');
             await clearFeed();
 
@@ -307,7 +306,7 @@ async function gameLoop() {
                 actContainer.style.color = '#777';
                 // Display the current act
                 let textContainer = document.createElement('div');
-                textContainer.innerHTML = markdownToHtml(`###Act ${actIdx + 1}: ${act.name}`);
+                textContainer.innerHTML = markdownToHtml(`###Act ${actIdx + 1}: ${act.title}`);
                 actContainer.appendChild(textContainer);
                 // Show a progress bar
                 actContainer.appendChild(createProgressBarElement('#777', chalIdx));
