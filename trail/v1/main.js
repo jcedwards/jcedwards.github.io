@@ -233,8 +233,6 @@ async function gameLoop() {
             addButton('Friends of the Library', 'shoreline-library');
             addButton('Wall Street', 'wall-street');
             addButton('Dumb Sherlock', 'dumb-sherlock');
-            addButton('GDC', 'gdc-game');
-            addButton('Fantasy_Old', 'fantasy-rpg-old');
 
             pushToFeed(wrapper);
 
@@ -259,7 +257,7 @@ async function gameLoop() {
 
             function createProgressBarElement(color, chalIdx) {
                 let progressContainer = document.createElement('div');
-                let completionPercentage = Math.min(99.5, (100.0 * (6 * actIdx + chalIdx + 1) / 24.0)).toFixed(3);
+                let completionPercentage = (100.0 * (6 * actIdx + chalIdx + 1) / 24.0).toFixed(3);
                 progressContainer.innerHTML =
                     `<div style="position: relative; width: 100%; height: 1.25rem; padding: 0 0.1rem;">
                         <div style="position: absolute; display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%">
