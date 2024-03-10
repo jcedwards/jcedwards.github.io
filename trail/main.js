@@ -229,12 +229,13 @@ async function gameLoop() {
                 wrapper.appendChild(button);
             };
             addButton('Fantasy', 'fantasy-rpg');
-            addButton('English Cozy', 'english-cosy');
-            addButton('Friends of the Library', 'shoreline-library');
-            addButton('Wall Street', 'wall-street');
+            addButton('English Cozy (Claude)', 'english-cosy');
             addButton('Dumb Sherlock', 'dumb-sherlock');
+            addButton('Wall Street', 'wall-street');
+            addButton('Friends of the Library', 'shoreline-library');
             addButton('GDC', 'gdc-game');
             addButton('Fantasy_Old', 'fantasy-rpg-old');
+            addButton('English Cozy_Old', 'english-cosy-old');
 
             pushToFeed(wrapper);
 
