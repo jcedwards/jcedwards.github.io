@@ -243,11 +243,13 @@ async function gameLoop() {
         }
 
         // Intro
-        intro = intro || { title: 'Temp Title', text: 'Introduction not implemented.' }; //@HACK:!!!
-        displayText(`###${intro.title}`+'\n\n'+intro.text);
-        await waitForConfirmation('Continue');
-        await clearFeed();
+        if (intro) {
+            displayText(`###${intro.title}`+'\n\n'+intro.text);
+            await waitForConfirmation('Continue');
+            await clearFeed();
+        }
 
+        // Acts
         for (let actIdx = 0; actIdx < acts.length; actIdx++) {
             let act = acts[actIdx];
             let actLog = { challengeResults: [] };

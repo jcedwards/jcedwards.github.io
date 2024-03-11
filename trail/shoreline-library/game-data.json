@@ -1,8 +1,8 @@
 {
   "acts": [
     {
-      "name": "A New Beginning",
-      "theme": "The act focuses on the challenges of revitalizing the volunteer group after a period of inactivity.",
+      "title": "A New Beginning",
+      "description": "The act focuses on the challenges of revitalizing the volunteer group after a period of inactivity.",
       "challenges": [
         {
           "name": "The Lost Inventory",
@@ -27,8 +27,8 @@
       ]
     },
     {
-      "name": "Organizational Challenges",
-      "theme": "This act concentrates on managing the logistics and interpersonal dynamics of running the Friends group.",
+      "title": "Organizational Challenges",
+      "description": "This act concentrates on managing the logistics and interpersonal dynamics of running the Friends group.",
       "challenges": [
         {
           "name": "Budget Balancing",
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "name": "The Big Event",
-      "theme": "Preparations and execution of the biannual book sale are at the forefront.",
+      "title": "The Big Event",
+      "description": "Preparations and execution of the biannual book sale are at the forefront.",
       "challenges": [
         {
           "name": "Advertising Outreach",
@@ -79,8 +79,8 @@
       ]
     },
     {
-      "name": "Legacy and Continuity",
-      "theme": "Focusing on ensuring the future of the Friends group and their events.",
+      "title": "Legacy and Continuity",
+      "description": "Focusing on ensuring the future of the Friends group and their events.",
       "challenges": [
         {
           "name": "Capturing Moments",

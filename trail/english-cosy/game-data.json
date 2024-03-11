@@ -5463,10 +5463,6 @@
       }
     ]
   ],
-  "intro": {
-    "title": "The Village Baker of Applebottom",
-    "text": "You've just moved to the quaint English village of Applebottom to start a new life as the local baker. As you settle into your cosy bakery on High Street, you're eager to immerse yourself in the tight-knit community and create delectable treats for your new neighbours. But running a bakery comes with its own set of challenges, from temperamental ovens to unexpected mishaps, and you'll need to use your wit and creativity to rise to the occasion."
-  },
   "endings": {
     "terrible": {
       "name": "A Bitter End",
