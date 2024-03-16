@@ -1,0 +1,942 @@
+{
+  "items": [
+    "patterned teacups",
+    "potholder",
+    "cake stand",
+    "scone cutter",
+    "antique scale",
+    "cardigan",
+    "cookbook",
+    "wellies",
+    "tea cozy",
+    "knitting needles",
+    "chintz",
+    "walking stick",
+    "embroidered handkerchief",
+    "silver thimble",
+    "shawl",
+    "teapot"
+  ],
+  "challenges": [
+    {
+      "description": "Lady Pendleton, a longtime patron of your grandmother's bakery, has requested a specific rare tea blend for her upcoming afternoon tea party. After scouring the local shops to no avail, you remember that the eccentric old herbalist, Mr. Wiggenbottom, might have some hidden away in his cluttered apothecary. A visit to his shop is in order, but be prepared for his lengthy tales of his globe-trotting adventures.",
+      "name": "A Tea-riffic Quest"
+    },
+    {
+      "description": "Rumor has it that \"Crumpets & Co.\", a slick new bakery chain, is scouting locations in town. You'll be sconed if you let them overshadow your grandmother's hard-earned pastry primacy! There must be a way to highlight the authenticity of your family's recipes over mass-produced confections.",
+      "name": "The Proof is in the Pudding"
+    },
+    {
+      "description": "Tempers are flaring at the town meeting as folks take sides over the cobblestone debate. Your spirited defense of tradition has ruffled Councilwoman Paver's feathers. If only there was a way to remind everyone of the town's charming character before the vote.",
+      "name": "Paving Paradise"
+    },
+    {
+      "description": "In an effort to keep your baking classes going during lockdown, you decide to teach via Zoom. But between the spotty internet, your cat Pavlova walking across the keyboard, and your students' hilarious mishaps, it's a recipe for laughter and frustration. Can you roll with the punches and keep your digital class on track?",
+      "name": "The Zoom Baking Escapades"
+    },
+    {
+      "description": "Dark clouds are gathering on the horizon, threatening to rain on your community pie tasting parade. Soggy crusts simply won't do! The show must go on, but you'll need to cook up a creative solution to keep the pastries dry and the townsfolk in high spirits.",
+      "name": "Saving for a Rainy Day"
+    },
+    {
+      "description": "Disaster strikes when your ancient boiler sputters out during a record cold snap, turning your cozy cottage into an icebox. With no repairman available for days, you'll need to get creative to stay warm and keep your pipes from freezing. Baking to the rescue?",
+      "name": "The Big Chill"
+    },
+    {
+      "description": "Your lucky baking hat, a charmingly quirky fascinator adorned with miniature whisks and rolling pins, goes missing after a busy day at the farmers' market. Later, you spot a tourist wearing it as they board the train out of town! Without your trusty hat to inspire you, you must find a new muse to spark your creativity in the kitchen.",
+      "name": "The Case of the Purloined Fascinator"
+    },
+    {
+      "description": "Pavlova seems to think your beautiful windowsill pies are her personal kitty treats. You shoo her away, but not before she leaves incriminating paw prints all over! Disguise the evidence before the church ladies arrive for the pie contest judging.",
+      "name": "The Paw Print Pie Caper"
+    },
+    {
+      "description": "Trifle, your most mischievous cat, knocks over the town newsletter, revealing an advert for a one-day estate sale at the late Colonel Featherton's manor. Rumor has it the Colonel had an impressive collection of antique biscuit tins. With any luck, you might just find a replacement for your broken Sadler jar!",
+      "name": "The Curious Case of Colonel Featherton's Collection"
+    }
+  ],
+  "challengeResults": [
+    {
+      "teapot": {
+        "success": true,
+        "text": "Upon your arrival, you presented Mr. Wiggenbottom with the teapot, explaining Lady Pendleton's request and highlighting its significance to your grandmother's bakery. Deeply moved by the sentimental value of the teapot, which he recognized as one he had once sold to your grandmother, Mr. Wiggenbottom rummaged through his collections and happily handed over the rare tea blend, insisting it was only right it be used in such a cherished teapot.",
+        "lost": false,
+        "newName": ""
+      },
+      "cookbook": {
+        "success": true,
+        "text": "Taking the cookbook to Mr. Wiggenbottom, you showed him the ancient recipe that included the rare tea blend as an ingredient. Intrigued, he dove into his supply and emerged with the tea, charmed by the connection to his own adventures and the quaint relevance to your grandmother's baking legacy.",
+        "lost": false,
+        "newName": ""
+      },
+      "patterned teacups": {
+        "success": true,
+        "text": "Upon seeing the patterned teacups you brought from your grandmother's bakery, Mr. Wiggenbottom was reminded of a set he once owned, sparking a rare mood of generosity. He eagerly traded you the rare tea blend for the chance to own such reminiscent teacups again, happily sending you on your way without enduring one of his lengthy tales.",
+        "lost": true,
+        "newName": ""
+      },
+      "tea cozy": {
+        "success": true,
+        "text": "As you present Mr. Wiggenbottom with the tea cozy, his eyes light up with recognition—it was a memento from his travels to a small village renowned for that very tea blend. Charmed, he rummages through his storeroom and gifts you the last of his stash, insisting the cozy is perfect compensation.",
+        "lost": true,
+        "newName": ""
+      },
+      "wellies": {
+        "success": false,
+        "text": "Hoping to trudge through the rain-soaked countryside to Mr. Wiggenbottom's apothecary, your wellies get stuck in a particularly treacherous mud patch just outside his door. Despite a valiant struggle, they remain entrenched in the muck, forcing you to proceed in your socks.",
+        "lost": true,
+        "newName": ""
+      },
+      "antique scale": {
+        "success": false,
+        "text": "Hoping to charm Mr. Wiggenbottom into parting with the rare tea using the antique scale's nostalgic value, you soon found out he had no interest in it, being fully digitalized in his weighing methods. Your well-intentioned gesture only led to a bemused lecture on the superiority of his digital scales.",
+        "lost": false,
+        "newName": ""
+      },
+      "embroidered handkerchief": {
+        "success": false,
+        "text": "As you handed Mr. Wiggenbottom the embroidered handkerchief as a polite gesture, his eyes squinted at the intricate design, mistaking it for a rudimentary map to an exotic herb. Disappointed upon realizing its true nature, he promptly refocused on a teapot, leaving you without any closer to the rare tea.",
+        "lost": false,
+        "newName": ""
+      },
+      "walking stick": {
+        "success": false,
+        "text": "As you leaned on your walking stick, attempting to look casual while navigating Mr. Wiggenbottom's cluttered apothary, it unfortunately found its way into a small, unseen hole in the wooden floorboards. The sudden jolt caused you to stumble, breaking the rhythm of your conversation and leading Mr. Wiggenbottom to dismiss you without sharing any tales or tea blends.",
+        "lost": false,
+        "newName": ""
+      },
+      "scone cutter": {
+        "success": false,
+        "text": "In a bout of creative inspiration, you thought to use the scone cutter as a makeshift seal to impress Mr. Wiggenbottom with your bakery's brand, hoping it would entice him to part with the rare tea. Unfortunately, the only thing it cut was the conversation short, as Mr. Wiggenbottom found it rather unamusing and irrelevant to his tea collection.",
+        "lost": false,
+        "newName": ""
+      },
+      "shawl": {
+        "success": false,
+        "text": "As you draped the shawl over your shoulders on your way to Mr. Wiggenbottom's apothecary, you hoped it would spark a conversation or even a slight interest from the herbalist, potentially shortening his prolonged stories. Alas, the shawl went unnoticed beneath the avalanche of tales from Mr. Wiggenbottom's travels, rendering your attempt to use it for some form of leverage or shortcut utterly ineffective.",
+        "lost": false,
+        "newName": ""
+      },
+      "cardigan": {
+        "success": false,
+        "text": "As you wrapped yourself in the cozy cardigan, hoping it might somehow charm Mr. Wiggenbottom into gifting you the rare tea blend, you found that the old herbalist was far more interested in discussing the intricate patterns of moth behavior in his shop than in anything you had to say, rendering your attempt futile.",
+        "lost": false,
+        "newName": ""
+      },
+      "cake stand": {
+        "success": false,
+        "text": "Upon presenting the cake stand to Mr. Wiggenbottom as an offering, hoping it might persuade him to part with the rare tea blend, he merely chuckled and explained, \"My dear, what exactly am I to do with this in a place overrun by herbs and potions? I haven't baked in years!\" The cake stand, useful for display and presentation, held no value in the cluttered world of a herbalist who had no use for such finery.",
+        "lost": false,
+        "newName": ""
+      },
+      "chintz": {
+        "success": false,
+        "text": "In your effort to bypass Mr. Wiggenbottom's long-winded stories, you presented the chintz fabric as a distraction, hoping its quaint pattern would evoke a short reminiscence. Unfortunately, it only launched him into an even more extensive monologue about a visit to a chintz factory in England, far forgetting the purpose of your visit.",
+        "lost": false,
+        "newName": ""
+      },
+      "potholder": {
+        "success": false,
+        "text": "As you approached Mr. Wiggenbottom's shop holding the potholder, you intended to use it as a bargaining chip, perhaps to handle some of his more delicate, heat-sensitive concoctions. Unfortunately, he simply chuckled at the offer, stating \"Tea needs water, not a potholder, my dear!\" Your attempt to use the potholder as a trade item failed, leaving you still in possession of it, but no closer to obtaining the rare tea blend.",
+        "lost": false,
+        "newName": ""
+      },
+      "knitting needles": {
+        "success": false,
+        "text": "As you approached Mr. Wiggenbottom, knitting needles in hand, hoping perhaps to barter or distract him with the prospect of a custom-made scarf, his eyes barely glanced at them before he returned to his dauntingly large teapot collection, mumbling about the importance of proper tea infusion over crafts, leaving you no closer to acquiring the rare tea blend.",
+        "lost": false,
+        "newName": ""
+      },
+      "silver thimble": {
+        "success": false,
+        "text": "In an attempt to pique Mr. Wiggenbottom's interest or perhaps barter, you present the silver thimble, hoping it might hold some sentimental value or usefulness to the herbalist. However, he merely chuckles, explaining that while it's a lovely trinket, it holds no value in his world of herbs and potions, leaving you to navigate his stories without a shortcut.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "cookbook": {
+        "success": true,
+        "text": "You generously shared selections from the cherished family cookbook during a well-publicized community bake-off, allowing the authentic flavors and stories behind each recipe to warm the hearts and taste buds of locals, decisively outshining the sterile allure of \"Crumpets & Co.\"",
+        "lost": false,
+        "newName": ""
+      },
+      "scone cutter": {
+        "success": true,
+        "text": "Utilizing the scone cutter, you crafted an array of intricately shaped scones, far beyond the capability of \"Crumpets & Co.'s\" assembly line offerings. Your display of artisanal skill drew in crowds, eager for a taste of authenticity.",
+        "lost": false,
+        "newName": ""
+      },
+      "potholder": {
+        "success": true,
+        "text": "Utilizing the potholder as a thematic display, you organized a community baking event at your bakery, inviting locals to bring their homemade goodies and share stories of family recipes. Your bakery's warmth and history shone, contrasting sharply with the impersonal nature of \"Crumpets & Co.\", reinforcing your grandmother's legacy.",
+        "lost": false,
+        "newName": ""
+      },
+      "cake stand": {
+        "success": true,
+        "text": "You organize a bake-off event at the local community center, prominently featuring your grandmother’s recipes on an elegant, heirloom cake stand that instantly draws attention. Its vintage charm not only underscores the authenticity and history behind your family's baking but also becomes the talk of the town, overshadowing \"Crumpets & Co.'s\" sterile, mass-produced appeal without a whisper of competition.",
+        "lost": false,
+        "newName": ""
+      },
+      "teapot": {
+        "success": false,
+        "text": "In an attempt to woo customers away from the allure of mass-produced pastries with the homey charm of afternoon tea, you organized a quaint tea tasting event at your bakery. However, focusing on the tea instead of highlighting the unique qualities of your family's baked goods inadvertently made customers think you were transitioning into a tea shop, diluting your bakery's brand.",
+        "lost": false,
+        "newName": ""
+      },
+      "antique scale": {
+        "success": false,
+        "text": "You decided to showcase the antique scale during a baking demonstration, aiming to contrast your precision with the impersonal bulk of \"Crumpets & Co.\" Unfortunately, the scale, delicate with age, gave inconsistent readings, leading to a rather unimpressive batch of pastries that couldn't stand in the bake-off against even the most mediocre factory-made goods.",
+        "lost": false,
+        "newName": ""
+      },
+      "patterned teacups": {
+        "success": false,
+        "text": "In your earnest attempt to use the patterned teacups to enchant your patrons with tales of each cup's origin, linking them to your family's generational recipes, you quickly realized that your audience was more intrigued by the novelty of \"Crumpets & Co.\" The intricacies of your story got lost amid the allure of the new, making the patterned teacups blend into the background rather than standout.",
+        "lost": false,
+        "newName": ""
+      },
+      "tea cozy": {
+        "success": false,
+        "text": "In an earnest attempt to charm the town with a cozy warmth, you placed your grandmother's favorite tea cozy over the display case, hoping it would invoke a sense of home. However, the patrons mistook it for a quaint, yet out-of-place decoration, bypassing the sentiment and focusing instead on the glossy new offerings from \"Crumpets & Co.\"",
+        "lost": false,
+        "newName": ""
+      },
+      "chintz": {
+        "success": false,
+        "text": "Attempting to accentuate the homeliness of your bakery with an overuse of chintz in the decor led to a confusing mishmash that obscured the authenticity of your family's recipes rather than highlighting them. Customers started joking that the place looked more like an overly eager antique shop than a bakery, leading to a decline in foot traffic.",
+        "lost": false,
+        "newName": ""
+      },
+      "embroidered handkerchief": {
+        "success": false,
+        "text": "While presenting your embroidered handkerchief to the local newspaper as a symbol of your bakery's commitment to tradition and quality, the reporter seemed more puzzled than impressed, mistaking it for a quaint but irrelevant keepsake rather than a meaningful emblem of your culinary heritage.",
+        "lost": false,
+        "newName": ""
+      },
+      "cardigan": {
+        "success": false,
+        "text": "Hoping to embody the coziness and authenticity of your grandmother's recipes, you donned your favorite cardigan while serving samples outside the bakery. Unfortunately, customers were more puzzled by the sudden fashion statement than convinced of the bakery's authenticity, leaving you slightly embarrassed and no closer to warding off Crumpets & Co.",
+        "lost": false,
+        "newName": ""
+      },
+      "shawl": {
+        "success": false,
+        "text": "Wrapping your grandmother's cherished recipes in her old shawl for dramatic presentation at the local baking competition, you realized too late that while the gesture may have been sentimental, it did nothing to demonstrate the superiority of taste and authenticity of your family's pastries compared to \"Crumpets & Co.\" It was a charming touch, but charm doesn't bake the bread.",
+        "lost": false,
+        "newName": ""
+      },
+      "knitting needles": {
+        "success": false,
+        "text": "In your earnest effort to knit an assortment of pastry-themed pot holders to showcase in your bakery's window, you vastly underestimated the time such a task would require. The display remained bare as Crumpets & Co. swiftly moved in, overshadowing your grandmother's pastries with their grand opening.",
+        "lost": false,
+        "newName": ""
+      },
+      "walking stick": {
+        "success": false,
+        "text": "In a bid to drum up support for your quaint bakery, you decided to lead a spirited march down Main Street, tapping your walking stick rhythmically to catch attention. However, the local community, unaccustomed to such displays and mistaking your enthusiasm for agitation, quickly dispersed, leaving your promotional parade fizzling out before it could reach Crumpets & Co.'s proposed location.",
+        "lost": false,
+        "newName": ""
+      },
+      "wellies": {
+        "success": false,
+        "text": "In your wellies, you dashed through the rain to confront \"Crumpets & Co.\" directly, but as you entered, the slick floor betrayed you. Before you could utter a word against the mass-produced menace, you slipped, your entrance as deflated as a poorly proofed soufflé, making an unintended statement of farce rather than formidable challenge.",
+        "lost": false,
+        "newName": ""
+      },
+      "silver thimble": {
+        "success": false,
+        "text": "In an attempt to weave the silver thimble into your story of heritage and handcrafted confections, you mistakenly placed it atop a freshly baked pie for a quaint photo shoot. However, the small thimble sank unnoticed into the soft filling, and it was later discovered by a confused (and slightly aggrieved) customer, rendering your promotional stunt a humiliating gaffe rather than a touching nod to tradition.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "teapot": {
+        "success": true,
+        "text": "You proposed a compromise by inviting Councilwoman Paver and the other members to discuss the issue over a cup of tea, using your teapot to serve. The cozy atmosphere and the shared experience softened the mood, making everyone more receptive to preserving the town's cobblestone charm.",
+        "lost": false,
+        "newName": ""
+      },
+      "patterned teacups": {
+        "success": true,
+        "text": "You hosted a quaint tea party right outside the meeting, serving biscuits on plates that match your patterned teacups. The familiar floral designs sparked a shared nostalgia among the townsfolk, swaying opinion towards preserving the town's cobblestone charm.",
+        "lost": false,
+        "newName": ""
+      },
+      "cake stand": {
+        "success": true,
+        "text": "You used the cake stand to present a freshly baked, intricate model of the town, complete with edible cobblestones, at the town meeting. This deliciously detailed diorama not only showcased the charm of the town but also sweetened the mood, leading to a unanimous vote in favor of preserving the cobblestone streets.",
+        "lost": false,
+        "newName": ""
+      },
+      "chintz": {
+        "success": true,
+        "text": "Wrapping the town hall podium in the chintz fabric, showcasing its antique floral pattern, you delivered a poignant speech on preserving the town's heritage, visually linking the past to the current cobblestone debate, swaying the room with a reminder of the town’s inherent charm.",
+        "lost": false,
+        "newName": ""
+      },
+      "cookbook": {
+        "success": false,
+        "text": "In your eagerness to sway the council and residents, you brandish the cookbook at the town meeting, passionately arguing that its collection of local recipes showcases the town's heritage. However, Councilwoman Paver and the assembly find the leap from cobblestones to baking too tenuous, dismissing your argument as off-topic.",
+        "lost": false,
+        "newName": ""
+      },
+      "embroidered handkerchief": {
+        "success": false,
+        "text": "As you passionately waved your embroidered handkerchief to punctuate your argument for tradition, Councilwoman Paver mistook it for a dismissive gesture, hardening her stance against the cobblestones further.",
+        "lost": false,
+        "newName": ""
+      },
+      "antique scale": {
+        "success": false,
+        "text": "In an attempt to weigh in on the debate with your antique scale, hoping its quaint charm would sway opinions, you found the crowd uninterested in its historical significance, focusing instead on the practicalities of modern paving materials versus cobblestones.",
+        "lost": false,
+        "newName": ""
+      },
+      "scone cutter": {
+        "success": false,
+        "text": "In an attempt to leverage your scone cutter as a metaphor for preserving traditions, you organized a public scone baking demo. Unfortunately, this only deepened divisions, as Councilwoman Paver derided it as a frivolous distraction from \"real issues,\" undermining your effort to sway the town's opinion.",
+        "lost": false,
+        "newName": ""
+      },
+      "walking stick": {
+        "success": false,
+        "text": "In an earnest attempt to sway public opinion at the town meeting, you tapped your walking stick against the floor to command attention. Unfortunately, the quaint gesture was lost on the modern audience, who saw it as a mere eccentricity rather than a poignant reminder of tradition.",
+        "lost": false,
+        "newName": ""
+      },
+      "cardigan": {
+        "success": false,
+        "text": "Wrapping the cardigan snugly around your shoulders, you attempted to evoke the quaint, homely aesthetic of the town by pointing out its matching colors with the local bakery's awnings. However, Councilwoman Paver dismissed it as a misguided fashion statement, utterly unrelated to the cobblestone debate.",
+        "lost": false,
+        "newName": ""
+      },
+      "tea cozy": {
+        "success": false,
+        "text": "In a bid to warm the hearts of the town's people, you clumsily draped the tea cozy over the microphone, muffling your impassioned speech about tradition and the town's charm, resulting in bewildered stares rather than nods of agreement.",
+        "lost": false,
+        "newName": ""
+      },
+      "shawl": {
+        "success": false,
+        "text": "In an attempt to sway opinion, you draped the shawl over the town model to symbolize protection and tradition. However, your gesture was misinterpreted as a critique of outdated practices, further alienating Councilwoman Paver and the modernists.",
+        "lost": false,
+        "newName": ""
+      },
+      "knitting needles": {
+        "success": false,
+        "text": "In an attempt to sway hearts and minds at the town meeting, you began knitting a representation of the cobblestoned downtown with your knitting needles. However, your well-meaning demonstration only served to confuse the audience, leaving Councilwoman Paver smirking as the debate slipped further from your grasp.",
+        "lost": false,
+        "newName": ""
+      },
+      "silver thimble": {
+        "success": false,
+        "text": "In an attempt to use the silver thimble as a symbol of the town's quaint traditions, you misjudge the crowd's interest at the town meeting. Your anecdote about using the thimble in traditional baking recipes falls flat, as the room is more concerned with practical infrastructure than nostalgic tales.",
+        "lost": false,
+        "newName": ""
+      },
+      "wellies": {
+        "success": false,
+        "text": "In an effort to symbolize the muddy consequences of modernization, you don your wellies and step into the debate. Unfortunately, rather than invoking a sense of solidarity, your muddy footprints across the town hall's carpet only serve to irritate the janitorial staff and Councilwoman Paver, who sees it as a childish stunt rather than a poignant statement.",
+        "lost": false,
+        "newName": ""
+      },
+      "potholder": {
+        "success": false,
+        "text": "As you waved the potholder in front of the council in a symbolic gesture to “handle” the town's issues with care, Councilwoman Paver misconstrued it as a trivialization of the debate, further cementing her disapproval of the traditional cobblestones.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "cookbook": {
+        "success": true,
+        "text": "Utilizing the step-by-step guidance and familiar recipes from your cherished cookbook, you confidently navigated through the baking process, effortlessly addressing each mishap. Acting as an anchor in the sea of digital chaos, the book provided clear instructions for both you and your students to follow, turning potential disasters into teachable moments and shared laughs.",
+        "lost": false,
+        "newName": ""
+      },
+      "potholder": {
+        "success": true,
+        "text": "Using the potholder, you expertly balanced your laptop away from Pavlova's prancing paws, elevating it on a stack of cookbooks while still managing to demonstrate the kneading technique. Your students were thoroughly impressed, not only with the baking lesson but with your quick-thinking multitasking, all thanks to a humble potholder.",
+        "lost": false,
+        "newName": ""
+      },
+      "scone cutter": {
+        "success": true,
+        "text": "Using the scone cutter, you quickly demonstrate how to craft perfectly shaped scones, turning a moment of potential chaos into a focused, engaging tutorial. Your students, now captivated and eager, forget their frustrations as they mimic your techniques, each striving for that perfect scone shape.",
+        "lost": false,
+        "newName": ""
+      },
+      "antique scale": {
+        "success": true,
+        "text": "Utilizing the antique scale's charm and precision as a teaching prop, you captivated your students' attention, demonstrating the importance of exact measurements in baking. The visual appeal and tactile feedback of the scale, contrasted against digital alternatives, provided a much-needed break from the screen, keeping the class engaged and interactive, despite technical difficulties and feline interruptions.",
+        "lost": false,
+        "newName": ""
+      },
+      "teapot": {
+        "success": false,
+        "text": "As you attempted to steady your laptop’s shaky camera with the teapot, Pavlova leapt onto the counter, sending the teapot tumbling. It crashed onto the floor, spilling tea over your notes and rendering your attempt to add a cozy, thematic touch to the lesson futile.",
+        "lost": true,
+        "newName": ""
+      },
+      "cake stand": {
+        "success": false,
+        "text": "As you cleverly used the cake stand to prop up your laptop for a better camera angle during the Zoom session, Pavlova, your ever-curious cat, decided it was the perfect moment to leap onto the counter. The sudden weight shift sent the laptop teetering, and both it and the stand crashed to the floor, leaving the camera pointing at the ceiling while you explained the nuances of buttercream frosting to a very confused audience.",
+        "lost": true,
+        "newName": ""
+      },
+      "cardigan": {
+        "success": false,
+        "text": "As you attempted to demonstrate the proper folding technique for a delicate sponge cake, your cozy cardigan snagged on the mixer's beaters, causing a brief, chaotic spectacle. Flour flew everywhere, and the camera angle only captured your struggle with the cardigan entangled in the mixer, missing the actual baking demonstration.",
+        "lost": false,
+        "newName": ""
+      },
+      "patterned teacups": {
+        "success": false,
+        "text": "Attempting to utilize the charm of your patterned teacups as a backdrop, you quickly realized they did nothing to mitigate the chaos of spotty internet connections or prevent Pavlova's obstinate keyboard meanderings. Furthermore, your students were more amused by the feline antics than inspired by the porcelain elegance, leading to more distraction than engagement.",
+        "lost": false,
+        "newName": ""
+      },
+      "shawl": {
+        "success": false,
+        "text": "In an attempt to quiet Pavlova, you drape your cozy shawl over the back of your chair, hoping it'll entice her away from the keyboard. Instead, she claws at it, unwittingly yanking it onto your laptop, which presses random keys and sends \"gibberish recipes\" to your bemused students.",
+        "lost": true,
+        "newName": ""
+      },
+      "tea cozy": {
+        "success": false,
+        "text": "In an attempt to calm the chaos, you stylishly draped your tea cozy over the webcam for a quick break, only to forget it was there, leading to minutes of confused students watching the cozy's fabric pattern instead of learning the fine art of scone making.",
+        "lost": false,
+        "newName": ""
+      },
+      "chintz": {
+        "success": false,
+        "text": "Attempting to drape your chintz fabric over the webcam to simulate a \"curtain close\" between segments, you underestimated the weight and down came the webcam, giving your students a dizzying view of the ceiling and less of your baking expertise.",
+        "lost": false,
+        "newName": ""
+      },
+      "embroidered handkerchief": {
+        "success": false,
+        "text": "Trying to wave your embroidered handkerchief at the camera in a gesture of camaraderie, it merely caused more confusion among your students, who couldn't decipher the meaning behind the gesture through their pixelated screens.",
+        "lost": false,
+        "newName": ""
+      },
+      "wellies": {
+        "success": false,
+        "text": "In a comedic attempt to stable your laptop on the kitchen counter, you thought placing it on top of your wellies would give it the perfect angle for the Zoom class. Unfortunately, the rubbery bounce didn't agree with the spinning cat-induced chaos, sending the laptop sliding into a floury disaster.",
+        "lost": false,
+        "newName": ""
+      },
+      "knitting needles": {
+        "success": false,
+        "text": "You try to use your knitting needles as makeshift pointers to better illustrate rolling techniques on the dough, not realizing Zoom's narrow field of view. Your class ends up more confused, as they can only see the needles sporadically dancing in and out of frame, making it look like an odd form of semaphore rather than a baking lesson.",
+        "lost": false,
+        "newName": ""
+      },
+      "silver thimble": {
+        "success": false,
+        "text": "Attempting to use the silver thimble on your finger to fix a stray thread on your apron mid-lesson, you quickly realized it provided no advantage in managing the chaotic mix of dropped video calls, your cat’s keyboard adventures, or the floury explosion one student shared live. It sat, quite ignored, on your finger, as irrelevant to the situation as a bicycle to a fish.",
+        "lost": false,
+        "newName": ""
+      },
+      "walking stick": {
+        "success": false,
+        "text": "In an attempt to use your walking stick as a makeshift tripod to stabilize your wobbling laptop camera during the Zoom baking class, it slips, causing the laptop to crash onto the kitchen floor, with the screen flickering out amidst a chorus of concerned voices from your students. The walking stick, however, remains unscathed and by your side, a silent witness to the digital disaster.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "wellies": {
+        "success": true,
+        "text": "In a stroke of genius, you organized a relay line where townsfolk, clad in their wellies, shuttled the pies under the shelter of broad umbrellas from oven to tasting tent, ensuring not a drop of rain marred the flaky crusts.",
+        "lost": false,
+        "newName": ""
+      },
+      "chintz": {
+        "success": true,
+        "text": "Drawing on your knowledge of the sturdy yet decorative nature of chintz, you swiftly fashioned a series of charming, waterproof canopies over the pie stands. The vibrant patterns not only kept the pastries dry as a bone but also added a cheerful splash of color that brightened the mood of the entire event.",
+        "lost": false,
+        "newName": ""
+      },
+      "shawl": {
+        "success": true,
+        "text": "With an eye for improvisation, you swiftly unfurled your shawl, draping it over a strategically positioned frame to create an impromptu canopy. This makeshift shelter kept the pastries dry, much to the delight of the gathered townsfolk, who praised your inventive use of everyday attire.",
+        "lost": false,
+        "newName": ""
+      },
+      "cake stand": {
+        "success": true,
+        "text": "Leveraging the high rims of the cake stand, you ingeniously draped a transparent, lightweight tarp over it, creating an impromptu pie shelter. This not only protected the pies from the rain but also turned your stand into a centerpiece that captivated the townsfolk's attention, all while keeping the spirits high and the crusts crispy.",
+        "lost": false,
+        "newName": ""
+      },
+      "cardigan": {
+        "success": false,
+        "text": "In a heartwarming yet misplaced effort, you draped your cardigan over a cherry pie, hoping to shield it from the impending downpour. However, the knit quickly soaked through, leaving both the pie and your spirits dampened, as the cardigan proved far from waterproof.",
+        "lost": true,
+        "newName": ""
+      },
+      "tea cozy": {
+        "success": false,
+        "text": "In an inventive twist, you draped the tea cozy over the nearest pie, only to find it far too small to protect more than one. The town watched in bemusement as you attempted to stretch it over another, only to watch the rest of the pies get soaked under the relentless downpour.",
+        "lost": false,
+        "newName": ""
+      },
+      "potholder": {
+        "success": false,
+        "text": "In an act of desperation, you attempted to use the potholder as a mini-tarp to shield a single pie from the incoming rain. Unfortunately, it soaked through almost instantly, leaving the pastry just as vulnerable to the damp as if it had been left uncovered.",
+        "lost": false,
+        "newName": ""
+      },
+      "cookbook": {
+        "success": false,
+        "text": "In an enthusiastic bid to use the cookbook's baking advice to whip up a quick batch of waterproof glaze for the pies, you only succeeded in creating a gooey mess. The recipes were simply not designed for the chemically complex challenge of repelling rainwater from pastry.",
+        "lost": false,
+        "newName": ""
+      },
+      "scone cutter": {
+        "success": false,
+        "text": "In your earnest attempt to cut out oversized scone shapes to fashion makeshift umbrellas for the pies, you quickly discovered that the scone cutter was far too small and flimsy to handle the task, merely creating a series of comical, tiny, doughy hats that did little against the rain.",
+        "lost": false,
+        "newName": ""
+      },
+      "teapot": {
+        "success": false,
+        "text": "Attempting to use your teapot, you cleverly thought of sheltering individual pies under it. However, the teapot could only cover one small pie at a time, leaving the rest of the baked goods exposed to the impending downpour.",
+        "lost": false,
+        "newName": ""
+      },
+      "knitting needles": {
+        "success": false,
+        "text": "In a stroke of creativity, you try to knit a large tarp to cover the pies. Unfortunately, knitting takes time you don't have, and the storm doesn't wait. The first raindrops plop down just as you cast on your third row, proving knitting needles alone can't save the day.",
+        "lost": false,
+        "newName": ""
+      },
+      "embroidered handkerchief": {
+        "success": false,
+        "text": "As noble as your intentions were, draping the embroidered handkerchief over a single pie barely shielded it from the imminent downpour, let alone the entire array of pastries prepared for the parade, rendering your effort futile in the grand scope of soggy crusts.",
+        "lost": false,
+        "newName": ""
+      },
+      "patterned teacups": {
+        "success": false,
+        "text": "In your attempt to shield the pies from the rain using the patterned teacups, you found the cups much too small to cover them entirely, leading to half-protected pastries and ultimately, soggy crusts. The gusty winds didn't help either, sending some of your teacups tumbling away, lost forever in the hustle of the parade.",
+        "lost": true,
+        "newName": ""
+      },
+      "antique scale": {
+        "success": false,
+        "text": "In an inspired attempt to repurpose the antique scale into a makeshift canopy, the structure collapsed under the weight of the canvas you draped over it, leaving the pies exposed and the scale slightly bent out of shape.",
+        "lost": true,
+        "newName": ""
+      },
+      "walking stick": {
+        "success": false,
+        "text": "In a burst of inspiration, you attempt to use your walking stick to prop up a large serving tray above the pies, fashioning a makeshift shelter. Unfortunately, the stick slips on the grass, collapsing the contraption and sending the tray clattering onto the ground, narrowly missing the pastries but not the mood.",
+        "lost": false,
+        "newName": ""
+      },
+      "silver thimble": {
+        "success": false,
+        "text": "In an attempt to shield the precious pies from the impending downpour, you ingeniously position the silver thimble over a miniature blueberry tart; however, the rest of your pastries remain exposed to the wrath of the elements, rendering the effort both comical and futile amidst the downpour.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "cardigan": {
+        "success": true,
+        "text": "Wrapping the cardigan tightly around yourself, you race to the kitchen and fire up the oven for an impromptu baking marathon. The warmth from the oven, combined with the snug cardigan, help maintain your core temperature, turning what could have been a freezing ordeal into a surprisingly cozy experience as you bake your way through the cold snap.",
+        "lost": false,
+        "newName": ""
+      },
+      "shawl": {
+        "success": true,
+        "text": "Wrapping the shawl tightly around you, you braved the cold to the kitchen where you spent the next hours baking. The warmth from the oven, combined with your efforts, helped maintain a bearable temperature, sparing the pipes - and you - from the freezing cold.",
+        "lost": false,
+        "newName": ""
+      },
+      "knitting needles": {
+        "success": true,
+        "text": "Leveraging your deft skills with the knitting needles, you cleverly repurpose them as spokes to fasten thick wool blankets together into a makeshift insulated curtain, hanging it over doorways to create warm sections within your icy cottage. This way, you've managed to keep the chill at bay and prevent the pipes in the occupied areas from freezing, all without ceasing your cozy baking activities.",
+        "lost": false,
+        "newName": ""
+      },
+      "teapot": {
+        "success": true,
+        "text": "Filling your teapot with water, you place it on the stove and keep a low flame going, creating a makeshift humidifier. The steam gently increases the room's temperature, staving off the chill and protecting your pipes from freezing.",
+        "lost": false,
+        "newName": ""
+      },
+      "cookbook": {
+        "success": false,
+        "text": "You eagerly open your cookbook, visions of warm ovens and tempting aromas filling your mind. However, all your recipes call for ingredients you're fresh out of, and the weather's too harsh for a quick trip to the market.",
+        "lost": false,
+        "newName": ""
+      },
+      "tea cozy": {
+        "success": false,
+        "text": "In a hopeful gambit, you wrapped the tea cozy around a pipe in an attempt to insulate it, but alas, the knit fabric provided little defense against the cold, and the pipe froze solid overnight.",
+        "lost": false,
+        "newName": ""
+      },
+      "potholder": {
+        "success": false,
+        "text": "In a bid to use your potholder to tighten the valves on the ancient boiler, you quickly realize the fabric offers no protection against the frigid metal, and your fingers sting with cold as you fumble and drop the potholder into a puddle formed from the morning's ill-fated attempt to thaw pipes, rendering it soggy and useless.",
+        "lost": true,
+        "newName": ""
+      },
+      "wellies": {
+        "success": false,
+        "text": "Attempting to insulate the chilly floor with your wellies by sitting them under your feet, you quickly realized rubber boots do little to ward off the cold seeping through your ice-cold floorboards.",
+        "lost": false,
+        "newName": ""
+      },
+      "chintz": {
+        "success": false,
+        "text": "Wrapping yourself in the patterned chintz curtains seemed like a quirky yet viable solution until you discovered their thin material offered no warmth, leaving you shivering and contemplating better uses for your decorative taste.",
+        "lost": false,
+        "newName": ""
+      },
+      "patterned teacups": {
+        "success": false,
+        "text": "In your bid to warm the space, you attempt to fill the patterned teacups with hot water to create miniature radiators. However, once filled, they merely steamed briefly before the water too succumbed to the cold, leaving you with a set of chilly, decorative cups and not an iota warmer.",
+        "lost": false,
+        "newName": ""
+      },
+      "scone cutter": {
+        "success": false,
+        "text": "In a burst of optimism, you tried using the scone cutter as a makeshift tool to whittle down some spare firewood you miraculously found in the shed, envisioning a cozy, crackling fire to melt away the cold. However, the cutter slipped from your grip amidst your efforts, flying across the room and lodging itself firmly into the only loaf of bread you had left, rendering both the cutter and the loaf unusable for their intended purposes.",
+        "lost": false,
+        "newName": ""
+      },
+      "embroidered handkerchief": {
+        "success": false,
+        "text": "In an attempt to insulate the kitchen window, you tried tucking your embroidered handkerchief into the chilly gaps around the frame, but its small, delicate fabric provided no match for the icy drafts that continued to seep in, leaving your baking efforts as cold as the room.",
+        "lost": false,
+        "newName": ""
+      },
+      "cake stand": {
+        "success": false,
+        "text": "In an imaginative twist, you stacked your cake stand in front of the fireplace, hoping to amplify the heat from your small, flickering flames. Unfortunately, the stand wasn't designed to withstand such heat, causing it to crack and collapse, leaving your cakes in a sad heap on the floor.",
+        "lost": true,
+        "newName": ""
+      },
+      "walking stick": {
+        "success": false,
+        "text": "Hoping to stoke the dying embers in your ancient oven into a beacon of warmth, you wield your walking stick like a makeshift poker, jabbing at the coals. Unfortunately, the stick couldn't withstand the heat, charring at its end and proving ineffectual in resurrecting the fire, leaving you shivering and stick slightly shorter but still in hand.",
+        "lost": false,
+        "newName": ""
+      },
+      "antique scale": {
+        "success": false,
+        "text": "As you attempt to bake non-stop in a valiant effort to keep your cottage warm, you quickly realize that the antique scale, charming as it is, cannot handle the sheer volume of ingredients you're using, leading to wildly inaccurate measurements and a series of inedible, albeit warm, disasters emerging from your oven.",
+        "lost": false,
+        "newName": ""
+      },
+      "silver thimble": {
+        "success": false,
+        "text": "In an attempt to use the silver thimble to somehow amplify the meager heat from your oven, you quickly realized that its small size and heat conductivity offered no practical solution to warming the vast coldness of your cottage, much less preventing the pipes from freezing.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "cookbook": {
+        "success": true,
+        "text": "Rifling through the pages of your cookbook, an old family recipe catches your eye, igniting a wave of nostalgia and creativity within you. The detailed instructions and familiar comfort of the dish provide a new source of inspiration, leading you to bake a masterpiece that rivals the charm of your lucky hat.",
+        "lost": false,
+        "newName": ""
+      },
+      "scone cutter": {
+        "success": true,
+        "text": "In a stroke of inspiration, you crafted an exquisite batch of scones, shaped like miniature fascinators, using your scone cutter. Your charm and the novelty of your creations attracted local media attention, inspiring a community-wide bake-off to design the most whimsical scone. The tourist, enchanted by the excitement and longing to be a part of it, returned your fascinator, asking to join the fun.",
+        "lost": false,
+        "newName": ""
+      },
+      "potholder": {
+        "success": true,
+        "text": "Wrapping the potholder around your hand, you knead dough with such vigor and precision that a crowd gathers, including the tourist with your fascinator. Charmed by your skill, they swap the fascinator for a dozen fresh scones, using the potholder as a makeshift tray to carry their treat.",
+        "lost": false,
+        "newName": ""
+      },
+      "antique scale": {
+        "success": true,
+        "text": "You decided to use the antique scale to bake a series of extraordinarily precise pastries, showcasing your skills in a culinary exhibition at the local community center. The acclaim you received reignited your creative spark, proving that sometimes, precision in baking can be just as inspiring as a whimsical hat.",
+        "lost": false,
+        "newName": ""
+      },
+      "cake stand": {
+        "success": false,
+        "text": "In a bid to replace your lost muse, you tried to use the cake stand as a centerpiece at your kitchen table, hoping its presence would spark creativity. Unfortunately, its mere static nature, just sitting there holding nothing but air, did little to inspire the bustling energy and inventiveness you derived from your fascinator.",
+        "lost": false,
+        "newName": ""
+      },
+      "teapot": {
+        "success": false,
+        "text": "You attempted to use the teapot to host a charming tea party, hoping it would inspire a culinary breakthrough. Unfortunately, as you waited for the fragrant steam and the warm conversation to spark creativity, you realized that without the personal connection of your fascinator, the teapot's charm was merely superficial, leaving your muse stubbornly silent.",
+        "lost": false,
+        "newName": ""
+      },
+      "tea cozy": {
+        "success": false,
+        "text": "You wrapped the tea cozy around your head, hoping its snug warmth would channel the absent fascinator's inspiration. Sadly, your creations in the kitchen remained uninspired, proving a tea cozy makes for a poor muse and an even worse headwear.",
+        "lost": false,
+        "newName": ""
+      },
+      "cardigan": {
+        "success": false,
+        "text": "Attempting to channel the cozy ambiance of your lost fascinator, you wrap yourself in your cardigan, hoping it would spark a semblance of inspiration amidst the wafting aroma of tea and scones. Alas, the cardigan, being a mere garment and not intrinsically linked to your baking prowess, fails to inspire the nuanced creativity that your hat once did.",
+        "lost": false,
+        "newName": ""
+      },
+      "patterned teacups": {
+        "success": false,
+        "text": "You arranged the patterned teacups in a whimsical display on your kitchen shelf, hoping their intricate designs would ignite your culinary creativity. However, instead of inspiring new recipes, you found yourself endlessly rearranging them, consumed by the quest for the perfect aesthetic arrangement rather than focusing on your baking.",
+        "lost": false,
+        "newName": ""
+      },
+      "shawl": {
+        "success": false,
+        "text": "Hoping to replace the quirky charm of your beloved fascinator with the cozy warmth of your shawl, you wrap it around your shoulders as a new source of inspiration. However, its comforting embrace only leads to a series of disappointingly bland scones, proving it lacks the whimsical influence your baking desperately needs.",
+        "lost": false,
+        "newName": ""
+      },
+      "embroidered handkerchief": {
+        "success": false,
+        "text": "You tried using the embroidered handkerchief to wipe away your tears, hoping its touch would bring comfort and perhaps even a sprinkle of creativity back into your baking. However, the soft fabric only served as a reminder of your beloved fascinator's absence, failing to spark any new inspiration in the kitchen.",
+        "lost": false,
+        "newName": ""
+      },
+      "chintz": {
+        "success": false,
+        "text": "Wrapping your chintz fabric around your shoulders like a makeshift fascinator, you tried to channel the same creative energy as your lost hat. However, the floral pattern and soft texture of the chintz couldn't evoke the same culinary muse, leaving your baking creations uninspired and lacking.",
+        "lost": false,
+        "newName": ""
+      },
+      "knitting needles": {
+        "success": false,
+        "text": "In a heartfelt attempt to channel your inner creativity, you decided to knit a new fascinator using the needles, envisioning a masterpiece interwoven with patterns of pastries and pies. Alas, the endeavor proved too time-consuming, and the complexity of translating baking motifs into knit patterns far exceeded your expertise, leaving you with an abstract tangle rather than a wearable inspiration.",
+        "lost": false,
+        "newName": ""
+      },
+      "wellies": {
+        "success": false,
+        "text": "Hoping to chase down the tourist in your wellies, you quickly found that the rubber boots, while perfect for a rainy day at the farmers' market, were no match for the sprint required to catch up to a train already in motion. Your baking muse remained uncaptured, metaphorically and literally, as you were left huffing and puffing at the station.",
+        "lost": false,
+        "newName": ""
+      },
+      "walking stick": {
+        "success": false,
+        "text": "In an attempt to confront the tourist, you brandished your walking stick with the intention of making a dramatic scene at the train station. However, the stick, being nothing but a tool for assistance in walking, failed to catch anyone's attention, much less inspire the tourist to return your fascinator.",
+        "lost": false,
+        "newName": ""
+      },
+      "silver thimble": {
+        "success": false,
+        "text": "Assuming the thimble might carry some of the same creative magic as your fascinator, you tried using it as a diminutive hat for your thumb while you baked, hoping for a spark of inspiration. However, its presence merely served as a reminder of your loss, distracting rather than inspiring, and your pastry dough turned out disappointingly flat.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "cake stand": {
+        "success": true,
+        "text": "You cleverly elevate the pie on the cake stand, presenting it as a deliberate decorative choice. The paw prints now appear as a whimsical touch, charming the church ladies and turning a potential disaster into a triumph.",
+        "lost": false,
+        "newName": ""
+      },
+      "chintz": {
+        "success": true,
+        "text": "You skillfully draped the chintz fabric over the pie, transforming it into an ornate table centerpiece. The church ladies marveled at your \"decorative touch\" without realizing the hidden paw prints beneath.",
+        "lost": false,
+        "newName": ""
+      },
+      "embroidered handkerchief": {
+        "success": true,
+        "text": "You quickly dabbed at the paw prints with your embroidered handkerchief, gently blending the marks into the pie's top crust until they camouflage as elegant, intentional designs. The church ladies deemed it a charming touch.",
+        "lost": false,
+        "newName": ""
+      },
+      "potholder": {
+        "success": true,
+        "text": "You cleverly used the potholder to press down the pie crust around the paw prints, turning them into decorative indentations that matched the rustic charm of your baked goods. The church ladies commended your creativity, none the wiser to the feline faux pas.",
+        "lost": false,
+        "newName": ""
+      },
+      "tea cozy": {
+        "success": false,
+        "text": "In an attempt to hide Pavlova's paw prints with the tea cozy, you quickly realize it’s far too bulky to mold around the intricate pie design, leaving it awkwardly perched atop like a sagging hat, the paw prints still glaringly visible around the edges.",
+        "lost": false,
+        "newName": ""
+      },
+      "shawl": {
+        "success": false,
+        "text": "As you drape the shawl over the pie to hide Pavlova's paw prints, you quickly realize the delicately knit fabric does little more than settle into the pie's soft filling, now giving the impression of a berry-stained textile art project rather than the delectable dessert it was moments before.",
+        "lost": false,
+        "newName": ""
+      },
+      "cookbook": {
+        "success": false,
+        "text": "In a flutter of flour and desperation, you flung open the cookbook, searching for any recipe that might suggest a way to incorporate or cover up the paw prints. Instead, the pages only mocked you with pristine pies, far from the feline-frosted disaster before you.",
+        "lost": false,
+        "newName": ""
+      },
+      "scone cutter": {
+        "success": false,
+        "text": "In a panic, you wield the scone cutter like a sculptor's tool, aiming to excise Pavlova's prints. However, your heavy-handed approach only squishes the pie further, making the evidence more glaring than a siren at noon.",
+        "lost": false,
+        "newName": ""
+      },
+      "patterned teacups": {
+        "success": false,
+        "text": "In an innovative yet misguided attempt, you spread the patterned teacups around the pie, hoping to draw attention away from Pavlova's paw prints. Unfortunately, the church ladies saw right through this distraction, their bemusement turning to mild disapproval as they questioned why teacups were haphazardly placed around your pastry, leaving the incriminating evidence embarrassingly spotlighted.",
+        "lost": false,
+        "newName": ""
+      },
+      "teapot": {
+        "success": false,
+        "text": "In a last-ditch effort, you tried draping the teapot over the pie in hopes its warmth would gently bake out the paw prints. Alas, not only did the cold porcelain fail to blend the prints into the crust, but the awkward attempt left you with a pie oddly scented of Earl Grey.",
+        "lost": false,
+        "newName": ""
+      },
+      "cardigan": {
+        "success": false,
+        "text": "As you drape your cardigan over the pie to hide the paw prints, the lightweight fabric merely clings to the sticky surface, now sporting an abstract paw print pattern itself, but doing nothing to conceal the evidence on the pie.",
+        "lost": false,
+        "newName": ""
+      },
+      "knitting needles": {
+        "success": false,
+        "text": "In an innovative twist, you attempt to use the knitting needles to artfully arrange the pie crust, disguising the paw prints as decorative patterns. Unfortunately, the needles pierce through the soft crust, leaving unmistakable holes that only highlight the feline fiasco.",
+        "lost": false,
+        "newName": ""
+      },
+      "antique scale": {
+        "success": false,
+        "text": "In an attempt to cleverly balance the paw prints into a symmetrical design across all your pies using the antique scale, you miscalculated and ended up pressing too hard into the crust, making the evidence even more blatant.",
+        "lost": false,
+        "newName": ""
+      },
+      "wellies": {
+        "success": false,
+        "text": "In a moment of inspiration, you attempt to stamp out Paw Print Pie's feline footprints with your wellies, only to realize the rubber soles leave a more conspicuous, crisscross pattern across the crust, further complicating your disguise efforts.",
+        "lost": false,
+        "newName": ""
+      },
+      "silver thimble": {
+        "success": false,
+        "text": "In a desperate bid to hide the evidence, you tried pressing the silver thimble into the pie dough, hoping to create a decorative pattern that would camouflage the paw prints. However, the thimble was too small and intricate to make a discernible pattern, leaving the incriminating prints glaringly obvious amidst your chaotic attempts at decoration.",
+        "lost": false,
+        "newName": ""
+      },
+      "walking stick": {
+        "success": false,
+        "text": "As you attempt to smooth over Pavlova's paw prints with the end of your walking stick, the pie crust crumbles further under the unexpected pressure, making the evidence even more conspicuous.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "teapot": {
+        "success": true,
+        "text": "Using your teapot, you brewed a delicious Earl Grey for the manor's overwhelmed estate sale organizer. Grateful for the respite, she let you peek into a yet-to-be-unveiled room, where you found and purchased an exquisitely preserved biscuit tin from Colonel Featherton's collection, perfectly fitting to house your baking creations.",
+        "lost": false,
+        "newName": ""
+      },
+      "wellies": {
+        "success": true,
+        "text": "On the morning of the estate sale, a sudden downpour had turned the grounds of Featherton Manor into a quagmire. Your wellies, practical as ever, kept you dry and steady as you navigated the muddy garden, arriving ahead of the soggy-footed competition to claim the prized biscuit tin.",
+        "lost": false,
+        "newName": ""
+      },
+      "patterned teacups": {
+        "success": true,
+        "text": "At the estate sale, you discover Colonel Featherton's niece, a fellow baking enthusiast, admiring your patterned teacups. In a delightful exchange, she agrees to trade one of her uncle's antique biscuit tins for your exquisite set of teacups, finding them perfect for her upcoming tea party.",
+        "lost": true,
+        "newName": ""
+      },
+      "walking stick": {
+        "success": true,
+        "text": "Using your walking stick for support, you navigated the crowded estate sale to the table with Colonel Featherton's biscuit tin collection. You gently probed the tins with the tip of your stick, carefully pulling forward a tin with an elaborate design that matched the lost Sadler jar perfectly, all without bending over and risking the swarm of eager collectors noticing your find.",
+        "lost": false,
+        "newName": ""
+      },
+      "cookbook": {
+        "success": false,
+        "text": "In a burst of inspiration, you presented the cookbook at the estate sale, hoping to trade it for a biscuit tin or at least catch someone's interest with a baking challenge. However, the attendees were more intrigued by the Colonel's collection than your well-thumbed recipes, leaving the cookbook unappreciated and sadly, still in your possession as you returned home.",
+        "lost": false,
+        "newName": ""
+      },
+      "antique scale": {
+        "success": false,
+        "text": "As you approached the estate sale with your antique scale, intending to weigh the authenticity of the biscuit tins, you realized its calibration was wholly unsuitable for such delicate objects, rendering it redundant amidst Colonel Featherton's finely tuned collection.",
+        "lost": false,
+        "newName": ""
+      },
+      "cake stand": {
+        "success": false,
+        "text": "In your zeal to impress at the estate sale, you brought your finest cake stand to showcase a sample of your baking prowess. Unfortunately, amid the competitive bustle for antiques, the stand was nudged off its table by an eager collector, landing it - and your cake - in a sorry heap on the floor.",
+        "lost": true,
+        "newName": ""
+      },
+      "cardigan": {
+        "success": false,
+        "text": "As you pull your cardigan tighter around yourself, hoping its cozy presence would somehow make you look more the part of an antique enthusiast, the estate sale manager, unconvinced by your casual attire, insists this event is for serious collectors only, gently but firmly turning you away from the door.",
+        "lost": false,
+        "newName": ""
+      },
+      "shawl": {
+        "success": false,
+        "text": "Wrapping the shawl around your shoulders, you hoped its elegance would curry favor at the sale. However, the fabric caught on a bramble as you walked through the gardens to the manor, and though you arrived unscathed, the shawl was left threadbare and utterly unremarkable.",
+        "lost": false,
+        "newName": ""
+      },
+      "tea cozy": {
+        "success": false,
+        "text": "As you draped your tea cozy over a rare biscuit tin, hoping to claim it subtly, Mrs. Greenway, the keen-eyed event organizer, mistook it for part of the estate's collection, bundling it away before you could explain.",
+        "lost": true,
+        "newName": ""
+      },
+      "scone cutter": {
+        "success": false,
+        "text": "As you navigated the crowded estate sale, wielding your scone cutter with hope, you quickly realized it was ill-suited for opening the tightly sealed biscuit tins. In your enthusiasm and absent-mindedness, you left it on a side table while inspecting a particularly ornate tin, only to remember it as you arrived back home, empty-handed.",
+        "lost": true,
+        "newName": ""
+      },
+      "knitting needles": {
+        "success": false,
+        "text": "In an effort to use the knitting needles as impromptu lock-picking tools for a cabinet they hoped contained the biscuit tins, the needles bent out of shape against the sturdier lock, rendering them frustratingly ineffective for both their intended and unintended purposes.",
+        "lost": true,
+        "newName": ""
+      },
+      "embroidered handkerchief": {
+        "success": false,
+        "text": "As you tenderly wrapped the old Sadler jar fragments in your embroidered handkerchief, hoping to find a craftsman skilled in restoration at the estate sale, the fragile cloth couldn't handle the jagged edges and tore apart, leaving you with a patchwork of threadbare cloth and no means to protect your delicate find during the bustling event.",
+        "lost": true,
+        "newName": ""
+      },
+      "potholder": {
+        "success": false,
+        "text": "As you reach into the cluttered estate sale box with your potholder, hoping to protect your hand from the dusty relics, you unfortunately realize it does nothing to help you grip the slippery antique biscuit tins, causing one to clang loudly to the ground, drawing unwanted attention but no broken Sadler jar.",
+        "lost": false,
+        "newName": ""
+      },
+      "chintz": {
+        "success": false,
+        "text": "In your eagerness to impress at the estate sale, you draped your chintz fabric over a table to display your homemade scones. Sadly, the intricate patterns and bold colors of the chintz clashed horrendously with the estate's Victorian decor, making your stand less appealing and entirely overlooked by the antique collectors.",
+        "lost": false,
+        "newName": ""
+      },
+      "silver thimble": {
+        "success": false,
+        "text": "In your eagerness to showcase the silver thimble's decorative value alongside your hoped-for biscuit tin treasures, you discover it's decidedly unsuitable for convincing the estate sale's organizer to part with a cherished relic of Colonel Featherton's collection. Despite your efforts, the thimble, being neither relevant to baking nor to the Colonel's interests, holds no sway.",
+        "lost": false,
+        "newName": ""
+      }
+    }
+  ]
+}

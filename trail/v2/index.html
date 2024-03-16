@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <title>trAIl</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📜</text></svg>">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            html { box-sizing: border-box; }
+            *, *:before, *:after { box-sizing: inherit; }
+            body { -webkit-font-smoothing: antialiased; }
+            input, button, textarea, select { font: inherit; }
+            div { display: block; }
+
+            body {
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                background: #fff;
+                color: #000;
+                font-family: Arial,sans-serif !important;
+                -webkit-text-size-adjust: 100%;
+                line-height: 1.5;
+            }
+            @media screen and (min-width: 414px) {
+            html, select { font-size: 16px; }
+            button { font-size: 16px; }
+            }
+            @media screen and (max-width: 414px) {
+            html, select { font-size: 3.86473429vw; }
+            button { font-size: 3.86473429vw; }
+            }
+
+            p {
+                margin: 0.125rem;
+            }
+            h3 {
+                font-size: 0.95rem;
+                margin: 0.25em 0.125rem;
+            }
+
+            #content {
+                max-width: 100%;
+                margin: 0 auto;
+                padding: 0;
+            }
+
+            #header {
+                border: 0.075rem solid #333;
+                padding: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            #text {
+                overflow-y: scroll;
+                overflow-x: hidden;
+                min-height: 40rem;
+                padding: 1.0rem 0.5rem 0.0rem 0.5rem;
+            }
+
+            .text-wrapper-outer {
+                margin: 1.0rem auto 0.0rem auto;
+                padding: 0.0rem 0.5rem;
+                max-width: 40rem;
+                /* max-height: 0px; */
+                opacity: 0.0;
+                transition-duration: 0.3s;
+                transition-timing-function: ease-in-out;
+                overflow: auto;
+            }
+            .text-wrapper-inner {
+                margin: 0px;
+                border: 0.075rem solid #aab;
+                border-radius: 0.5rem;
+                padding: 0.5rem 0.75rem;
+                overflow: auto;
+            }
+
+            .item-wrapper {
+                position: relative;
+                user-select: none;
+                -webkit-user-select: none;
+            }
+            input.item-hidden {
+                z-index: -1;
+                position: absolute;
+                opacity: 1%;
+            }
+            label.item, .item-disabled {
+                display: inline-block;
+                border: 0.075rem solid #aab;
+                border-radius: 0.25rem;
+                padding: 0.25rem 0.5rem;
+                background-color: #fff;
+                margin: 0.125rem;
+            }
+            label.item { cursor: pointer; }
+            .item-disabled { opacity: 0.75; }
+            label.item > .text {
+                color: #333;
+            }
+            input.item-hidden:checked + label.item {
+                border-color: #338;
+                background-color: #ececf0;
+            }
+            label.item:hover {
+                border-color: #99a;
+                background-color: #f2f2f2;
+            }
+            input.item-hidden:checked + label.item:hover {
+                border-color: #227;
+                background-color: #dddde8;
+            }
+            input.item-hidden:focus + label.item {
+                outline: 0.1rem solid #aab;
+            }
+            input.item-hidden:checked:focus + label.item {
+                outline: 0.1rem solid #338;
+            }
+            input.item-hidden:active + label.item {
+                outline: 0.1rem solid #227;
+                background-color: #f4f4fa;
+            }
+            input.item-hidden:checked:active + label.item {
+                outline: 0.1rem solid #99a;
+                background-color: #f1f1f8;
+            }
+            input.item-hidden:disabled + label.item {
+                opacity: 0.75;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <div id="text">
+            </div>
+        </div>
+        <div style="height: 50vh;"></div>
+
+        <script type="text/javascript" src="./main.js"></script>
+    </body>
+</html>
