@@ -226,9 +226,12 @@ async function gameLoop() {
                 });
                 wrapper.appendChild(button);
             };
-            addButton('Taleday', 'taleday');
-            addButton('Taleday 2', 'taleday2');
-            addButton('Taleday 3', 'taleday3');
+            addButton('Fantasy', 'fantasy');
+            addButton('Fantasy 2', 'fantasy2');
+            addButton('Fantasy (Bad)', 'fantasy-rpg');
+            addButton('Cozy (Tuesday difficulty)', 'taleday');
+            addButton('Cozy 2 (Friday difficulty)', 'taleday2');
+            addButton('Cozy 3 (Friday difficulty)', 'taleday3');
 
             pushToFeed(wrapper);
 

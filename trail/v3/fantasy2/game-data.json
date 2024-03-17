@@ -1,0 +1,887 @@
+{
+  "items": [
+    "Amulet",
+    "Signal whistle",
+    "Thief's tools",
+    "Sleeping roll",
+    "Heirloom signet ring",
+    "Quill",
+    "Manual of disguises",
+    "Jar of fireflies",
+    "Magic marbles",
+    "Lockpicks",
+    "Flute",
+    "Trick dice",
+    "Map",
+    "Bottle of stardust",
+    "Set of master keys"
+  ],
+  "challenges": [
+    {
+      "description": "Lord Fancypants' desk drawer is proving to be a tough nut to crack. You suspect he's hiding evidence of his illicit activities with the Thieves' Guild in there. You're going to need more than just your lockpicks to pry this one open.",
+      "name": "The Noble's Secret"
+    },
+    {
+      "description": "That shiny new ring you swiped from the wizard's tower seemed like a harmless trinket at first. But now you find yourself speaking in nothing but rhymes, and it's starting to grate on your nerves. You'll need to find a way to break the curse before your next big negotiation, or risk being laughed out of the room.",
+      "name": "The Poet's Curse"
+    },
+    {
+      "description": "Morty the Merchant has the last vial of Dragonfly Essence you need to complete your invisibility potion. Trouble is, he's got his heart set on retiring to a villa in the Sunset Isles. You'll need to get creative with your haggling if you want to avoid paying through the nose.",
+      "name": "Morty's Mercantile Mischief"
+    },
+    {
+      "description": "That simple light spell you cast to illuminate the Caverns of Gloom seems to have attracted some unwanted attention. A swarm of aggressive fireflies is bearing down on you, their tiny faces contorted in insectoid rage. You'll need to think fast if you want to avoid being on the receiving end of a very painful pinch.",
+      "name": "The Firefly Fiasco"
+    },
+    {
+      "description": "That sneaky scoundrel Slippery Steve managed to swipe the map to the Dungeon of Despair right from under your nose. He's probably halfway to the hidden entrance by now. Time to rally your wits and your drinking buddies to track him down before he makes off with the dungeon's legendary loot.",
+      "name": "The Tavern Turncoat"
+    },
+    {
+      "description": "The human village of Willowbrook and the nearby centaur tribe have been locked in a bitter dispute over access to the life-giving waters of the Whispering River. As the neutral party, it falls to you to convince these age-old adversaries to share this vital resource. You'll need to call upon all your wisdom and tact to navigate this thorny negotiation, lest you find yourself caught in the crossfire.",
+      "name": "The Water Treaty"
+    },
+    {
+      "description": "The Whispering Woods are a labyrinth of twisted trees and disorienting mists, made all the more treacherous by the echoes of your lost companion's voice. Is it a trick of the forest, or a clue to their whereabouts? You'll need to trust your instincts and keep your wits about you to navigate this eerie place.",
+      "name": "The Echoing Enigma"
+    },
+    {
+      "description": "Madame Magpie's mystical melody is the key ingredient in a potion that could cure the queen's mysterious malady. The trouble is, this rare bird is a master of mimicry, blending in with the calls of its more common cousins. You'll need a keen ear and a bit of luck to track down the real deal.",
+      "name": "The Mocking Magpie"
+    },
+    {
+      "description": "That \"Sword of Destiny\" you bought from Shady Shamus seemed like a steal at the time, but now you're starting to suspect it's just a very shiny butter knife. You're going to have to get creative with your combat techniques if you want to avoid becoming a laughingstock among your adventuring peers. Time to brush up on your trash talk and hope for the best.",
+      "name": "The Fraudulent Blade"
+    }
+  ],
+  "challengeResults": [
+    {
+      "Thief's tools": {
+        "success": true,
+        "text": "With deft fingers and an eye for the subtle mechanisms of the lock, you skillfully maneuver your thief's tools within the pesky drawer's lock. After a series of clicks and a satisfying final clack, the drawer slides open, revealing Lord Fancypants' secrets to you, all without bending a single pick.",
+        "lost": false,
+        "newName": ""
+      },
+      "Set of master keys": {
+        "success": true,
+        "text": "Using your set of master keys, you meticulously try each one until you find the perfect fit. With a satisfying click, the drawer slowly slides open, revealing Lord Fancypants’ secret correspondence.",
+        "lost": false,
+        "newName": ""
+      },
+      "Lockpicks": {
+        "success": true,
+        "text": "With a steady hand and focused eye, you expertly maneuvered the lockpicks, feeling for the slightest click and shift within the lock's mechanism. Impressively, after a few tense moments, the lock gave way under your skillful manipulation, opening Lord Fancypants' drawer to reveal its secrets.",
+        "lost": false,
+        "newName": ""
+      },
+      "Bottle of stardust": {
+        "success": false,
+        "text": "As you sprinkle the bottle of stardust over Lord Fancypants' seemingly invincible desk drawer, hoping for some form of magical unlocking or weakening of the wood, you find that the stardust, while pretty to look at, does absolutely nothing to the sturdy lock. It seems the stardust is more suited for enchanting moments rather than lockpicking endeavors.",
+        "lost": false,
+        "newName": ""
+      },
+      "Magic marbles": {
+        "success": false,
+        "text": "As you scatter the magic marbles before Lord Fancypants' obstinate desk drawer, hoping for a miraculous unlocking, you quickly realize their enchantment leans heavily towards mischief than utility. With a cacophonous, uncoordinated dance, the marbles zip around the room, completely ignoring the drawer and instead knocking over a priceless vase, much to your dismay.",
+        "lost": false,
+        "newName": ""
+      },
+      "Manual of disguises": {
+        "success": false,
+        "text": "In your infinite wisdom, you decide that looking like the exact replica of Lord Fancypants himself is the key to accessing the desk undetected. Unfortunately, your disguise is so convincing that as you saunter through the hallways towards the study, a servant mistakes you for the lord and drags you into a two-hour meeting about estate taxes. By the time you escape, the desk has been emptied and moved.",
+        "lost": false,
+        "newName": ""
+      },
+      "Heirloom signet ring": {
+        "success": false,
+        "text": "As you press the heirloom signet ring against the stubborn lock, hoping its noble insignia might somehow trigger a secret mechanism, the only thing you manage to achieve is a rather impressive scratch on both the ring and the surface of Lord Fancypants' drawer. Unfortunately, despite the ring's storied past and its intricate design, it seems it was not intended for lock-picking or activating hidden compartments.",
+        "lost": false,
+        "newName": ""
+      },
+      "Amulet": {
+        "success": false,
+        "text": "As you hovered the amulet close to the desk drawer, hoping for a magical click to signal its opening, you quickly realized that this amulet, which you had always believed to invoke a smidgen of good luck, was not about to start picking locks, especially complicated ones designed to protect Noblemen's dark secrets. Perhaps its true magic lay in optimism, but alas, optimism doesn't open drawers.",
+        "lost": false,
+        "newName": ""
+      },
+      "Flute": {
+        "success": false,
+        "text": "In an ambitious move matching the boldness of your ventures thus far, you attempted to charm the lock open with a serenade from your flute, believing perhaps in the magic of music over metal. However, the only response you received was the soft giggle of a passing maid who found your musical appeal to Lord Fancypants' locked drawer more amusing than effective.",
+        "lost": false,
+        "newName": ""
+      },
+      "Map": {
+        "success": false,
+        "text": "In a moment of what can only be called \"optimistic ingenuity,\" you try using the map to slide under the drawer and lift the lock mechanism from inside. Sadly, the only thing you manage to discover is that ancient parchment was not designed for the duress of lock-picking, as the map rips in half, leaving you with less map and still no access to Lord Fancypants' secrets.",
+        "lost": false,
+        "newName": ""
+      },
+      "Jar of fireflies": {
+        "success": false,
+        "text": "In an inspired, albeit misguided moment, you thought to dazzle the lock into submission with your jar of fireflies, shaking it vigorously. Unfortunately, the only thing illuminated by their bioluminescent glow was your own frustration, as the lock remained as stubbornly closed as ever.",
+        "lost": false,
+        "newName": ""
+      },
+      "Signal whistle": {
+        "success": false,
+        "text": "When you put the signal whistle to your lips, intent on perhaps summoning some unexpected help or creating a distraction, the only thing that happened was a loud, piercing sound that bounced off the walls of Lord Fancypants' opulent study. This did nothing but alert the nearby guards to your presence, making your situation significantly more precarious and not even slightly tempting the drawer to spring open.",
+        "lost": false,
+        "newName": ""
+      },
+      "Trick dice": {
+        "success": false,
+        "text": "In a moment of misguided inspiration, you decide that maybe, just maybe, the trick dice could somehow distract Lord Fancypants long enough for you to work on the lock undisturbed. Unfortunately, when you confidently sashayed into his study and challenged him to a game of chance to \"settle the score,\" he merely raised an eyebrow at the obviously loaded dice and suggested you stick to lockpicking. He then confiscated your dice as a reminder to play fair, leaving you both dice-less and still locked out of his drawer.",
+        "lost": false,
+        "newName": ""
+      },
+      "Quill": {
+        "success": false,
+        "text": "In a bold move, you attempt to use the quill as a lockpick, but alas, the feathered end just flutters mockingly as the sturdy metal of the lock refuses to budge. Not only does this confirm your suspicion that quill pens are not effective tools for breaking into a noble's desk, but in the process the quill snaps, leaving you a little sadder and without your might-have-been mighty quill.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sleeping roll": {
+        "success": false,
+        "text": "Wrapping your sleeping roll around your fist, you punched at the lock, hoping to apply enough pressure to pop it open. Instead, the only thing you managed to achieve was a sore hand and the muffled sound of your dignity escaping into the roll.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "Amulet": {
+        "success": true,
+        "text": "You carefully drape the Amulet of Eloquence around your neck, its magic soothing your cursed speech. Words flow naturally, bypassing the compulsive rhymes as you engage in conversation, charming your way through the negotiation with ease.",
+        "lost": false,
+        "newName": ""
+      },
+      "Flute": {
+        "success": true,
+        "text": "Utilizing your quick wits, you challenge the local bard to a duel of verses, betting your cursed predicament against his expertise in song. Armed with nothing but your flute, you accompany his lyrical magic, turning your curse into a performance that captivates the crowd. The poet, impressed by your creativity (and perhaps a bit of pity), agrees to help you break the curse.",
+        "lost": false,
+        "newName": ""
+      },
+      "Quill": {
+        "success": true,
+        "text": "Realizing the ring's curse was tied to language and expression, you decide to indulge in its whims. Using your quill, you pen a poem so compelling and heartwrenching, appealing directly to the ring's arcane nature. The essence of the curse, touched by your earnest effort, releases you from its grip, seeing the beauty in your struggle articulated through ink on parchment.",
+        "lost": false,
+        "newName": ""
+      },
+      "Manual of disguises": {
+        "success": true,
+        "text": "Using your Manual of Disguises, you cleverly dressed yourself as a renowned bard, convincing everyone that your cursed rhyming was an eccentric hallmark of your character. This guise allowed you to navigate the negotiation without suspicion, attributing your peculiar speech pattern to artistic flair rather than a curse.",
+        "lost": false,
+        "newName": ""
+      },
+      "Bottle of stardust": {
+        "success": false,
+        "text": "In a stroke of what seemed like brilliance, you sprinkle the bottle of stardust over your head, hoping its magical essence might counteract the curse. Alas, instead of nullifying the poetic compulsion, the glittering particles simply made you sparkle under the moonlight, leaving you reciting twinkling verses about the night sky, much to your dismay.",
+        "lost": false,
+        "newName": ""
+      },
+      "Magic marbles": {
+        "success": false,
+        "text": "In a hopeful gambit to solve the Poet's Curse, you decide to scatter the magic marbles on the ground, forming words to plead your case to the curse itself. Alas, the marbles simply bounced and rolled away, leaving you rhyming your frustration even more as they escaped your grasp.",
+        "lost": false,
+        "newName": ""
+      },
+      "Trick dice": {
+        "success": false,
+        "text": "In an attempt to break the curse with those trick dice, you rolled them in front of the wizard, hoping for divine intervention or at least to distract him with a gamble. Alas, your gamble fell flat as the wizard, barely glancing at the predictable outcome, quipped, \"A cursed ring's plight won't be solved by dice so slight,\" leaving you still rhyming and decidedly less charming.",
+        "lost": false,
+        "newName": ""
+      },
+      "Lockpicks": {
+        "success": false,
+        "text": "As you approached the wizard's tower once more, lockpicks in hand, you hoped to sneak back in and return the ring. However, upon reaching the door, your cursed rhyming dilemma turned what should have been a silent lockpicking operation into a loud, poetic fumble. \"Oh dear lock, so firm and stout, please oh please, let me sneak about.\" Unfortunately, this drew the attention of a not-so-amused wizard rather quickly.",
+        "lost": false,
+        "newName": ""
+      },
+      "Thief's tools": {
+        "success": false,
+        "text": "In a flash of misguided optimism, you tried to pick the curse off your voice like a lock, with your thief's tools clutched tight. Instead, you ended up mumbling rhymes about picks and wires, quite the poetic plight.",
+        "lost": false,
+        "newName": ""
+      },
+      "Set of master keys": {
+        "success": false,
+        "text": "In a bold attempt to unlock the mystery of the curse, you wielded your set of master keys with a hopeful heart. Alas, none could pick or pry the enchantment apart, much less a lock or shackle, leaving you to ponder your next move as poetic as ever.",
+        "lost": false,
+        "newName": ""
+      },
+      "Jar of fireflies": {
+        "success": false,
+        "text": "In a desperate bid to illuminate your problem in a new light, you release your jar of fireflies around the cursed ring, hoping their glow would reveal hidden inscriptions or dispel the magic. Instead, the fireflies, unimpressed by your poetic plight, buzz off into the night, leaving you rhyming about their fleeting light.",
+        "lost": false,
+        "newName": ""
+      },
+      "Signal whistle": {
+        "success": false,
+        "text": "In a bid to break the curse, you blew the signal whistle with gusto, hoping its shrill sound might disrupt the enchantment. Unfortunately, the only response was a startled flock of pigeons and a stern look from a passing guard. Your rhymes remained as intact as your frustrations.",
+        "lost": false,
+        "newName": ""
+      },
+      "Heirloom signet ring": {
+        "success": false,
+        "text": "You thought your mighty Heirloom signet ring, a symbol of your lineage and past glories, might possess the ancient magic to counter the curse. Alas, it turns out the ring’s only power was to impress at parties, leaving you rhyming about your ancestors' feats in verse, much to the confusion of your companions.",
+        "lost": false,
+        "newName": ""
+      },
+      "Map": {
+        "success": false,
+        "text": "In a desperate attempt to unfurl the map and locate a renowned sage rumored to unravel any enchantment, you find the script entirely indecipherable. Not because you can't read, but because the Poet's Curse affects every bit of text you see, turning straightforward directions into a puzzle of verses and riddles. Frustrated and unable to navigate the scribbles of rhyme, you concede defeat, the map no less a mystery than before.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sleeping roll": {
+        "success": false,
+        "text": "Wrapping yourself in the sleeping roll in hopes of silencing the cursed rhymes, you found the enchantment only grew louder in the echo of your own cocoon. Like a bard in a blanket, your attempts to muffle the rhymes only led to a more resonant performance that entertained your campsite neighbors, but did nothing to break the poet's curse.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "Manual of disguises": {
+        "success": true,
+        "text": "Using your Manual of Disguises, you flipped through the pages until you found the perfect look - that of a renowned architect, promising Morty the construction of his dream villa in the Sunset Isles at a discount, in exchange for the vial. Sketching out a sprawling villa with enticing detail on a piece of parchment, you convinced Morty to trade.",
+        "lost": false,
+        "newName": ""
+      },
+      "Trick dice": {
+        "success": true,
+        "text": "You wagered Morty that if you could win a game of chance, he'd part with the Dragonfly Essence at a price fair to both of you. As luck—or rather, your trick dice—would have it, the dice rolled in your favor, convincing Morty you were just the kind of lucky soul he could strike a deal with.",
+        "lost": false,
+        "newName": ""
+      },
+      "Heirloom signet ring": {
+        "success": true,
+        "text": "Convincing Morty that the signet ring, tied to tales of valor and bravery from your family's past, was the perfect heirloom to kickstart his new life of leisure, you made the trade. As Morty held the ring up to the light, imagining it as a conversation starter in his new villa, you could almost see the Dragonfly Essence in your grasp.",
+        "lost": false,
+        "newName": ""
+      },
+      "Set of master keys": {
+        "success": true,
+        "text": "You nonchalantly offered to help Morty tidy up the shop while subtly using your set of master keys to unlock a stubborn, jammed cabinet that had vexed him for months. Impressed and grateful, Morty knocked a hefty sum off the price of the Dragonfly Essence, never suspecting the keys in your pocket were the real heroes of the day.",
+        "lost": false,
+        "newName": ""
+      },
+      "Bottle of stardust": {
+        "success": true,
+        "text": "You dazzle Morty with the bottle of stardust, suggesting a sprinkle of it could turn any mundane villa into an ethereal, star-kissed paradise fit for a retired merchant king. Intrigued by the prospect of having the most unique villa in the Sunset Isles, Morty eagerly trades the vial of Dragonfly Essence for your bottle of stardust.",
+        "lost": false,
+        "newName": ""
+      },
+      "Lockpicks": {
+        "success": true,
+        "text": "With a twinkle in your eye and a subtle flick of your wrist, you adeptly used your lockpicks to fix Morty's perpetually jammed cash box, a problem that had been the bane of his mercantile existence. Impressed and grateful, Morty handed over the Dragonfly Essence at a fraction of the cost, all while dreaming aloud of the sunny days ahead in the Sunset Isles.",
+        "lost": false,
+        "newName": ""
+      },
+      "Flute": {
+        "success": false,
+        "text": "You attempt to charm Morty into a discount by playing a sweet melody on your flute, only for Morty to reveal he's partially deaf from years of boisterous haggling and barely catches the tune. Morty remains unimpressed and your purse remains heavy with the weight of the full price.",
+        "lost": false,
+        "newName": ""
+      },
+      "Thief's tools": {
+        "success": false,
+        "text": "As you gingerly approached Morty's counter, trying not to draw attention, your deft fingers worked to pick the lock of his glass cabinet with your thief's tools. Unfortunately, your attempts only drew Morty's keen eyes directly to your unsanctioned endeavor, leading to a very public and very embarrassing scolding about the virtues of honest commerce.",
+        "lost": false,
+        "newName": ""
+      },
+      "Jar of fireflies": {
+        "success": false,
+        "text": "In a spark of what you thought was pure genius, you presented Morty with a jar of fireflies, pitching it as a limited-edition, ambient \"dragonfly essence lamp.\" Morty, not one to be easily fooled, opened the jar for a closer look, only for the fireflies to seize their moment and scatter into the night, leaving you both in the awkward silence of a failed negotiation.",
+        "lost": false,
+        "newName": ""
+      },
+      "Amulet": {
+        "success": false,
+        "text": "As you try to dazzle Morty with the shiny Amulet, hoping it'd entice him enough to lower the price, he just chuckles and tells you he's got three more just like it in the back. \"Going to need more than pretty trinkets to sway me!\" he says, returning your Amulet with a dismissive wave.",
+        "lost": false,
+        "newName": ""
+      },
+      "Magic marbles": {
+        "success": false,
+        "text": "In an attempt to sway Morty with a show of magic, you decide to lay down one of your magic marbles, promising wonders beyond belief. Unfortunately, the marble merely bounces and rolls across the floor, fetching up against Morty's shoe with a mundane, disappointing clack. Morty, unamused by your \"magic trick,\" remains firm on his price, leaving you no closer to acquiring the Dragonfly Essence.",
+        "lost": false,
+        "newName": ""
+      },
+      "Map": {
+        "success": false,
+        "text": "When you proposed trading your map for the essence, Morty skimmed over it, barely concealing a yawn before stating he'd bathed in the waters of more exotic locations than your map could point to. Clearly, he wasn't in the market for geography lessons.",
+        "lost": false,
+        "newName": ""
+      },
+      "Quill": {
+        "success": false,
+        "text": "In a bid to impress Morty with your knowledge of economics, you produced a beautifully handwritten quill-penned document proposing an elaborate trade deal. However, Morty, being notoriously illiterate, mistook your well-meaning proposal for a Scribe's doodle pad, and without a second glance, handed it off to his niece as a toy.",
+        "lost": false,
+        "newName": ""
+      },
+      "Signal whistle": {
+        "success": false,
+        "text": "When you attempted to use the signal whistle to distract Morty and swap the vial of Dragonfly Essence for a few copper coins, the piercing sound only drew his attention—and that of everyone in the market—directly to you. Morty, far from amused, asked if you were trying to signal for help to pay his price.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sleeping roll": {
+        "success": false,
+        "text": "You unroll your sleeping roll, suggesting a straight swap—the essence of ultimate stealth for the comfort of a good night's sleep. Morty squints at the worn fabric, stifling a yawn before declining. \"Friend, in a villa in the Sunset Isles, I'll have beds aplenty. No need for such... rustic accommodations.\"",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "Magic marbles": {
+        "success": true,
+        "text": "In the dim, buzzing chaos of the Caverns of Gloom, you remember the Magic Marbles in your pocket. With a deft flick of your wrist, you scatter them across the cavern floor. As they roll, each marble emits a mesmerizing light show, more dazzling than any firefly. The swarm, unable to resist the allure, abandons their assault on you to follow the marbles, their anger forgotten in the wake of these new, enchanting orbs.",
+        "lost": false,
+        "newName": ""
+      },
+      "Bottle of stardust": {
+        "success": true,
+        "text": "You cleverly tossed the bottle of stardust into the air above the swarm, where it burst and released a dazzling cloud of glimmering particles. The fireflies, entranced by this new, superior light source, forgot all about their insectoid rage, swirling around the stardust in a mesmerizing dance that allowed you to slip away unnoticed.",
+        "lost": false,
+        "newName": ""
+      },
+      "Flute": {
+        "success": true,
+        "text": "With a flick of your wrist, you pull out the flute and begin to play a soothing melody. The aggressive fireflies, entranced by the unexpected concert, form a shimmering, hovering audience, their rage forgotten as they sway to the rhythm. Seizing the moment, you quietly back away, leaving the fireflies to their musical reverie.",
+        "lost": false,
+        "newName": ""
+      },
+      "Signal whistle": {
+        "success": true,
+        "text": "In a stroke of inspired ingenuity, you take out the signal whistle and blow it with all your might. The frequency of the whistle turns out to be anathema to the fireflies' sensitive hearing, causing them to scatter in disarray, their formation broken. In the chaos, you slip through, unscathed by the luminescent tempest.",
+        "lost": false,
+        "newName": ""
+      },
+      "Jar of fireflies": {
+        "success": false,
+        "text": "In a fleeting moment of strategy, you twist open the jar, hoping to appease the ravenous swarm with your own, less aggressive fireflies. Yet instead of appeasing, your tiny luminescent friends join the onslaught, their glow intensifying as if they'd been offended by the very notion of being used as a bargaining chip.",
+        "lost": false,
+        "newName": ""
+      },
+      "Amulet": {
+        "success": false,
+        "text": "You hastily grab for your amulet, hoping its mundane gleam might distract the fireflies. Unfortunately, it seems your light spell has made them abhor all things luminous, and your amulet, rather than being a distraction, becomes a beacon of annoyance, heightening their insectoid ire towards you.",
+        "lost": false,
+        "newName": ""
+      },
+      "Lockpicks": {
+        "success": false,
+        "text": "As you naively attempted to pick the lock of nature itself, hoping to maybe turn off the swarm or find an escape route in the cavern walls, you quickly realized that lockpicks and aggressive fireflies speak very different languages. The buzzing antagonists were unimpressed by your fumbling efforts, their pinch growing ever closer.",
+        "lost": false,
+        "newName": ""
+      },
+      "Map": {
+        "success": false,
+        "text": "In an optimistic attempt to navigate your way out of the predicament, you hastily unfurled the map, hoping it held a secret exit. Unfortunately, the aggressive fireflies saw the map as a grand, new light source and swarmed it in droves, their tiny, enraged bodies obscuring the pathways entirely and leaving little nips on your fingers as you tried to shoo them away.",
+        "lost": false,
+        "newName": ""
+      },
+      "Thief's tools": {
+        "success": false,
+        "text": "In a moment of desperation, you tried picking the lock on nature itself, attempting to jam the tools into the cave wall to create a makeshift barrier. Unfortunately, the lockpicks, designed for silent openings in the dead of night, proved utterly ineffective against the rock. All you managed was to scrape the metal tips and embarrass yourself in front of a swarm of irate fireflies.",
+        "lost": false,
+        "newName": ""
+      },
+      "Set of master keys": {
+        "success": false,
+        "text": "In a panicked flurry, you whipped out your set of master keys, hoping one might magically unlock a way out of this luminous nightmare. Unfortunately, as you frantically flicked them at the swarm, not only did they fail to dissuade the fireflies, but one particularly bold bug snatched a key, mistaking its shiny metal for a mate or a menace, and flew off into the cavernous darkness.",
+        "lost": false,
+        "newName": ""
+      },
+      "Manual of disguises": {
+        "success": false,
+        "text": "In a panic, you flipped through the Manual of Disguises, swiftly donning a firefly costume in an attempt to blend in. Sadly, the aggressive fireflies were not fooled by your amateurish antennae and mocked your efforts by intensifying their pinching assault, leaving you to wonder if insects could feel disdain.",
+        "lost": false,
+        "newName": ""
+      },
+      "Heirloom signet ring": {
+        "success": false,
+        "text": "In your haste, you fumbled with the Heirloom Signet Ring, twisting it this way and that in the hopes it might unleash some unforeseen magical power against the onslaught of fireflies. Alas, the only thing unleashed was your own disappointment, as the ring merely continued to be a ring, utterly indifferent to your plight.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sleeping roll": {
+        "success": false,
+        "text": "In a desperate bid to stave off the aggressive fireflies, you unfurled your sleeping roll, hoping to swat the swarm away or maybe even cover yourself as a makeshift barrier. Alas, the flimsy fabric merely fluttered pathetically in your frenzied swats, doing little to deter your tiny, irate attackers. Worse, in the chaos, the sleeping roll snagged on a jagged rock, tearing a significant gash in it, rendering it much less effective as a sleeping aid in the future.",
+        "lost": false,
+        "newName": ""
+      },
+      "Quill": {
+        "success": false,
+        "text": "In a desperate bid to distract the onslaught of irate fireflies, you furiously scribble circles of light on parchment with your quill, hoping they might mistake them for more compelling luminous targets. Alas, the fireflies, unfooled and perhaps insulted by the ruse, intensify their assault, leaving you ruefully contemplating the effectiveness of ink against bioluminescence.",
+        "lost": false,
+        "newName": ""
+      },
+      "Trick dice": {
+        "success": false,
+        "text": "You thought you could distract the fireflies with a roll of your trick dice, perhaps appealing to their innate love for shiny objects. Unfortunately, the fireflies saw through your ruse almost instantly, incensed further by the apparent mockery. Their attack intensified as they buzzed around you, ignoring the dice completely as they bore down on you with their fiery little bodies.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "Map": {
+        "success": true,
+        "text": "With Slippery Steve just a speck on the horizon, you unfurl the map and plot a shortcut through the Whispering Woods that intercepts him. As Steve follows the longer path, you emerge from the trees, catching him off guard and reclaiming the map with a smug grin.",
+        "lost": false,
+        "newName": ""
+      },
+      "Set of master keys": {
+        "success": true,
+        "text": "Using your set of master keys, you quickly discovered that one of them perfectly fit the lock of a forgotten back door in the tavern, a shortcut Slippery Steve used to access his hideout. You caught up to him with ease, retrieving the map from his hands without breaking a sweat.",
+        "lost": false,
+        "newName": ""
+      },
+      "Lockpicks": {
+        "success": true,
+        "text": "With a nimble flick of your trusty lockpicks, you quietly unlatched the back window of Slippery Steve’s hideout, slipping inside to reclaim the stolen map before he even noticed a thing. Your hands, as deft as they are silent, left no trace of your intrusion.",
+        "lost": false,
+        "newName": ""
+      },
+      "Thief's tools": {
+        "success": true,
+        "text": "With a deft flick of your wrist and a well-placed lockpick from your Thief's tools, you pop open the second-floor window lock of the inn where Slippery Steve was bragging about his catch last night. You slip inside, and there, discarded atop his messy bed, is the map, almost as if it missed your pocket from the start.",
+        "lost": false,
+        "newName": ""
+      },
+      "Manual of disguises": {
+        "success": true,
+        "text": "Using your Manual of Disguises, you quickly fashion yourself into a believable imitation of one of Slippery Steve's known associates. You approach his hideout, mimicking the associate's mannerisms flawlessly. Steve, fooled by your disguise, welcomes you in and shares his plans over a poorly aged mead. You nod along, memorizing the route to the Dungeon of Despair, then excuse yourself, citing a fake but plausible emergency. Steve, none the wiser, wishes you luck as you slip away with the knowledge you came for.",
+        "lost": false,
+        "newName": ""
+      },
+      "Magic marbles": {
+        "success": true,
+        "text": "You and your tipsy comrades unleash the Magic Marbles in the tavern, each one rolling and bouncing with uncanny precision. In a stroke of genius, you'd previously enchanted them to track Steve's specific scent. They zigzagged through the streets, leading your merry, slightly inebriated band straight to where Slippery Steve was hiding, slightly out of breath and entirely surprised.",
+        "lost": false,
+        "newName": ""
+      },
+      "Signal whistle": {
+        "success": true,
+        "text": "In a flash of inspiration, you blew your signal whistle, not to rally your drinking buddies, but to catch the attention of Barkley, the tavern's resident but incredibly lazy bloodhound. Your high-pitched call had him perking up, intrigued for the first time that night. With a scent hastily acquired from Steve's recently vacated seat, Barkley became an unwilling hero, dragging you through alleyways and streets straight to a panting, cornered Slippery Steve, just outside the hidden entrance.",
+        "lost": false,
+        "newName": ""
+      },
+      "Amulet": {
+        "success": true,
+        "text": "Using the Amulet of Persuasive Charms, a handy trinket you kept hidden under your tunic, you convinced a group of rowdy tavern goers that capturing Slippery Steve would be the night's greatest adventure. Their enthusiasm, driven by the amulet's subtle magic, ensured Steve was cornered and persuaded to hand back the map before he even knew what hit him.",
+        "lost": false,
+        "newName": ""
+      },
+      "Bottle of stardust": {
+        "success": false,
+        "text": "In your hurry to sprinkle the stardust, hoping it would reveal Slippery Steve’s trail like some kind of magical sniffer dog, you accidentally blew the entire contents into the eyes of an equally surprised and now very sparkly tavern cat. The feline, less than thrilled with its sudden transformation into a disco ball, rewarded your mistake with a series of scratches and a hasty retreat under the nearest table. Meanwhile, Steve's trail grew colder by the minute.",
+        "lost": false,
+        "newName": ""
+      },
+      "Heirloom signet ring": {
+        "success": false,
+        "text": "In your attempt to use the Heirloom Signet Ring to secure a favorable deal with a crooked merchant for tracking Steve's whereabouts, he quickly recognized its value and insisted it become part of the payment. Saddened but determined, you parted with it, only for the information to lead to a dead end, further twisting the knife of regret.",
+        "lost": false,
+        "newName": ""
+      },
+      "Jar of fireflies": {
+        "success": false,
+        "text": "In a brilliant, but ultimately misguided attempt, you unleashed your jar of fireflies to illuminate Slippery Steve’s tracks. However, the rascal had taken to the murky waters of the Wailing Brook, where the feeble glow of fireflies did little to pierce the mist and the murk. Plus, who knew fireflies were so bad at tracking?",
+        "lost": false,
+        "newName": ""
+      },
+      "Flute": {
+        "success": false,
+        "text": "In a bold move fueled by ale-fueled confidence, you stood on a table and played a jaunty tune on your flute, hoping to rally the tavern's patrons into a posse with your melodies. Unfortunately, your performance only earned confused glares and an offer from the tavern keeper to take your musical ambitions outside, far away from paying customers.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sleeping roll": {
+        "success": false,
+        "text": "In a creative twist, you decided to lay out your sleeping roll in the middle of Slippery Steve's known escape route, hoping to disguise it as a perilous pit or trap. Unfortunately, Steve stepped right over it without a second glance, leaving you sprawled in hiding, watching your chance to nab him pass by as effortlessly as Steve did over the innocuous sleeping bag.",
+        "lost": false,
+        "newName": ""
+      },
+      "Trick dice": {
+        "success": false,
+        "text": "In your eagerness to harness the deceptive magic of the trick dice to win a bet against Slippery Steve, thus regaining the map, you didn't account for his keen eye. Steve called out the fraud, snatching the dice and exposing your ruse in front of the entire tavern, leaving your reputation and your plan in tatters.",
+        "lost": false,
+        "newName": ""
+      },
+      "Quill": {
+        "success": false,
+        "text": "In a bout of inspiration, you tried to pen a deceitfully charming note to lure Slippery Steve back to the tavern, hoping he'd fall for a trap. Alas, your quill snapped mid-sentence, leaving the note unfinished and your plan in ruins, as no backup writing instrument was at hand.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "Map": {
+        "success": true,
+        "text": "Using the map, you pinpointed a forgotten spring, a tributary of the Whispering River, perfectly positioned between the human village and the centaur tribe. By proposing the creation of a shared water management plan using this neutral location, you brokered peace and ensured equal water distribution without compromising either party's claims to the main river.",
+        "lost": false,
+        "newName": ""
+      },
+      "Flute": {
+        "success": true,
+        "text": "With the flute in your possession, you gather the leaders of Willowbrook and the centaur tribe by the bank of the Whispering River. Understanding the universal language of music, you play a haunting melody that speaks of shared struggles, hopes, and the preciousness of the water they both depend on. Moved by this unexpected plea, they begin discussions on how to equitable share the river's resources, guided by the spirit of harmony evoked by your performance.",
+        "lost": false,
+        "newName": ""
+      },
+      "Heirloom signet ring": {
+        "success": true,
+        "text": "Holding the heirloom signet ring up, you revealed it bore the ancient crest of a long-forgotten treaty between humans and centaurs, brokered under the very same Whispering River's watchful currents. This tangible piece of history served not only as a reminder of a once peaceful coexistence but also as a symbol that old agreements can serve as the foundation for new understandings. Swiftly, both sides, moved by this emblem of unity, agreed to share the Whispering River's waters, sealing the new treaty with the ring as its witness.",
+        "lost": false,
+        "newName": ""
+      },
+      "Manual of disguises": {
+        "success": true,
+        "text": "Using the Manual of Disguises, you crafted costumes mimicking the attire of both the human villagers and the centaur tribe, allowing you to seamlessly blend into each group to understand their grievances and fears firsthand. Through cunning and a newfound understanding, you fostered empathy between the two sides, leading them to see the value in sharing the Whispering River, thus resolving the water dispute without a drop of blood spilled.",
+        "lost": false,
+        "newName": ""
+      },
+      "Amulet": {
+        "success": true,
+        "text": "Using the Amulet of Tongues, a trinket you've carried since your earliest adventures, you were able to communicate with both parties in their own languages seamlessly. This facilitated an unbiased and clear negotiation, impressively reducing misunderstandings and building a bridge of trust that led to a fair sharing of the Whispering River's waters.",
+        "lost": false,
+        "newName": ""
+      },
+      "Quill": {
+        "success": false,
+        "text": "In a bid for peace, you brandished your quill, intent on drafting an equitable treaty for all. Alas, as eloquent as your prose proved to be, neither the humans nor the centaurs were swayed by mere words on parchment, dismissing your efforts as naive idealism.",
+        "lost": false,
+        "newName": ""
+      },
+      "Bottle of stardust": {
+        "success": false,
+        "text": "In an attempt to sprinkle the Bottle of Stardust into the Whispering River, hoping its magical shimmer would awe both parties into a truce, you quickly learned that centaurs and villagers alike are not easily distracted by sparkly theatrics when water rights are on the line. Their collective eye-rolling suggested your magical dust was less 'life-changing elixir' and more 'glitter bomb at a diplomacy conference'.",
+        "lost": false,
+        "newName": ""
+      },
+      "Magic marbles": {
+        "success": false,
+        "text": "As you enthusiastically present your bag of magic marbles, hoping their glow might mesmerize both parties into agreement, the centaurs and humans look at you puzzled. They're not interested in shiny toys, but in tangible solutions to their water crisis. Your well-intentioned effort earns nothing but a moment of awkward silence, followed by a return to heated debate.",
+        "lost": false,
+        "newName": ""
+      },
+      "Signal whistle": {
+        "success": false,
+        "text": "In your attempt to garner attention and begin negotiations, the shrill sound of the signal whistle unfortunately resembles the war call of a local predatory bird. Both the humans and centaurs, mistaking the signal for an impending aerial attack, scatter in panic, leaving you standing alone by the river, bewildered and unable to proceed with the peace talks.",
+        "lost": false,
+        "newName": ""
+      },
+      "Jar of fireflies": {
+        "success": false,
+        "text": "In a well-meaning attempt to illuminate the talks under the starry sky, you opened the jar, hoping the fireflies would create a serene atmosphere conducive to peaceful negotiations. Unfortunately, both the humans and centaurs found the sudden release of insects distracting, taking it as a bizarre mystical affront rather than the gesture of goodwill you intended.",
+        "lost": false,
+        "newName": ""
+      },
+      "Set of master keys": {
+        "success": false,
+        "text": "As you presented the set of master keys to the leaders of Willowbrook and the centaur tribe, hoping to unlock a metaphorical door to peace, they stared at them with a mix of confusion and irritation. It appeared that presenting literal keys to solve a dispute over water rights wasn't just unhelpful, it was borderline insulting to both parties.",
+        "lost": false,
+        "newName": ""
+      },
+      "Trick dice": {
+        "success": false,
+        "text": "In an audacious bid to break the ice, you suggested a game of chance to lighten the mood, using your trick dice to ensure a win that might demonstrate the value of sharing. However, the centaurs, with their keen eyesight, quickly noticed the dice never rolled certain numbers, souring the negotiation mood further and accusing you of deceit before the talks could truly begin.",
+        "lost": false,
+        "newName": ""
+      },
+      "Lockpicks": {
+        "success": false,
+        "text": "In an ambitious but ultimately misguided attempt to use your lockpicks to gain clandestine access to the Willowbrook's water control mechanisms, hoping to reroute the river for equal sharing, you quickly discovered that both human ingenuity and centaur craftsmanship favor magical seals over physical locks. Your tools, decidedly non-magical, were as useful as trying to pick a sunbeam with a fishhook.",
+        "lost": false,
+        "newName": ""
+      },
+      "Thief's tools": {
+        "success": false,
+        "text": "Intent on using your thief's tools to either clandestinely improve the river's flow to both communities or perhaps fashion an impromptu lock to broker peace, you quickly realized that lock picks and slim jims are ill-suited for hydraulic engineering or diplomacy. Instead of impressing either side with a clever solution, you ended up damp and disheartened, with the centaurs and villagers more suspicious of your motives than ever.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sleeping roll": {
+        "success": false,
+        "text": "In a bid to soften hearts and open dialogue at the negotiation table, you suggest a humble campfire gathering under the starlight, using your sleeping roll as a symbol of vulnerability and trust. Unfortunately, this overture was misinterpreted as a lack of seriousness about the gravity of the situation, leading both parties to question your suitability as a mediator.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "Map": {
+        "success": true,
+        "text": "Utilizing the map, intricately detailed and marked with ancient symbols, you discerned landmarks within the Whispering Woods that matched its markings. The twisted trees and swirling mists couldn't confuse your path as you methodically navigated through the enigmatic labyrinth, the echoes of your companion growing clearer with each step guided by the map's unerring detail.",
+        "lost": false,
+        "newName": ""
+      },
+      "Signal whistle": {
+        "success": true,
+        "text": "You decide to blow on the signal whistle, betting on the chance that its distinctive, clear sound will cut through the misleading echoes. Your companion recognizes it amid the cacophony of lost voices and replies with their own whistle, guiding you through the mists to their location.",
+        "lost": false,
+        "newName": ""
+      },
+      "Magic marbles": {
+        "success": true,
+        "text": "As the echoes of your companion's cries bounced off the thick, misty air of the Whispering Woods, you decided to use the magic marbles. Rolling them on the ground, each marble lit up and zipped off in different directions. You followed the one that glowed the brightest, hoping it was attuned to human voices. Sure enough, this marble led you straight to your bewildered friend, caught in brambles but alive. The magical light trails left by the marbles also provided you a clear path back, dispelling the disorienting mists and guiding you both to safety.",
+        "lost": false,
+        "newName": ""
+      },
+      "Jar of fireflies": {
+        "success": true,
+        "text": "As you release the fireflies from their jar, their glow softly illuminates the path, revealing subtle differences in the foliage and ground indicating your companion's passage. Their light also grants you a brief respite from the oppressive gloom, allowing you to trust your instincts and ignore the misleading echoes to find your friend.",
+        "lost": false,
+        "newName": ""
+      },
+      "Flute": {
+        "success": true,
+        "text": "Using the flute, you played a series of simple tunes, discovering that the sound pierced the enigmatic mists clearer than your voice. As you progressed, the volume and direction of your companion's responses guided you through the Whispering Woods to a joyful reunion, all the while the forest's illusions failed to mimic the unique timbre of the flute.",
+        "lost": false,
+        "newName": ""
+      },
+      "Bottle of stardust": {
+        "success": true,
+        "text": "As the whispers confound your senses, you sprinkle the bottle of stardust in a circle around you, creating a glimmering barrier. The stardust amplifies your companion's true voice, guiding you through the maze of trees and mists directly to their location, the false echoes unable to penetrate the magical ring.",
+        "lost": false,
+        "newName": ""
+      },
+      "Amulet": {
+        "success": false,
+        "text": "The Amulet, designed to repel lesser spirits, proved ineffective as the whispers were not the work of malevolent entities but rather the echo of the forest itself, playing tricks on your mind with every step taken deeper into the Whispering Woods. Consequently, you found yourself wandering in circles, unable to discern the direction of your companion's true voice.",
+        "lost": false,
+        "newName": ""
+      },
+      "Thief's tools": {
+        "success": false,
+        "text": "As you attempted to pick the lock on an ancient, moss-covered chest you believed might contain a map of the Whispering Woods, the delicate tools of a thief proved woefully inadequate against the enchanted lock, which hummed mockingly with every failed attempt. Frustrated and no closer to finding your companion, you concluded the tools were designed for man-made locks, not the whims of forest magic.",
+        "lost": false,
+        "newName": ""
+      },
+      "Set of master keys": {
+        "success": false,
+        "text": "As the mist thickened and the echoes of your companion's pleading voice grew stronger, you, with a master key in hand, found a curious, ancient door half-hidden behind a weeping willow. Despite your best efforts, the key couldn't find its purpose in the door's peculiar lock, which demanded not a physical key but perhaps something less tangible. The realization hit you; your set of master keys, perfect for every door in the mundane world, was utterly useless against the whimsical enchantments of the Whispering Woods.",
+        "lost": false,
+        "newName": ""
+      },
+      "Manual of disguises": {
+        "success": false,
+        "text": "In your attempt to traverse the Whispering Woods, you thought donning an elaborate disguise from your Manual of Disguises might fool the forest into revealing its secrets. Unfortunately, the forest's magic cares little for appearances; it's the intention and essence of its travelers that it responds to, leaving you wandering even more aimlessly among the echo-filled trees, your leafy hat askew and your fake mustache damp with the mist.",
+        "lost": false,
+        "newName": ""
+      },
+      "Lockpicks": {
+        "success": false,
+        "text": "In an inspired moment, you thought to use your lockpicks to follow the echoes, imagining they might somehow unlock the secret paths of the Whispering Woods. Alas, the trees held no locks for your picks to conquer, leaving you wandering aimlessly as your companion's voice grew fainter, a vivid reminder that sometimes, a lockpick is just a lockpick.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sleeping roll": {
+        "success": false,
+        "text": "In an unconventional maneuver, you unfurled your sleeping roll, hoping its familiar scent might guide you through the Whispering Woods by contrasting with the forest's odors. Unfortunately, the forest's disorienting mists swiftly dampened the fabric, leaving you shivering and the roll too soaked to offer any comfort or direction, its once comforting smell drowned out by the musty forest air.",
+        "lost": false,
+        "newName": ""
+      },
+      "Heirloom signet ring": {
+        "success": false,
+        "text": "As you tried to use the Heirloom Signet Ring to impress what you hoped was a sentient part of the forest, perhaps to gain guidance or assistance, the whispering woods remained indifferent. The ring, while precious, held no sway over the twisted trees and the echoes of your companion's voice continued to lead you in circles, no closer to finding them or a way out.",
+        "lost": false,
+        "newName": ""
+      },
+      "Quill": {
+        "success": false,
+        "text": "In a moment of inspiration, you attempted to use the quill to mark trees as a means of navigating the Whispering Woods' labyrinth. Unfortunately, the dense mist and twisted trees made it impossible to distinguish your markings from the natural patterns on the bark, leading you further astray rather than providing the guidance you hoped for.",
+        "lost": false,
+        "newName": ""
+      },
+      "Trick dice": {
+        "success": false,
+        "text": "In a bid to outwit the forest and its deceptions, you rolled the trick dice, hoping their predetermined outcome might offer some supernatural guidance. Instead, the dice, ever faithful to their deceitful nature, tumbled down a hidden burrow, enticed by a curious squirrel who mistook them for nuts, leaving you with only the echo of their hollow clatter—no clearer on your path, and now down a pair of dice.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "Flute": {
+        "success": true,
+        "text": "In the echoing forest glades, you play a series of intricate melodies on your flute, each one carefully crafted to mimic the songs of local birds, but injected with a subtle twist only the Mocking Magpie could resist imitating. After several attempts, a uniquely melodious reply guides you to the elusive bird, perched and ready to follow the source of this intriguing call.",
+        "lost": false,
+        "newName": ""
+      },
+      "Signal whistle": {
+        "success": true,
+        "text": "With the signal whistle softly trilled, you cleverly mimicked an innocuous bird call, not the Mocking Magpie's, but one alluring enough to pique its curiosity. Out of the camouflage of sound, only the Mocking Magpie responded, confused and intrigued by this foreign tune, allowing you to pinpoint its location amidst its less mystical kin.",
+        "lost": false,
+        "newName": ""
+      },
+      "Map": {
+        "success": true,
+        "text": "With the map in hand, you charted the known habitats of Magpie's common cousins and cross-referenced these locations against recent sightings of the elusive Mocking Magpie. This strategic approach led you directly to where the magical bird was last heard, bypassing numerous false leads and saving precious time.",
+        "lost": false,
+        "newName": ""
+      },
+      "Magic marbles": {
+        "success": true,
+        "text": "Harnessing the unique frequency of each Magic Marble, you cleverly scattered them in different directions. The marbles, vibrating at a pitch only the Mocking Magpie could resonate with, compelled the bird to respond with its own mystical melody, thus inadvertently revealing its location among its indistinguishable cousins.",
+        "lost": false,
+        "newName": ""
+      },
+      "Bottle of stardust": {
+        "success": false,
+        "text": "In your eagerness to lure the Mocking Magpie with the Bottle of Stardust, thinking its shimmer would catch the creature's eye, you underestimated the clever bird's mimicry skills. Instead of attracting the magpie, the glistening dust merely drew a swarm of curious, but ordinary, birds, creating a chaotic cloud of feathers around you. The magpie, unimpressed and wary of the commotion, stayed well out of sight. In the frenzy, you accidentally dropped the bottle, spilling its contents irretrievably into the earth.",
+        "lost": false,
+        "newName": ""
+      },
+      "Jar of fireflies": {
+        "success": false,
+        "text": "As darkness fell, you released the jar of fireflies, hoping their soothing glow would attract Madame Magpie with curiosity. Unfortunately, while the woods around you lit up beautifully, the only creatures drawn to the light were a few bewildered squirrels and an inordinate number of insects, leaving the magpie unimpressed and decidedly elsewhere.",
+        "lost": false,
+        "newName": ""
+      },
+      "Manual of disguises": {
+        "success": false,
+        "text": "As you hunched over the Manual of Disguises, attempting to mimic a bird yourself in the hopes of drawing out the Mocking Magpie, it became clear that looking like a magpie isn’t the same as sounding like one. With your awkward squawks, not only did you fail to lure the bird, but you also accidentally attracted a confused and slightly offended flock of local sparrows instead.",
+        "lost": false,
+        "newName": ""
+      },
+      "Amulet": {
+        "success": false,
+        "text": "As you trekked through the dense forest, the Amulet of Birdsong around your neck chirped away, hoping to attract Madame Magpie with its sweet, artificial tunes. Unfortunately, it seemed the amulet was set to “generic bird tweets 101,” attracting every feathery creature but the one you sought. Worse yet, the cacophony of birdcalls it summoned covered the subtle, distinct melody of Madame Magpie, making your task harder than listening for a whisper in a hurricane.",
+        "lost": false,
+        "newName": ""
+      },
+      "Thief's tools": {
+        "success": false,
+        "text": "In your attempt to use the thief's tools to craft a makeshift device to differentiate between the bird calls, you quickly realized that lockpicks and slender jim-thin tools are hardly suitable for interpreting or manipulating sound frequencies. The tools, much like a bard out of tune in a royal concert, did nothing but reaffirm your misunderstanding of avian linguistics.",
+        "lost": false,
+        "newName": ""
+      },
+      "Lockpicks": {
+        "success": false,
+        "text": "In your zeal to prove that lockpicks are the Swiss Army knife of adventuring tools, you attempted to fashion them into a makeshift flute, hoping to mimic the bird's call. Unfortunately, your resulting performance was more akin to a banshee's wail than avian art, scaring away any bird within a five-mile radius, including your quarry.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sleeping roll": {
+        "success": false,
+        "text": "Deciding that a patient wait might draw out the elusive bird, you unroll your sleeping roll in a likely spot, hoping to remain hidden and comfortable. Unfortunately, far from attracting the Mocking Magpie, your snoring blends with the forest sounds, convincing the bird and its cousins that a new, rather unmelodic species has joined their ranks, leading them further away.",
+        "lost": false,
+        "newName": ""
+      },
+      "Set of master keys": {
+        "success": false,
+        "text": "As you wandered through the dense forest, the set of master keys jingled loudly at your belt, drowning out the subtler sounds of the wildlife around you. In a particularly dense thicket, a sudden flurry of wings announced the departure of a group of magpies, among them likely the Mocking Magpie, scared off by the unending jangle of metal at your side.",
+        "lost": false,
+        "newName": ""
+      },
+      "Quill": {
+        "success": false,
+        "text": "As you cozied up in the brush, quill in hand, ready to jot down notes on the distinct call of the Mocking Magpie, your plan takes a nosedive. Turns out, using a quill without ink is as useful as trying to catch fish with a tennis racket - creative, but utterly ineffective. You're left with a clean, albeit well-intended, piece of parchment and no closer to discerning the magical melody.",
+        "lost": false,
+        "newName": ""
+      },
+      "Trick dice": {
+        "success": false,
+        "text": "As you laid out the trick dice, hoping for some divine inspiration or at least a good laugh to light your way to the Mocking Magpie, you quickly remembered that the magpie, though mocking, never gambled. The dice did nothing but roll and reveal numbers that the birds around you paid no heed to, leaving you no closer to finding Madame Magpie.",
+        "lost": false,
+        "newName": ""
+      },
+      "Heirloom signet ring": {
+        "success": false,
+        "text": "As you attempted to play a tune on the Heirloom Signet Ring, hoping its unique whisper of a chime would attract the Mocking Magpie, you found that the bird was more amused than enticed. It mocked the feeble sound with an exaggerated warble, then flitted away into the canopy, leaving you standing there with a face as red as the setting sun, ring still firmly on your finger.",
+        "lost": false,
+        "newName": ""
+      }
+    },
+    {
+      "Magic marbles": {
+        "success": true,
+        "text": "Leveraging the deceptive gleam of your \"Sword of Destiny,\" you scatter the magic marbles underfoot as your foes charge, watching in glee as they slip and tumble in a comedic spectacle. Their laughter soon turns to groans, realizing they've been outwitted by a butter knife-wielding adventurer and a handful of enchanted marbles.",
+        "lost": false,
+        "newName": ""
+      },
+      "Manual of disguises": {
+        "success": true,
+        "text": "You quickly flipped through your Manual of Disguises, selecting a fearsome outfit that obscured your face and made your silhouette look menacing. With your \"Sword of Destiny\" sheathed but still visible, you approached the band of goblins. Your menacing demeanor and well-practiced growl convinced them that a fight would be unwise. Not a single one dared to question the authenticity of your butter knife—I mean, legendary sword.",
+        "lost": false,
+        "newName": ""
+      },
+      "Bottle of stardust": {
+        "success": true,
+        "text": "In a flash of ingenuity, you threw the bottle of stardust in the air during a crucial moment of the duel. The brilliant, distracting sparkle masked your awkward butter knife maneuvers, allowing you to land a \"deadly\" poke on your opponent, much to the audience's amazement and confusion. They whispered of a mystical sword technique, never suspecting your true weapon was pure chicanery.",
+        "lost": false,
+        "newName": ""
+      },
+      "Amulet": {
+        "success": true,
+        "text": "In a genius stroke of improvisation, you hang the amulet on the hilt of your so-called Sword of Destiny and tout it around as a magical artifact capable of summoning a fearsome warrior spirit to do your bidding in battle. The mere sight and elaborate backstory of the amulet, combined with your equally elaborate trash talk, send would-be challengers running in fear, leaving the actual combat to tales of the imagination. In reality, the amulet just makes a pretty good sword accessory.",
+        "lost": false,
+        "newName": ""
+      },
+      "Thief's tools": {
+        "success": true,
+        "text": "You deftly utilized your Thief's Tools to pick the lock on a display case in Shady Shamus's shop when no one was looking, snatching up a genuinely magic sword labeled \"for decorative use only.\" Your butter knife could now rest in peace, or perhaps in pieces, as you now wielded a weapon actually worth its steel in combat, a secret between you and your lock pick.",
+        "lost": false,
+        "newName": ""
+      },
+      "Set of master keys": {
+        "success": true,
+        "text": "With a flourish befitting a grand duelist, you pulled out your set of master keys and, amidst the confusion of your foes, jingled them menacingly. The unexpected move baffled them long enough for you to charge, your butter-knife blade raised, turning their laughter into retreat. It turns out, in a world of magic and mystery, the unexpected can be your greatest weapon.",
+        "lost": false,
+        "newName": ""
+      },
+      "Lockpicks": {
+        "success": false,
+        "text": "In a bout of misplaced confidence, you attempted to unlock your opponent’s armor mid-battle with your lockpicks, hoping to dismantle them piece by piece. Sadly, your plan fell apart faster than a cardboard castle in a rainstorm when the first pick snapped off in the keyhole, rendering your approach as effective as wielding a spoon in a sword fight.",
+        "lost": false,
+        "newName": ""
+      },
+      "Flute": {
+        "success": false,
+        "text": "Trying to dazzle your foes with a mesmerizing flute solo, you quickly discovered that goblins have an unusually strong disdain for woodwind instruments. Your performance was met with jeers before one particularly cheeky goblin snatched the flute, using it as a makeshift blowdart to launch peas at you as you beat a hasty retreat.",
+        "lost": false,
+        "newName": ""
+      },
+      "Jar of fireflies": {
+        "success": false,
+        "text": "In a bold but misguided attempt to intimidate your foe with a dazzling display of luminescence, you uncorked your Jar of fireflies, expecting to unleash a blinding storm. Instead, the fireflies, disinterested in your dueling dramas, lazily floated upward, creating a mildly enchanting but utterly ineffective distraction. The only one blinded by your strategy was, unfortunately, your own sense of judgment.",
+        "lost": false,
+        "newName": ""
+      },
+      "Signal whistle": {
+        "success": false,
+        "text": "As you struck a heroic pose and blew the signal whistle, intending to distract your opponent with a sudden, piercing sound, you quickly discovered goblins are notoriously hard of hearing due to their habit of ignoring annoying sounds, including your attempt at an auditory assault with the whistle. Instead, they found your shiny butter-knife-sword much more amusing and began laughing hysterically, completely unfazed by your combat \"strategy.\"",
+        "lost": false,
+        "newName": ""
+      },
+      "Trick dice": {
+        "success": false,
+        "text": "Attempting to use your trick dice to sway a gambling goblin out of combat, you quickly learned they only cheat in favor of dice games. The goblin, unimpressed by your non-dice related gambit, swiped the dice, claiming them as a trophy for your \"attempted trickery\".",
+        "lost": false,
+        "newName": ""
+      },
+      "Map": {
+        "success": false,
+        "text": "As you unfurled your map in the hope of finding a tactical escape route or perhaps a hidden advantage in the terrain, you quickly realized that a map of the local taverns and inns was hardly useful in the heat of battle, especially in the wilds where your foes care little for the rating of the nearest alehouse. In your distraction, an opportunistic goblin snatched it, likely hoping to trade it for a pint.",
+        "lost": false,
+        "newName": ""
+      },
+      "Heirloom signet ring": {
+        "success": false,
+        "text": "Flustered, you tried flashing the Heirloom Signet Ring at your opponent, hoping its noble crest would instill fear or at least some hesitation. Unfortunately, your foe was not well-versed in heraldry or impressed by shiny objects, and with a snort of derision, continued the onslaught, leaving you scrambling for a backup plan with your glorified butter knife.",
+        "lost": false,
+        "newName": ""
+      },
+      "Quill": {
+        "success": false,
+        "text": "In a bold move, you attempted to distract a marauding goblin by furiously scribbling intimidating messages and hurling them like paper airplanes. Unfortunately, the goblin, unimpressed by your literary efforts, skewered the airborne missive with a rusty dagger, turning your quill into an unintentional goblin kebab garnish.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sleeping roll": {
+        "success": false,
+        "text": "In a moment of desperation, you tried to use your sleeping roll to fashion some semblance of armor, hoping to bluff your way through a combat scenario as an innovative adventurer. However, as soon as the first would-be strike from a bandit came your way, the roll unfurled comically, tripping you up and leaving you flailing on the ground, a spectacle of failed ingenuity.",
+        "lost": false,
+        "newName": ""
+      }
+    }
+  ]
+}
