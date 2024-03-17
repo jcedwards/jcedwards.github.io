@@ -229,7 +229,8 @@ async function gameLoop() {
             addButton('Fantasy', 'fantasy');
             addButton('Fantasy 2', 'fantasy2');
             addButton('Fantasy (Bad)', 'fantasy-rpg');
-            addButton('Cozy (Tuesday difficulty)', 'taleday');
+            addButton('Cozy (???)', 'taleday');
+            addButton('Cozy (Tuesday difficulty)', 'taleday4');
             addButton('Cozy 2 (Friday difficulty)', 'taleday2');
             addButton('Cozy 3 (Friday difficulty)', 'taleday3');
 
@@ -352,7 +353,9 @@ async function gameLoop() {
 
                 displayText(`###${result.success ? 'SUCCESS' : 'FAILURE'}`+'\n\n'+result.text);
                 let logResult = log.challengeResults[i] || (log.challengeResults[i] = { mistakes: 0 });
-                if (!result.success) {
+                if (result.success) {
+                    logResult.winningItem = itemName;
+                } else {
                     logResult.mistakes += 1;
                     failedItems.push(itemName);
                 }
@@ -390,8 +393,8 @@ async function gameLoop() {
                 `Total extra attempts: ${mistakes > 0 ? '+' : ''}${mistakes}`+'\n\n'+
                 `Breakdown:`+'\n\n';
             for (let i = 0; i < challenges.length; i++) {
-                let mistakes = log.challengeResults[i].mistakes;
-                msg += `${i + 1}. ${challenges[i].name}:`.padEnd(25)+` ${mistakes > 0 ? '+' : ''}${mistakes}${mistakes == 0 ? ' ✓' : ''}`+'\n\n';
+                const { mistakes, winningItem }= log.challengeResults[i];
+                msg += `${i + 1}. ${challenges[i].name} - (${winningItem}):`.padEnd(25)+` ${mistakes > 0 ? '+' : ''}${mistakes}${mistakes == 0 ? ' ✓' : ''}`+'\n\n';
             }
             displayText(msg);
 

@@ -1,884 +1,884 @@
 {
   "items": [
-    "Lace doilies",
-    "French press",
-    "Teakettle",
-    "Chandelier",
-    "Garden hat",
-    "Whisk",
-    "Silk scarf",
-    "Cat tower",
-    "Seasonal quilt",
-    "Antique cake stand",
-    "Spatula",
-    "Copper mixing bowls",
-    "Embroidered napkins",
-    "Novel",
-    "Sift"
+    "Biscotti",
+    "Prime lens",
+    "Watercolor pads",
+    "Lightbox",
+    "Botany",
+    "Madeline",
+    "Charcoal",
+    "World atlas of coffee",
+    "Lovage",
+    "Darjeeling",
+    "Sand bottles",
+    "Matcha",
+    "Reflector",
+    "High-speed SD cards",
+    "Stainless steel spade"
   ],
   "challenges": [
     {
-      "description": "The gentle pitter-patter of rain on your bakery roof quickly escalates into a torrential downpour. To your horror, you spot a steady drip forming directly over your pastry display, threatening to turn your flaky croissants into soggy sponges. You must act fast to protect your precious pastries from the impending deluge.",
-      "name": "The Pastry Downpour Debacle"
+      "description": "The community center has approached you to lead a weekly baking workshop series. The challenge? Creating a curriculum that appeals to both wide-eyed novices and seasoned home bakers. You'll need to find a way to make the basics exciting while also offering fresh insights to those who know their way around a mixer.",
+      "name": "Whisking Wisdom"
     },
     {
-      "description": "As you're preparing for a busy day at the bakery, you discover that Whiskers has managed to tangle himself in a bundle of your vintage apron strings. The mischievous tabby is now surrounded by a colorful array of strings scattered across the kitchen floor. You must carefully untangle Whiskers and gather up your apron strings before your first customers arrive.",
-      "name": "The Apron String Tangle Tango"
+      "description": "In an effort to be more environmentally friendly, you've decided to design a zero-waste dessert packaging solution for your bakery's delivery service. It's a noble goal, but finding a practical and attractive option is proving to be quite the challenge. Put on your thinking cap and come up with a solution that will make your desserts and the planet shine!",
+      "name": "Eco-Friendly Endeavor"
     },
     {
-      "description": "You're putting the finishing touches on a batch of cupcakes for the annual Sweetwater Garden Party when you realize that the decorations delivered by your new supplier, the eccentric Miss Fussbudget, are not quite right. Upon closer inspection, you discover that they're not even food grade! You'll need to find a way to decorate these cupcakes without risking the wrath of the garden club ladies.",
-      "name": "The Faux Floral Frosting Fiasco"
+      "description": "You've noticed a surge in interest from millennials and Gen Z in the art of bread making, particularly the fascinating world of fermentation. Seizing the opportunity to share your expertise, you decide to create an engaging online tutorial. The key is to make the science accessible and the process Instagram-worthy!",
+      "name": "Fermentation Fun for the Young'uns"
     },
     {
-      "description": "Your most adventurous customer, the globetrotting Granny Gizmo, has challenged you to create a dessert that seamlessly blends sweet and savory flavors. She regales you with tales of the exotic treats she's sampled on her travels and insists that your creation must be \"a symphony of taste that dances on the tongue.\" Never one to back down from a challenge, you roll up your sleeves and prepare to push the boundaries of baking.",
-      "name": "The Sweet and Savory Showdown"
+      "description": "Aunt Edna's \"Sunday Roast\" pastry pockets have been a cherished tradition in your family, but your vegetarian niece feels left out of the meaty affair. You've decided to create a meatless version that will make even the most diehard carnivores in the family reconsider their stance on veggie-forward fare. Let's show them that vegetables can be the star of the show!",
+      "name": "Not-So-Meaty Marvels"
     },
     {
-      "description": "As your bakery's popularity grows, so does the crowd vying for a spot in your charming dining area. The once-cozy space now feels as cramped as a clown car, and your customers are starting to grumble. You must come up with a creative solution to maximize your seating capacity without sacrificing the inviting atmosphere that has made your bakery a Sweetwater institution.",
-      "name": "The Seating Squeeze Solution"
+      "description": "Old MacDonald's granddaughter, Daisy, has taken over the farm and is eager to partner with you to showcase the best of local produce. She's offering you first pick of her crops, but you'll need to get creative to keep your prices steady. It's time to prove that going local doesn't mean compromising on flavor or breaking the bank!",
+      "name": "Locally Sourced, Universally Loved"
     },
     {
-      "description": "The annual Sweetwater Charity Auction is fast approaching, and you've promised to create a one-of-a-kind cake that tells a story. The theme, \"The Secret Life of Sweetwater,\" has your imagination running wild with tales of hidden passions and quirky characters. With the eyes of the town upon you, you must craft a cake that not only tastes divine but also spins a sugary yarn that will be the talk of the auction.",
-      "name": "The Storied Cake Caper"
+      "description": "As you prepare for the afternoon tea rush, you notice your scones are coming out either underbaked or burnt to a crisp. Upon further investigation, you discover the oven thermostat is on the fritz. You'll need to channel your inner MacGyver and find a way to ensure your scones are baked to perfection.",
+      "name": "Scone Survival"
     },
     {
-      "description": "The antique baking tools that adorn your bakery's walls have begun to show their age, with rust threatening to tarnish their vintage charm. These treasured relics, handed down through generations of bakers, are as much a part of your bakery's story as the recipes themselves. You must find a way to restore these beloved items to their former glory or risk losing a piece of your bakery's soul.",
-      "name": "The Rusting Relic Rescue"
+      "description": "Your little bakery has become the talk of the town, and it's time to think about expansion. Should you open a cozy café space to encourage customers to linger over your creations, or focus on growing your online presence with custom orders? You'll need to weigh the pros and cons and decide which path will lead to sweet success.",
+      "name": "The Great Expansion Expedition"
     },
     {
-      "description": "The local Ladies' Literary Society has asked to host their monthly high tea event at your bakery, but you quickly realize you don't have enough elegant seating to accommodate the group. With the event just days away, you must get creative and find a way to provide a suitable and stylish seating arrangement that will impress the refined ladies of Sweetwater.",
-      "name": "The Seating Arrangement Scramble"
+      "description": "Your great-grandmother's fruitcake recipe has been a family treasure for generations, but let's face it – fruitcake has fallen out of favor in recent decades. You're determined to bring this holiday classic into the 21st century without losing the nostalgia factor. Time to put a modern twist on an old favorite!",
+      "name": "Fruitcake Revival"
     },
     {
-      "description": "As you prepare to whip up a batch of your famous whipped cream frosting, you discover that your refrigeration unit has gone haywire, freezing the cream solid. With a dozen cupcakes waiting to be frosted, you must thaw the cream and find a way to whip it to perfection before the frosting melts away your hopes of a picture-perfect display.",
-      "name": "The Frosted Freezer Fiasco"
+      "description": "The town's Annual Family Fun Day is fast approaching, and you've been asked to host a \"bake-off\" event that will delight both the littlest aspiring bakers and their wise grandparents. You'll need to come up with a theme that bridges the generation gap and brings everyone together. Time to show that the love of baking transcends age!",
+      "name": "Baking Through the Ages"
     }
   ],
   "challengeResults": [
     {
-      "Seasonal quilt": {
+      "Matcha": {
         "success": true,
-        "text": "With quick thinking, you unfurl the seasonal quilt, a patchwork of autumnal hues and summer pastels, stretching it across the pastry display like a protective tent. The quilt, more accustomed to adorning a cozy nook than playing hero in a bakery, absorbs the intrusive droplets with aplomb, sparing your croissants from becoming an unintended soggy mess.",
+        "text": "By incorporating matcha into the baking workshop as a versatile ingredient, you delighted both novices and experienced bakers alike. For newcomers, the vibrant color and distinct flavor of matcha served as an exciting introduction to baking beyond the basics. Meanwhile, seasoned bakers discovered innovative ways to infuse this traditional Japanese green tea powder into their sophisticated pastries and cakes, sparking new inspiration in their culinary adventures.",
         "lost": false,
         "newName": ""
       },
-      "Embroidered napkins": {
+      "Madeline": {
         "success": true,
-        "text": "Swiftly, you spread the embroidered napkins over the pastry display, creating an impromptu but effective barrier against the drips. Their intricate patterns add an unexpected touch of class to your display, turning a near disaster into a moment of charm.",
+        "text": "With Madeline in hand, you captivated both the novice and expert bakers by demonstrating the delicate art of creating her fine, shell-shaped sponge cakes, revealing the nuanced technique of perfectly browning them and emphasizing the importance of precise ingredient measurements. This not only covered the basics in a thrilling manner but also introduced a level of finesse that even the most experienced bakers found enlightening.",
         "lost": false,
         "newName": ""
       },
-      "Lace doilies": {
+      "Lovage": {
         "success": true,
-        "text": "With quick thinking, you stretch the lace doilies across the pastry display, their intricate patterns weaving a fine net that catches the drips without touching the croissants below, preserving the integrity of your fluffy masterpieces from the pastry-threatening deluge.",
+        "text": "In a stroke of genius, you announced that the first workshop would be centered around the unexpected hero of the garden: lovage. Your class was intrigued by this lesser-known herb, and you showcased its versatility in both savory scones for the beginners and a sophisticated, herb-infused pastry cream for the more advanced bakers. Your curriculum not only demystified an uncommon ingredient but also bridged the gap between the novices and the experts in the room.",
         "lost": false,
         "newName": ""
       },
-      "Copper mixing bowls": {
-        "success": false,
-        "text": "In your haste, you position the copper mixing bowls under the drip, but the relentless downpour soon overfills them, spilling water across the counter and onto the floor, doing nothing to save your pastries from becoming an unintended soppy mess.",
+      "High-speed SD cards": {
+        "success": true,
+        "text": "You cleverly utilized the high-speed SD cards to store and display a variety of baking tutorials and advanced techniques, transforming the community center's computer into an interactive learning hub. This made the basics thrilling for newcomers and provided deep dives into culinary science and exotic recipes for the veterans, keeping everyone engaged and learning.",
         "lost": false,
         "newName": ""
       },
-      "Silk scarf": {
-        "success": false,
-        "text": "In a desperate attempt to save your pastries, you drape your silk scarf over the display, hoping to shield it from the water. Sadly, the scarf quickly becomes saturated, drooping sadly into the icing of a particularly majestic raspberry tart, offering no protection and instead adding a soggy, silken layer atop your once-crisp pastries.",
+      "World atlas of coffee": {
+        "success": true,
+        "text": "Leveraging the \"World Atlas of Coffee\" as the foundation of your curriculum, you enchant your workshop attendees with tales of exotic coffee beans paired with local baked goods, creating a fusion of flavors that delights both novices and experts. Every session ends with a new coffee-baked good pairing, turning the basic act of baking into a voyage around the globe.",
         "lost": false,
         "newName": ""
       },
-      "Garden hat": {
-        "success": false,
-        "text": "In a desperate attempt to save your pastries, you place the garden hat over the closest croissant, only to realize the hat's brim isn’t wide enough to protect the rest from the escalating drip, and the fabric quickly soaks through, dripping even more water onto the treats below.",
+      "Darjeeling": {
+        "success": true,
+        "text": "You had the brilliant idea to weave the rich history and cultural significance of Darjeeling tea into your baking workshop curriculum, inspiring both novices and seasoned bakers. You infused various baked goods with Darjeeling, showcasing its versatility from savory scones to aromatic sweet bread, demonstrating the depth and complexity simple ingredients can bring to baking. The tea not only added a unique flavor profile that intrigued the workshop attendees but also served as a springboard for discussing the subtleties in choosing ingredients.",
         "lost": false,
         "newName": ""
       },
-      "Antique cake stand": {
+      "Botany": {
         "success": false,
-        "text": "In a desperate bid to shield your pastries, you place the antique cake stand over the most vulnerable éclairs, only to realize it covers a mere fraction of your sprawling display. Your attempt leaves the majority of pastries exposed, underscoring the stand's inadequate size for this crisis.",
+        "text": "In an effort to blend the art of baking with the science of botany, you dove deep into the symbiotic relationships between plants and yeast. Unfortunately, when you enthusiastically presented a session on the intricacies of gluten structures in wheat and the genetic differences in various strains of yeast, you only managed to bewilder the novices and bore the seasoned bakers with information they deemed too academic for a cozy baking workshop.",
         "lost": false,
         "newName": ""
       },
-      "Spatula": {
+      "Biscotti": {
         "success": false,
-        "text": "In a desperate bid to save your pastries, you wield the spatula like a miniature roof, attempting to deflect the water. Alas, the spatula, designed for flipping and not for shielding, fails to cover more than one croissant at a time, leaving the rest to meet their soggy fate.",
+        "text": "In a daring attempt to bridge the gap between novices and the experienced, you approached your first class with a tray of biscotti, envisioning an interactive session on dunking strategies and flavor pairing. However, the simplicity of biscotti left the experienced bakers yawning, while the novices struggled with the twice-baked process, leading to a smattering of charred and underwhelming results that didn't exactly scream \"baking success.\"",
         "lost": false,
         "newName": ""
       },
-      "Sift": {
+      "Prime lens": {
         "success": false,
-        "text": "In a flash of inspiration, you position the sift above the pastries, hoping to disperse the water. Unfortunately, the fine mesh quickly clogs with droplets, becoming a makeshift bowl that overflows, drenching the pastries below in an unintended pastry shower.",
+        "text": "Attempting to use the Prime lens to capture close-up shots of the baking process for visual aids, you quickly realized that while beautiful, the photos didn't actually translate the tactile and nuanced skills needed in baking, leaving novices baffled and experts bored.",
         "lost": false,
         "newName": ""
       },
-      "French press": {
+      "Lightbox": {
         "success": false,
-        "text": "In a moment of panic-fueled creativity, you place the French press under the leak, hoping to catch the water. However, the delicate pastry display wasn't built to support the weight of a rapidly filling French press; as it tilts dangerously, you dive to save it, only to knock over both the press and the pastries, causing a chaotic blend of glass, water, and squished croissants.",
+        "text": "You thought using the lightbox for an innovative \"Glow-in-the-dark Baking\" class might spice things up. Unfortunately, the delicate glow failed to illuminate the intricate process of measuring and mixing, leaving participants squinting at their recipes and fumbling with flour. Your quest to blend the art of baking with visual innovation ended in a kitchen more haunted by confusion than alight with culinary insight.",
         "lost": false,
         "newName": ""
       },
-      "Whisk": {
+      "Watercolor pads": {
         "success": false,
-        "text": "In a surge of optimism, you attempt to whisk away the water droplets assaulting your pastries from above. However, it turns out the whisk is mightier in the kitchen than in combatting a leak, only managing to fling water droplets onto nearby scones, inadvertently preparing a batch of soggy sadness.",
+        "text": "Attempting to elevate the teaching experience, you encouraged using watercolor pads for documenting baking processes and sketching final products. However, the flour-covered hands of participants quickly turned the pads into illegible, doughy messes, far from the visual feasts you had envisioned.",
         "lost": false,
         "newName": ""
       },
-      "Teakettle": {
+      "Sand bottles": {
         "success": false,
-        "text": "In a stroke of odd ingenuity, you position the teakettle beneath the leak, hoping to catch the water before it assaults your pastries. Unfortunately, the kettle, designed to keep liquids hot, does a poor job of containment without a lid, leading to a quick overflow and merely adding to the waterlogged misery of your pastry display.",
+        "text": "In a stroke of what seemed like inspirational genius, you decided to use sand bottles as a novel method for teaching precise measurement techniques in your baking workshop. Unfortunately, the vibrant sands were mistaken for exotic flavorings by an overly enthusiastic novice, resulting in a batch of decidedly crunchy and inedible scones that did nothing to bridge the gap between beginners and experts.",
         "lost": false,
         "newName": ""
       },
-      "Novel": {
+      "Reflector": {
         "success": false,
-        "text": "As you hastily wedge the novel above the pastries, hoping its girth could shield them from the water, the pages soak up moisture like a sponge. Within minutes, the book swells, distorting its shape and tumbling onto your now slightly damp croissants, failing spectacularly to prevent their soggy fate.",
+        "text": "As you attempted to use the Reflector to show both the novices and seasoned bakers their own mistakes in a new light, it backfired. The novices felt criticized, seeing only their failures magnified, while the seasoned bakers found it redundant, as they were already well aware of their rare mistakes.",
         "lost": false,
         "newName": ""
       },
-      "Chandelier": {
+      "Charcoal": {
         "success": false,
-        "text": "In a burst of ingenuity, you attempt to repurpose the chandelier as an elaborate pastry umbrella. Sadly, as you hoist it above your treats, you discover chandeliers are not known for their water-resistant properties. The light fixtures fast become conduits, channeling the deluge onto your pastries with increased precision, leaving your croissants disastrously damp.",
+        "text": "In an attempt to bring a smidgen of pizzazz to the baking basics, you introduced a lesson on \"The Art of Perfect Grilling\" using charcoal. Unfortunately, amidst the fancy flambés and scones, the charcoal managed to begrudge the class with a series of overly smoked cupcakes, turning the eager smiles into puzzled frowns. Charcoal, it turns out, is less forgiving in a baker's delicate domain than in the robust outdoors.",
         "lost": false,
         "newName": ""
       },
-      "Cat tower": {
+      "Stainless steel spade": {
         "success": false,
-        "text": "In a moment of quirky desperation, you place the cat tower under the leak, hoping its platforms will catch the water. However, the tower, being covered in carpet, soaks up the water, but does nothing to stop the drip from eventually drenching your pastries anyway, as the soggy structure quickly succumbs to gravity, collapsing in a damp heap.",
+        "text": "In an earnest attempt to bridge the gap between inexperienced bakers and the more adept, you unveiled your stainless steel spade as a novel way to mix ingredients, hoping to add a rustic charm to the process. Yet, the spade, better suited for garden soil than cake batter, proved unwieldy and far too large, leaving both flour and frustration flurried across the countertops. Your innovative effort turned into a comical but ineffective teaching tool, quickly shelved in favor of traditional utensils.",
         "lost": false,
         "newName": ""
       }
     },
     {
-      "Cat tower": {
+      "Botany": {
         "success": true,
-        "text": "Ingeniously, you set the cat tower beside the tangled mess, using its allure to coax Whiskers toward it. As the tabby weaves through the strings aiming for the tower, the knots loosen. With a few well-placed treats on the tower's ledges, Whiskers abandons the apron strings, leaving you to collect them unimpeded.",
+        "text": "Harnessing your botany knowledge, you created edible wrappers for your desserts using a blend of rice paper and herb-infused sheets, ensuring that each bite not only tasted sublime but also left no waste behind.",
         "lost": false,
         "newName": ""
       },
-      "Silk scarf": {
+      "Watercolor pads": {
         "success": true,
-        "text": "Using the silk scarf, you dangle it enticingly away from the tangle, coaxing Whiskers to follow it, thus cleverly getting him to slink out of the apron string mess himself, guided by his curiosity and your gentle persuasion. The scarf serves as both a lure and a gentle means to guide the tabby without further tangling or stressing him, and once Whiskers is free, you quickly scoop up the apron strings, neatly avoiding any potential disaster before the day begins.",
+        "text": "You ingeniously repurpose your watercolor pads as the base for your eco-friendly dessert packaging. The thick, durable paper is perfect for wrapping and presents your confections in a visually appealing way, while being 100% biodegradable, turning your eco-dilemma into a delicious victory.",
         "lost": false,
         "newName": ""
       },
-      "Seasonal quilt": {
+      "Sand bottles": {
         "success": true,
-        "text": "You lay the seasonal quilt flat on the floor and coax Whiskers onto it, away from the tangled apron strings. This unexpected quilt playground captivates Whiskers, and while he's distracted with the new textures and patterns, you swiftly collect the strings, leaving your feline friend to his new quilt kingdom.",
+        "text": "Leveraging the sand bottles you had, you ingeniously filled them with the dessert components layer by layer, creating a visually appealing presentation. By instructing customers to return the bottles for a discount on their next purchase, you ensured the bottles were reused, thus achieving your zero-waste goal.",
         "lost": false,
         "newName": ""
       },
-      "Embroidered napkins": {
+      "Charcoal": {
         "success": false,
-        "text": "As you attempt to lure Whiskers away from the apron string mess with the embroidered napkins, hoping he'll chase or play with them instead, the clever tabby simply bats at them once before resuming his tangled frolic. The napkins, though beautiful, are no match for the allure of a good string tangle to a cat.",
+        "text": "In your bid to use charcoal for an eco-friendly packaging solution, you found it absorbed all the delightful aromas of your baked goods, leaving them as unappetizing as a bland diet cracker. Not exactly the sensory delight you were aiming for.",
         "lost": false,
         "newName": ""
       },
-      "Lace doilies": {
+      "Matcha": {
         "success": false,
-        "text": "In an attempt to gently coax Whiskers out with the delicate allure of the lace doilies, you quickly discovered that the fine threading of the lace merely added to the tangle, ensnaring both apron strings and cat further in what can only be termed as an unforeseen crochet mishap.",
+        "text": "In a burst of inspiration, you thought to use dried matcha powder as a natural dye for eco-friendly dessert packaging, envisioning a vibrant green hue that would stand out and speak to your bakery's commitment to the Earth. Unfortunately, the matcha's subtlety was lost in the material, resulting in a lackluster, barely-there color that did little to attract or impress customers, and certainly didn't convey the eco-friendly message you had hoped for.",
         "lost": false,
         "newName": ""
       },
-      "Spatula": {
+      "Darjeeling": {
         "success": false,
-        "text": "Attempting a delicate operation with a spatula, you found it to be woefully inadequate for the task of unknotting apron strings; its wide, flat surface instead pushed Whiskers into an even more intricate dance with the strings, amusing yet ultimately counterproductive.",
+        "text": "In your quest for a zero-waste packaging solution, you decided to infuse Darjeeling tea leaves into the material, hoping to add an aromatic touch. However, customers complained when their desserts arrived smelling overpoweringly of tea, which clashed with the flavors and made the packaging far from appealing.",
         "lost": false,
         "newName": ""
       },
-      "Whisk": {
+      "Lightbox": {
         "success": false,
-        "text": "As you attempted to use the whisk to gently pry the tangled strings from around Whiskers, you quickly discovered that its wires only tightened the knot, embedding the whisk amidst the chaos of strings and eliciting a displeased yowl from your feline companion.",
+        "text": "In your enthusiastic efforts to combine function with flair, you envisioned the lightbox not just as packaging but as an illuminating display for your delectable creations. However, it quickly became evident that while the lightbox showcased your desserts in a mouthwateringly radiant light, it was far from zero-waste, requiring batteries and non-biodegradable materials that contradicted your eco-friendly initiative.",
         "lost": false,
         "newName": ""
       },
-      "Teakettle": {
+      "Lovage": {
         "success": false,
-        "text": "As you thought the sound of boiling water might soothe Whiskers into letting go, he only became more agitated at the hiss, tightening the apron string snarl as he attempted an escape, knocking the teakettle off the counter in his frenzy.",
+        "text": "While your heart was in the right place, trying to use the leaves from your lovage plant as sustainable, biodegradable dessert packaging turned out to be less practical than imagined. The strong, celery-like flavor of lovage imparted an unexpected and, unfortunately, quite off-putting taste to your carefully crafted sweets, leading to a memorable but not particularly repeatable experiment.",
         "lost": false,
         "newName": ""
       },
-      "Sift": {
+      "Biscotti": {
         "success": false,
-        "text": "In an attempt to use the sift as a tool to entice Whiskers out of the tangled apron strings, you only succeeded in spooking him further into the colorful mess. Flour dusted the air as you futilely poked at the strings, making both the situation and your bakery floor a sight more chaotic.",
+        "text": "In your quest for eco-friendly packaging, you chose biscotti, thinking their durability would make them ideal candidates for innovative, edible packing materials. Unfortunately, the hard truth hit when customers complained that the biscotti, though delicious, were far too crunchy and crumbly to protect the more delicate desserts during delivery, leading to some unfortunate cake casualties.",
         "lost": false,
         "newName": ""
       },
-      "Novel": {
+      "Stainless steel spade": {
         "success": false,
-        "text": "Thinking the novel might distract Whiskers, you open it and start reading aloud. Unfortunately, Whiskers finds the rustle of turning pages far more interesting than his predicament, causing him to further entangle himself in the search for the source of these intriguing sounds.",
+        "text": "Despite your enthusiasm, using the stainless steel spade to scoop and serve desserts did not quite hit the mark on eco-friendly packaging. Customers found it innovative but impractical, as they were left wondering how to get their dessert home without a mess.",
         "lost": false,
         "newName": ""
       },
-      "Garden hat": {
+      "Prime lens": {
         "success": false,
-        "text": "Attempting to use the garden hat to corral Whiskers only made him more skittish. He darted under the preparation table, tangling the strings further and knocking over a flour canister in his haste, while the hat ended up perched comically on a hanging saucier.",
+        "text": "While attempting to repurpose the prime lens as a magnifying glass to inspect potential eco-friendly materials closely, you quickly realized that its specific design for photography made it far from ideal for this task. It simply wasn't built to serve as a substitute for detailed material inspection required to innovate dessert packaging, leaving you squinting at the samples without gaining any clearer insight.",
         "lost": false,
         "newName": ""
       },
-      "Copper mixing bowls": {
+      "World atlas of coffee": {
         "success": false,
-        "text": "In an attempt to lure Whiskers out of the tangle with the shiny allure of a copper mixing bowl, you underestimated the tabby's penchant for chaos. Upon seeing his reflection, Whiskers launched into the bowl, sending it clanging across the floor and further entangling himself amid the strings and your exasperated sighs.",
+        "text": "In a creative if misguided attempt, you tried using pages from the World Atlas of Coffee as eco-friendly, biodegradable packaging. Unfortunately, customers were less impressed with their desserts wrapped in musty pages about coffee origins and brewing methods than anticipated, and the atlas itself did little to keep the desserts from getting squished or going stale.",
         "lost": false,
         "newName": ""
       },
-      "French press": {
+      "High-speed SD cards": {
         "success": false,
-        "text": "In an attempt to use the French press as a makeshift pulley system to lift Whiskers clear of the apron tangle maze, the plan backfired when the press's glass carafe shattered under the unexpected weight, leaving you with an even bigger mess on your hands and a startled, but still entangled cat.",
+        "text": "While the idea of storing dessert recipes on high-speed SD cards as a form of \"digital dessert delivery\" to reduce packaging waste was inventive, customers were left confused, with empty plates and unfulfilled sweet cravings, unable to sink their teeth into the gigabytes of sugary instructions.",
         "lost": false,
         "newName": ""
       },
-      "Antique cake stand": {
+      "Madeline": {
         "success": false,
-        "text": "Attempting to distract Whiskers with the ornate patterns on the antique cake stand only served to pique his curiosity further, leading him to leap onto it, sending both the stand and a few select aprons flying in a most un-bakery-like fashion.",
+        "text": "In an ambitious attempt to redefine dessert packaging, you decided to use Madeline itself as the container - a larger, presumably edible version to encase other desserts. However, this idea crumbled quicker than the pastry itself under the weight of practicality, proving that a soft sponge cake makes a poor barrier against the elements and the rigors of delivery.",
         "lost": false,
         "newName": ""
       },
-      "Chandelier": {
+      "Reflector": {
         "success": false,
-        "text": "In a flash of ill-advised inspiration, you decided to use your chandelier to entice Whiskers out of the apron string mess, hoping he'd chase its dangling crystals. Unfortunately, all it did was illuminate the chaos without making Whiskers budge, leaving you regretting not just going in the old-fashioned way: hands first.",
+        "text": "In your ambition to merge aesthetics with sustainability, you envisioned the reflector as a dual-purpose dessert packaging solution: to keep baked goods warm using sunlight while dazzling the customer with its brilliance. However, it turns out that your charming town in England doesn't get nearly enough sunlight to make this work consistently - leading to several gooey, under-heated desserts and a batch of bewildered customers wondering why their scones came in a makeshift solar oven.",
         "lost": false,
         "newName": ""
       }
     },
     {
-      "Lace doilies": {
+      "Prime lens": {
         "success": true,
-        "text": "Ingeniously, you decide to display the cupcakes on the lace doilies, transforming them into elegant floral presentations. The garden club ladies were none the wiser, marveling at the \"delicate craftsmanship\" of your \"edible\" arrangements.",
+        "text": "You utilized the prime lens to capture the intricate details of the fermentation process, focusing on the bubbles and the texture of the dough, creating visually stunning content that made the science of bread making both accessible and alluring. Your tutorial went viral, inspiring a new wave of bakers to explore the cozy art of bread making, all while making the fermentation process look utterly Instagram-worthy.",
         "lost": false,
         "newName": ""
       },
-      "Sift": {
+      "Lightbox": {
         "success": true,
-        "text": "With quick thinking, you use the sift to dust a fine layer of powdered sugar over the cupcakes, transforming them into elegantly frosted treats that look as though they've been kissed by a light snow, a perfect save for the Faux Floral Frosting Fiasco.",
+        "text": "You cleverly place your sourdough starter inside the lightbox, illuminating its intricate fermentation bubbles. Snapping photos, you create a visually stunning tutorial that cleverly explains the science and dazzles on social media, making fermentation fun and Instagram-worthy without a single word about pH levels or lactobacilli.",
         "lost": false,
         "newName": ""
       },
-      "Copper mixing bowls": {
+      "High-speed SD cards": {
         "success": true,
-        "text": "Utilizing the impeccable sheen of your copper mixing bowls, you whip together a stunning all-natural frosting using ingredients from your very own garden, its colors inspired by the reflection of the sunset on the bowls' surfaces. The unique metallic glow becomes your muse, guiding you to create a range of botanical hues that mimic the faux floral decorations intended for the cupcakes, all while ensuring each edible embellishment is a feast for the eyes as well as the palate.",
+        "text": "You quickly realize that capturing the slow, magical process of fermentation in a time-lapse video would mesmerize your audience. Using the high-speed SD cards, you record hours of footage, condensed into minutes, revealing the dough's rise and the bubbles forming in a visually stunning manner. This not only educates but also provides those Instagram-worthy shots, grabbing the attention of your target audience.",
         "lost": false,
         "newName": ""
       },
-      "Spatula": {
+      "Reflector": {
         "success": true,
-        "text": "In a stroke of genius, you decide to use the flat edge of the spatula to spread a smooth layer of buttercream on each cupcake, employing a subtle wrist-twist to create petal-like ridges. By mimicking the appearance of flowers without any need for the non-food-grade decorations, you ensure the cupcakes are both safe to eat and a hit at the Sweetwater Garden Party.",
+        "text": "You cleverly positioned the reflector to catch the golden hour sunlight, casting a warm, inviting glow on your sourdough starter at its peak fermentation. This picturesque scene, shared online, beautifully highlighted the yeast's activity, making the science behind bread making both Instagram-worthy and more approachable for your eager audience.",
         "lost": false,
         "newName": ""
       },
-      "Embroidered napkins": {
+      "Matcha": {
         "success": true,
-        "text": "Ingeniously, you lay the embroidered napkins over the cupcakes, using them as stencils to dust powdered sugar in intricate, floral patterns. The result is a charming set of cupcakes that dazzles the garden club ladies with their apparent \"frosted\" elegance, yet requires no actual inedible decorations.",
+        "text": "Leveraging the vibrant green of matcha, you integrate it into the fermentation process, creating a visually stunning sourdough that captures the hearts and feeds of Instagram. Not only does it look amazing in photos, but the subtle flavor it adds makes your tutorial a hit among those looking to spice up their bread game.",
         "lost": false,
         "newName": ""
       },
-      "Whisk": {
+      "Watercolor pads": {
         "success": true,
-        "text": "In a stroke of genius, you whisked together powdered sugar and milk, piping out simple yet elegant flowers and leaves onto each cupcake, transforming the Faux Floral Frosting Fiasco into a triumph by proving the kitchen staple is more mighty than the pen—when it comes to baking, at least.",
+        "text": "Utilizing watercolor pads, you weave the engaging narrative of fermentation processes through captivating, easy-to-follow watercolor illustrations. These illustrations, later digitized, serve as both charming guides for your audience and perfect, shareable content for social media. Each tutorial segment ends with a visually appealing, frame-worthy watercolor that demystifies a step in bread making, making the science behind fermentation not only accessible but Instagram-worthy indeed.",
         "lost": false,
         "newName": ""
       },
-      "Antique cake stand": {
-        "success": true,
-        "text": "With an air of brilliant improvisation, you placed the antique cake stand at the heart of the Sweetwater Garden Party's dessert table, turning it from mere serving ware to a centerpiece that draws every eye. Inviting guests to decorate their own cupcakes with a selection of garden flowers (carefully vetted for non-toxicity, of course) turned a potential disaster into an interactive experience that had everyone buzzing with delight, sidestepping the faux floral frosting fiasco entirely.",
-        "lost": false,
-        "newName": ""
-      },
-      "Teakettle": {
+      "Botany": {
         "success": false,
-        "text": "Thinking outside the box, you attempt to use the steam from the teakettle to slightly moisten the cupcakes, hoping to create a sticky surface to which sugar could adhere, mimicking frosting. Unfortunately, the steam makes the cakes soggy, rather than sticky, leaving you with a disappointing batch of mushy desserts, and the teakettle whistling away, oblivious to the disaster it's contributed to.",
+        "text": "In trying to establish a connection between botany and your fermentation tutorial, you focused on the growth and biology of yeast beyond the kitchen. Unfortunately, most of your audience was more interested in baking Instagram-worthy loaves than the ecological niches of Saccharomyces cerevisiae, leading to a drop-off in engagement.",
         "lost": false,
         "newName": ""
       },
-      "Silk scarf": {
+      "Darjeeling": {
         "success": false,
-        "text": "In a stroke of what seemed like inspiration, you decided to wrap the silk scarf around the cupcakes as a chic, textile decoration. However, the moment Mrs. Penelope Primm, the club's chairwoman, tried to unwrap her cupcake, she declared in horror, \"This is not a frosting! It's fabric!\" making it abundantly clear that silk does not a suitable cupcake decoration make.",
+        "text": "While you initiated the fermentation process with enthusiasm, adding Darjeeling tea into the dough with the hope of imparting an exotic flavor, you found the tannins interfered with yeast activity, leaving your promising loaf not just camera-shy but downright inedible.",
         "lost": false,
         "newName": ""
       },
-      "French press": {
+      "Madeline": {
         "success": false,
-        "text": "In a stroke of desperation, you tried using the French press to squeeze out some last-minute frosting from whatever ingredients were at hand. Alas, instead of creating a delightful swirl of sugary decoration, you managed to produce a gritty, coffee-infused disaster that wouldn't fool a single garden club member, least of all with their quintessentially British taste buds.",
+        "text": "In your eagerness to engage the young audience, you decided to use Madeline, your vintage dough mixer, thinking it would add a quaint charm to your tutorial. However, the old machine couldn't handle the sticky, high-hydration dough of sourdough, wheezing to a halt mid-demo, leaving you to awkwardly knead by hand while trying to keep the tutorial flowing.",
         "lost": false,
         "newName": ""
       },
-      "Garden hat": {
+      "World atlas of coffee": {
         "success": false,
-        "text": "Trying to use your garden hat as a makeshift decoration, you quickly realized that cutting up your hat made it look less like charming floral cupcake toppers and more like a garden party massacre, alienating both your sense of style and the garden club ladies' sensibilities.",
+        "text": "You tried to draw parallels between the fermentation process in coffee and bread, aiming to dazzle with the \"World Atlas of Coffee.\" However, your audience was left confused, mixing up yeast fermentation with coffee roasting, leading to some rather un-Instagrammable loaves that resembled charred bricks more than artisanal bread.",
         "lost": false,
         "newName": ""
       },
-      "Seasonal quilt": {
+      "Lovage": {
         "success": false,
-        "text": "In a burst of inspiration, you decide to drape the cupcakes with tiny cutouts from your seasonal quilt, hoping for a cozy, fabric-esque aesthetic. However, the realization quickly sets in that textile decorations are a far cry from edible ones, leaving you with a charming but inedible mess of quilted cupcakes, much to the dismay of the Sweetwater Garden Party attendees.",
+        "text": "In your quest to make fermentation fun and Instagram-worthy, you decided to incorporate lovage into your sourdough starter, believing its celery-like flavor would be a hit. However, your audience found the combination bewildering rather than appealing, with comments ranging from \"Why does my bread taste like a soup garden?\" to \"Is this a salad or a sourdough?\" The flavor profile was, unfortunately, more confusing than captivating, leading to a failed fermentation experiment live on your feed.",
         "lost": false,
         "newName": ""
       },
-      "Novel": {
+      "Biscotti": {
         "success": false,
-        "text": "In a stroke of inspiration, you tried to carve the novel into decorative shapes to sit atop the cupcakes, thinking to create an edible-looking tableau of literature and baking. However, when the first guest bit into what they expected was a sugary confection but turned out to be a page of \"Pride and Prejudice,\" the plan crumbled faster than a dry scone, leaving you to sheepishly collect the remnants of your \"decorations.\"",
+        "text": "In your enthusiasm to showcase the wonders of fermentation through biscotti, you overlooked one tiny, yet crucial detail - biscotti are twice-baked and don't actually involve the fermentation process. Your audience, armed with the zeal of new bakers and the ruthlessness of Twitter critics, pointed out the mix-up before the yeast had a chance to proof in another, more suitable dough.",
         "lost": false,
         "newName": ""
       },
-      "Chandelier": {
+      "Charcoal": {
         "success": false,
-        "text": "In a burst of inspired creativity, you attempted to dangle the chandelier over the cupcakes, thinking the diffracted light would simulate the iridescence of faux floral frosting. Unfortunately, this ingenious plan ended with a confused look from your cat and the garden club ladies questioning if the lighting was part of an avant-garde presentation, leaving the cupcakes sadly unadorned and making it clear that chandeliers are better left to illuminate, not decorate.",
+        "text": "Trying to add an edgy twist to your bread by incorporating activated charcoal for that deep, Instagrammable hue resulted in a loaf that, while striking, tasted more like sorrow than sourdough. Your followers appreciated the aesthetics, but the engagement took a nosedive when the flavor reviews came in.",
         "lost": false,
         "newName": ""
       },
-      "Cat tower": {
+      "Stainless steel spade": {
         "success": false,
-        "text": "In a moment of whimsical inspiration, you fashioned towers of frosting, mimicking the cat tower's structure, believing it to be a novel theme. However, the garden party's feline aficionado society was less than impressed, deeming your creations a \"glaring mockery\" of their beloved pets' sanctuaries, leading to a distinctly frosty reception that had nothing to do with your intended confectionery elegance.",
+        "text": "In your zeal to demonstrate the art of fermentation, you mistook the sleek, sturdy stainless steel spade for a proper mixing tool. Regrettably, its broad surface was less than ideal for incorporating the delicate ingredients, squashing rather than folding the air pockets vital for a perfect sourdough rise, resulting in a dense, unrisen loaf far from Instagram-ready.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sand bottles": {
+        "success": false,
+        "text": "In a whirlwind of creativity, you decided to use sand bottles to add color to your sourdough bread, aiming for a masterpiece. Unfortunately, the vibrant sand layers mixed into the dough did not ferment, resulting in a dense, unappetizing loaf more suitable for a paperweight than Instagram fame.",
         "lost": false,
         "newName": ""
       }
     },
     {
-      "Whisk": {
+      "Lovage": {
         "success": true,
-        "text": "With your trusty whisk in hand, you expertly blend a savory cheddar cheese into your signature caramel sauce, creating a bold, yet harmonious dessert topping that Granny Gizmo declares is \"exactly the symphony\" she'd dreamed of.",
+        "text": "Using your knowledge of herbs, you expertly integrated lovage into the filling of the pastry pockets, its savory quality mimicking the depth of flavor typically provided by meat. This clever use of lovage made Aunt Edna's \"Sunday Roast\" pastry pockets a hit with both the vegetarians and meat-eaters alike, proving vegetables could indeed be the lead actors on this culinary stage.",
         "lost": false,
         "newName": ""
       },
-      "Sift": {
+      "Botany": {
         "success": true,
-        "text": "With a confident flick of the wrist, you used the sieve to expertly combine a delicately balanced mix of flour, a pinch of sea salt, and a whisper of sugar, ensuring a perfect blend for your sweet and savory masterpiece that Granny Gizmo could not resist. The sifted ingredients laid the foundation for a dessert that truly was a symphony of taste, dancing on Granny's tongue.",
+        "text": "Utilizing your botany knowledge, you cultivated an array of savory herbs and robust vegetables, they became the core of the flaky pastry pockets. Your creation of “Not-So-Meaty Marvels” with layers of seasoned root vegetables, mushrooms for a meaty texture, and a hint of mint for freshness, left the family in awe of how delightful and filling vegetables could be, making even the skeptics tip their hats to the power of plants.",
         "lost": false,
         "newName": ""
       },
-      "Copper mixing bowls": {
-        "success": true,
-        "text": "Utilizing the copper mixing bowls, you expertly temper chocolate, ensuring it achieves just the right consistency to blend with a dash of sea salt and caramelized bacon bits, crafting a dessert that indeed dances on the tongue, much to Granny Gizmo's delight.",
-        "lost": false,
-        "newName": ""
-      },
-      "Spatula": {
-        "success": true,
-        "text": "With the spatula in hand, you masterfully fold in finely chopped candied bacon into your signature sweet batter, ensuring an even distribution of the savory surprise within each scoop. This deft touch transforms your creation into the perfect balance of sweet and savory Granny Gizmo craved.",
-        "lost": false,
-        "newName": ""
-      },
-      "Teakettle": {
-        "success": true,
-        "text": "Leveraging the teakettle's capacity for brewing, you concocted a delicate tea-infused caramel sauce to drizzle over a savory bacon and cheddar scone, marrying the sweet with the savory in a way that Granny Gizmo declared a triumph of culinary artistry.",
-        "lost": false,
-        "newName": ""
-      },
-      "Antique cake stand": {
-        "success": true,
-        "text": "Leveraging the elegant charm of your Antique Cake Stand, you present your avant-garde dessert in a style that honors the traditions Granny Gizmo reveres, mixing the familiar with the innovative. This not only elevates your dessert's presentation but also ignites Granny's nostalgia, making your creation an unforgettable hit.",
-        "lost": false,
-        "newName": ""
-      },
-      "French press": {
-        "success": true,
-        "text": "Leveraging the robust flavors of a savory coffee blend, you used your French press to infuse a rich, sweet caramel sauce with a hint of salt and coffee, creating a groundbreaking dessert topping that left Granny Gizmo in awe of your culinary creativity.",
-        "lost": false,
-        "newName": ""
-      },
-      "Lace doilies": {
+      "Matcha": {
         "success": false,
-        "text": "In an ambitious yet slightly misplaced effort to impress Granny Gizmo, you attempt to weave delicate lace doilies into an edible dessert component, hoping their intricate designs would somehow infuse a blend of sweet and savory. Unfortunately, lace doilies, while perfect for underlining a cake, don't quite carry flavor, leaving Granny puzzled and your dessert woefully lacking in the adventurous taste she craved.",
+        "text": "Believing the earthy flavor of matcha could hero the dish, you generously sprinkled it into Aunt Edna's pastry mix only to realize the green tea powder overpowered every other flavor, leaving your family puzzling over whether they were eating dessert or dinner. In the process, half the container of matcha was used, disappearing into the pastry dough like green fairy dust gone rogue.",
         "lost": false,
         "newName": ""
       },
-      "Embroidered napkins": {
+      "Darjeeling": {
         "success": false,
-        "text": "As you delicately folded the embroidered napkins beside the served dish, Granny Gizmo chuckled, noting, \"Dear, these add charm to the table, but they do little to blend sweet and savory in the palate.\" The napkins, though elegant, could not mask the absence of culinary innovation.",
+        "text": "Intent on infusing your vegetarian roast with an innovative twist, you reached for the Darjeeling tea, envisioning a delicately flavored pastry that would dazzle the senses. However, the robust, earthy tones of Darjeeling clashed rather spectacularly with the assortment of vegetables, rendering the pastry pockets bitter and the vegetables unrecognizable under the overpowering tannins.",
         "lost": false,
         "newName": ""
       },
-      "Garden hat": {
+      "Charcoal": {
         "success": false,
-        "text": "Attempting to impress Granny Gizmo, you used your garden hat to gather fresh herbs and edible flowers aiming for that sweet and savory creation. However, as it turns out, a garden hat, while quaint, is less than ideal for ingredient collection — the sweat and dirt from its prior use did little other than add an \"earthy\" flavor that decidedly did not dance on anyone's tongue.",
+        "text": "In a bold move to infuse the pastry with a smoky flavor, you incorporated the charcoal into the dough. The result was a set of pastries that looked more like they were salvaged from a house fire than a welcoming oven, turning the family's anticipation into bewilderment.",
         "lost": false,
         "newName": ""
       },
-      "Chandelier": {
+      "Biscotti": {
         "success": false,
-        "text": "Attempting to impress Granny Gizmo with the sheer opulence of the dessert presentation, you decided to incorporate the chandelier directly into your creation. Unfortunately, as you drizzled the last of the caramel sauce over the sparkly fixture, you discovered that chandeliers, while magnificent in illuminating a room, do nothing to enhance the flavor profile of a dessert, leaving Granny Gizmo more puzzled than pleased.",
+        "text": "Attempting to sway the hearts and stomachs of your family with biscotti, you quickly realized that the crunchy, coffee-dipping cookie did little to replicate the savory, umami-packed experience of Aunt Edna's \"Sunday Roast\" pockets. The family appreciated the effort, but remarked that biscotti felt more like a dessert misstep rather than a main course marvel.",
         "lost": false,
         "newName": ""
       },
-      "Seasonal quilt": {
+      "World atlas of coffee": {
         "success": false,
-        "text": "As you unfurled your Seasonal Quilt, hoping its patchwork of autumn hues might inspire a groundbreaking sweet and savory dessert, you quickly realized that fabric patterns, no matter how appetizing they looked, couldn't impart the flavor profiles needed to satisfy Granny Gizmo's cosmopolitan palate.",
+        "text": "Attempting to sway your family with a \"World Atlas of Coffee\" might've seemed like a good idea at the time, aiming to pair the perfect brew with your vegetarian concoction. Unfortunately, the atlas didn't contain any recipes for a meatless Sunday Roast, leaving your presentation on the origins of Ethiopian beans feeling a tad out of place amidst the pastry pocket debacle.",
         "lost": false,
         "newName": ""
       },
-      "Silk scarf": {
+      "Stainless steel spade": {
         "success": false,
-        "text": "In a moment of whimsical inspiration, you tried to use the silk scarf to strain a bold concoction of caramelized onions and chocolate, hoping for a miraculous fusion of savory and sweet. However, the delicate silk was no match for the hot mixture, leading to a lamentable mess and a ruined scarf, far from the symphony of taste Granny Gizmo dreamed of.",
+        "text": "In an effort to garden fresh produce for your veggie version of Aunt Edna’s “Sunday Roast” pastry pockets, you enthusiastically wielded your stainless steel spade. However, your lack of gardening experience meant you struck a water pipe, turning your veggie garden into a muddy swamp and leaving the spade embedded in the ground, handle askew, as a monument to your overly ambitious dig.",
         "lost": false,
         "newName": ""
       },
-      "Novel": {
+      "Sand bottles": {
         "success": false,
-        "text": "In your attempt to use the novel for inspiration, you found yourself swept up in a gripping story of intrigue and betrayal rather than recipes, spending hours engrossed in its pages rather than brainstorming a groundbreaking dessert, much to Granny Gizmo's disappointment.",
+        "text": "Attempting to season your veggie pockets with what you thought was an exotic array of spices from the sand bottles, you instead added a gritty surprise that turned Aunt Edna’s “Sunday Roast” into a dental hazard. Your creation was memorably crunchy, but for all the wrong reasons.",
         "lost": false,
         "newName": ""
       },
-      "Cat tower": {
+      "Watercolor pads": {
         "success": false,
-        "text": "In an inspired yet misguided attempt to impress Granny Gizmo, you ingeniously fashioned a dessert resembling a cat tower, believing its structure might allow for an innovative mix of sweet and savory layers. However, the culinary world was not ready for a dessert that starkly reminded patrons of their furry friends' playthings, leading to a confused and slightly horrified reaction from Granny Gizmo herself.",
+        "text": "In a moment of misguided inspiration, you attempted to use the watercolor pads as a substitute for phyllo pastry, believing the thin, layered appearance could inspire a new kind of vegetarian delight. Unfortunately, your guests were less than enthused to find their plates adorned with inedible, albeit colorful, paper creations instead of the savory treat they were anticipating.",
+        "lost": false,
+        "newName": ""
+      },
+      "Madeline": {
+        "success": false,
+        "text": "Using the Madeline, a delicate, shell-shaped sponge cake, as a meat substitute in Aunt Edna's \"Sunday Roast\" pastry pockets resulted in a soggy mess, far from the robust texture needed to mimic meat, leading to a hilarious but disappointing culinary experiment where the cake disintegrated upon the first bite.",
+        "lost": false,
+        "newName": ""
+      },
+      "Lightbox": {
+        "success": false,
+        "text": "You thought using the lightbox to trace Aunt Edna’s legendary pastry pocket recipe might enlighten the path to a veggie masterpiece. However, while the lightbox expertly illuminated every detail of the original recipe, it couldn't inspire those not-so-meaty fillings to burst with flavor on their own. It seems the artistry of cooking demands more than just a clear view of the instructions.",
+        "lost": false,
+        "newName": ""
+      },
+      "Reflector": {
+        "success": false,
+        "text": "In a burst of inspiration, you thought using the reflector to focus sunlight, hoping to slow-roast vegetables outdoors as a theatrical cooking demonstration. Unfortunately, the quaint English weather had other plans, clouding over and reducing your ambitious culinary display to a lukewarm, slightly crunchy affair far from the roasted delight you envisioned.",
+        "lost": false,
+        "newName": ""
+      },
+      "Prime lens": {
+        "success": false,
+        "text": "In a burst of creative insight, you figured using the prime lens to photograph Aunt Edna's \"Sunday Roast\" pastry pockets in stunning detail could inspire a meatless version by highlighting the textures and colors of potential vegetable fillings. Yet, despite your best efforts, the gleaming close-ups of flaky pastry failed to translate into a tangible recipe, leaving your vegetarian niece just as excluded as before.",
+        "lost": false,
+        "newName": ""
+      },
+      "High-speed SD cards": {
+        "success": false,
+        "text": "In an attempt to revolutionize the art of baking with digital recipes, you cleverly thought to store Aunt Edna's modified veggie roast instructions on a high-speed SD card. Unfortunately, during the crucial moment of proving your vegetal prowess, you found that the kitchen's rustic charm didn't extend to having electronic devices handy, leaving the cutting-edge culinary data marooned in digital limbo.",
         "lost": false,
         "newName": ""
       }
     },
     {
-      "Chandelier": {
+      "Matcha": {
         "success": true,
-        "text": "You cleverly organized an evening baking event under the starlit theme, where the centerpiece was your elegant chandelier. By relocating tables to surround the chandelier in a more spacious layout, you not only retained the cozy charm but also managed to accommodate more guests who were all too happy to dine under the twinkling lights.",
+        "text": "Using your matcha, you teamed up with Daisy to create a line of innovative, locally-sourced matcha-flavored baked goods. The unique, verdant hue and earthy sweetness attracted foodies and skeptics alike, demonstrating that quality and creativity can indeed trim costs without sacrificing flavor. You skillfully utilized matcha in each recipe, ensuring that the essence of Daisy's farm was tasted in every bite without depleting your matcha stash significantly.",
         "lost": false,
         "newName": ""
       },
-      "Embroidered napkins": {
+      "Lovage": {
         "success": true,
-        "text": "In a stroke of cozy genius, you arrange a \"Bring Your Own Pillow\" event, encouraging patrons to snag a seat with their embroidery-adorned napkins as their entry ticket. This homely touch not only solves the seating squeeze by incorporating floor seating, adorned with fluffy pillows brought from home but also reinforces the bakery's inviting atmosphere, making each visit a unique, communal experience.",
+        "text": "Transforming Daisy's freshly picked lovage into a show-stopping locally sourced herb bread, you dazzled your customers with a unique flavor that kept costs down and word-of-mouth up. The herb's robust taste and your creative use proved that high quality and affordability could go hand in hand.",
         "lost": false,
         "newName": ""
       },
-      "Antique cake stand": {
+      "Botany": {
         "success": true,
-        "text": "With a pinch of ingenuity, you turn the antique cake stand into a centerpiece at each table, maximizing space by elegantly stacking scones and pastries upwards rather than sprawling them across the table. This vertical strategy not only saved space, thereby allowing more chairs to be cozily nudged in, but also turned each serving into a conversation piece, enhancing the inviting atmosphere your bakery is known for.",
+        "text": "Using your knowledge of botany, you selected varieties of fruits and vegetables that were not only suited to the local climate but also had shorter growing times and higher yields. This allowed you to create a range of delicious, locally sourced baked goods without hiking up the prices, showcasing that quality and community can go hand in hand.",
         "lost": false,
         "newName": ""
       },
-      "Lace doilies": {
+      "Darjeeling": {
         "success": true,
-        "text": "You decided to host a \"DIY Tea Party\" event at your bakery, where patrons could occupy smaller tables more efficiently by personalizing their spaces with your collection of charming lace doilies. This not only maximized seating but turned each visit into a unique experience, preserving the cozy atmosphere while accommodating more guests.",
+        "text": "Harnessing the unique flavor of Darjeeling, you introduce a novel \"Tea-Infused\" line of baked goods, which becomes an instant hit. Marrying Daisy's fresh fruits with the exotic notes of Darjeeling, your pastries offer a taste that's both local and luxurious without hiking up the prices.",
         "lost": false,
         "newName": ""
       },
-      "Novel": {
-        "success": false,
-        "text": "In your attempt to solve the seating squeeze, you decided to place the novel on a cozy little reading nook in the corner, hoping it would encourage single visitors to linger there and free up space elsewhere. However, this venture backfired spectacularly - instead of enticing solo patrons, groups began to hoard around the nook, arguing over who got to read next, creating even less room and more discontent amongst your clientele.",
+      "Stainless steel spade": {
+        "success": true,
+        "text": "With the stainless steel spade in hand, you ventured into Daisy's fields early in the morning, turning over the soil around the most promising plants to encourage growth. Your efforts increased the yield and quality of the crops, allowing you to maintain steady prices while dazzling your customers with the freshness of the local produce.",
         "lost": false,
         "newName": ""
       },
-      "Seasonal quilt": {
-        "success": false,
-        "text": "In an attempt to use the seasonal quilt as a makeshift seating arrangement, you quickly found that the delicate fabric wasn't prepared for the wear and tear of daily use. Frayed edges and a noticeable tear from someone's enthusiastic plop turned your cozy idea into a cozy disaster.",
+      "Biscotti": {
+        "success": true,
+        "text": "You leveraged the biscotti as a versatile, cost-effective delight, incorporating Daisy's delectable array of nuts and fruits into the recipe. This not only highlighted the premium quality of local produce but also showcased your ingenuity in using what's readily available, charming the locals and tourists alike without inflating the prices.",
         "lost": false,
         "newName": ""
       },
-      "French press": {
+      "Charcoal": {
         "success": false,
-        "text": "In an attempt to brew charm and efficiency into your seating solution, you organized a cozy corner where patrons could serve themselves coffee from a French press. Unfortunately, this only led to a bottleneck of caffeine-deprived customers jostling for their share, inadvertently spilling coffee and creating more dissatisfaction without adding a single seat to the cramped space.",
+        "text": "You had the brilliant idea to use the charcoal for a barbecue-themed baking event to spotlight Daisy's produce. Unfortunately, you quickly discovered that charcoal-baked bread results in loaves more suitable for a hockey game than a food fair, turning Daisy's beautiful produce into doorstops rather than delicacies.",
         "lost": false,
         "newName": ""
       },
-      "Teakettle": {
+      "Madeline": {
         "success": false,
-        "text": "You believed that by offering a \"Tea for Space\" promotion, where customers with teakettles could get a discount if they shared tables, would solve the seating squeeze. Unfortunately, rather than encouraging camaraderie, it only led to confusion and a procession of customers trying to brew their tea at their tables, creating a logistical nightmare rather than the cozy, communal atmosphere you envisioned.",
+        "text": "Believing a tray of Madelines could capture the essence of Daisy's farm, you quickly learned that these delicate French sponge cakes, though delightful, couldn't carry the versatility of the local produce on their own. The customers were charmed but pointed out that Madelines hardly showcase the range or impact of going local.",
         "lost": false,
         "newName": ""
       },
-      "Copper mixing bowls": {
+      "World atlas of coffee": {
         "success": false,
-        "text": "In a burst of inspiration, you decide to invert your copper mixing bowls and use them as makeshift bases for a new tier of seating, only to find that the bowls are far too wobbly and unstable, causing a minor, albeit comical, disaster when the first customer to take a seat ends up on the floor, pastry in hand and dignity slightly bruised.",
+        "text": "In an effort to diversify your baked goods with a global coffee twist, you referenced the World Atlas of Coffee to select the perfect beans that would complement your local ingredients. However, you quickly realized that coffee beans aren't part of Daisy's produce offerings, rendering your atlas less than useful in this farm-to-table scenario.",
         "lost": false,
         "newName": ""
       },
-      "Spatula": {
+      "Prime lens": {
         "success": false,
-        "text": "In a valiant effort, you tried using the spatula to rearrange cakes and pastries more efficiently, dreaming it would free up enough space to add another table. Alas, pastries aren't patrons, and your attempt resulted in nothing more than a slightly more organized display case, with nary a new seat in sight.",
+        "text": "In a moment of inspiration, you decide to use your prime lens to capture the essence of Daisy's produce, envisioning a marketing campaign that would highlight the freshness and quality of the local goods. However, the lens, being highly specialized for portrait photography, fails to capture the vibrant colors and textures of the produce in the appealing way you had imagined, leaving your promotional materials lackluster.",
         "lost": false,
         "newName": ""
       },
-      "Cat tower": {
+      "Lightbox": {
         "success": false,
-        "text": "In an attempt to add whimsy and maximize vertical space, you rearranged your bakery to incorporate the cat tower as an unconventional seating option. However, it quickly became apparent that adults found the tower neither comfortable nor practical, leading to a notable decline in the lunch crowd and leaving the tower as nothing more than an oversized scratching post for the neighborhood cats who wandered in.",
+        "text": "With the intention of using the Lightbox to create beautiful, Instagram-worthy photos of the local produce and your baked goods, you quickly realized that great photography alone couldn't sway the locals' perception of price versus value. Simply put, no one cared how good the radishes looked in a softly lit photo if they were triple the price of supermarket ones.",
         "lost": false,
         "newName": ""
       },
-      "Whisk": {
+      "Reflector": {
         "success": false,
-        "text": "In a floury frenzy of inspiration, you attempted to use your whisk as a sort of baton, directing customers to seats in a more efficient choreography to maximize space. Unfortunately, the only thing you managed to do was cause a mild panic as people mistook your enthusiastic whisk-waving for a sign of a kitchen emergency, leading to a less-than-cozy stampede towards the exit.",
+        "text": "In a burst of inspiration, you tried using the reflector to harness sunlight, aiming to create a solar oven that showcased Daisy's produce through slow-cooked perfection. However, the quaint English weather had other plans, presenting you with a week of overcast skies and a reflector that turned into little more than a highly polished tray for holding uncooked vegetables.",
         "lost": false,
         "newName": ""
       },
-      "Sift": {
+      "High-speed SD cards": {
         "success": false,
-        "text": "In a burst of inspiration, you attempted to use the sift to evenly distribute the available seating, much like flour in a well-executed recipe. However, quickly you found that people, unlike flour, aren't easily sieved into neat arrangements, especially when they're determined to snag their favorite table by the window.",
+        "text": "In a bold move to digitize your local produce offerings, you tried using high-speed SD cards to store recipes and detailed information about the crops. Unfortunately, customers weren't interested in digital downloads; they wanted to taste, smell, and touch the actual produce, not just read about them.",
         "lost": false,
         "newName": ""
       },
-      "Silk scarf": {
+      "Watercolor pads": {
         "success": false,
-        "text": "In a well-intentioned effort, you draped your silk scarf over a corner chair, imagining it as the start of a whimsical tent-like extension to add extra \"seating\" beneath. However, this attempt not only failed to entice any customers into this makeshift nest, but a well-meaning patron handed it back to you, mistaking it for a lost item rather than an ingenious seating solution.",
+        "text": "In a burst of inspiration, you tried to use the watercolor pads to create hand-painted menus showcasing Daisy's local produce, hoping the artistic touch would justify higher prices. Unfortunately, your culinary skills far outmatched your artistic ones, leading to a collection of soggy, indistinguishable smears rather than appetizing illustrations.",
         "lost": false,
         "newName": ""
       },
-      "Garden hat": {
+      "Sand bottles": {
         "success": false,
-        "text": "Attempting to use the garden hat to playfully direct customers towards less crowded seating areas, you realized that the charm was lost on your patrons, who saw it more as a quirky confusion than an effective way to manage the seating crunch.",
+        "text": "Attempting to incorporate sand bottles into your baking recipes as a unique local ingredient, you quickly realize that gritty texture doesn't quite translate to \"local charm\" in a Victoria sponge cake. The customers, hoping for a bite of heaven, were met with a crunch that definitely didn't scream 'farm fresh.'",
         "lost": false,
         "newName": ""
       }
     },
     {
-      "Whisk": {
+      "Charcoal": {
         "success": true,
-        "text": "Utilizing the whisk, you masterfully blended the flavors of Sweetwater's tales into the batter, ensuring each fold captured the essence of the town's secret life. This humble tool helped you weave the narrative into the very crumb of the cake, making it not only a feast for the tongues but for the eyes as narratives took shape in frosting and fondant.",
+        "text": "Ingeniously, you removed the faulty thermostat, then, using charcoal as a heat source, you carefully controlled the temperature by adjusting the amount and placement of the charcoal. The scones emerged golden and perfect, charming the afternoon tea crowd.",
         "lost": false,
         "newName": ""
       },
-      "Spatula": {
+      "Reflector": {
         "success": true,
-        "text": "With the spatula in hand, you meticulously layered and sculpted your cake, using its flexible edge to smooth luscious buttercream into scenes depicting Sweetwater's secret gardens and hidden talents. This tool became an extension of your craft, allowing you to translate the town’s untold stories into edible art that charmed and delighted at the auction.",
+        "text": "By placing the reflector strategically inside the oven, you create a makeshift hotspot that evens out the oven's erratic temperature, resulting in perfectly golden scones that would make any baker green with envy.",
         "lost": false,
         "newName": ""
       },
-      "Sift": {
+      "Sand bottles": {
         "success": true,
-        "text": "Using your trusty sift, you carefully incorporate the finest flour into your cake batter, ensuring a texture as smooth as Sweetwater's hidden narratives. With each sift, you imagine sprinkling in tales of clandestine love and secret societies, your cake layers becoming the embodiment of Sweetwater's untold stories. The sift, unscathed in the process, remains by your side, ready for your next culinary adventure.",
+        "text": "Ingeniously, you filled a tray with sand from your sand bottles and nestled the scone tray atop, using the sand's heat distribution properties to bake them evenly despite the oven's temper tantrum.",
         "lost": false,
         "newName": ""
       },
-      "Antique cake stand": {
-        "success": true,
-        "text": "Using the antique cake stand, you arranged a multi-tiered cake masterpiece that visually depicted Sweetwater's history, from its founding days to present, with each layer representing a different era. The stand, with its intricate designs, added an air of elegance and a sense of timelessness, making your cake not just a dessert, but a storytelling artifact that captivated the auction attendees.",
-        "lost": false,
-        "newName": ""
-      },
-      "Copper mixing bowls": {
-        "success": true,
-        "text": "Utilizing your copper mixing bowls, you expertly whip up the batter that forms the base of your storytelling cake, drawing upon their renowned ability to stabilize egg whites to a perfect peak. This foundational success allows you to craft intricate layers that not only taste divine but, with their varying heights and colors, also visually narrate the charms and eccentricities of Sweetwater's residents.",
-        "lost": false,
-        "newName": ""
-      },
-      "Lace doilies": {
-        "success": true,
-        "text": "You decided to use the lace doilies as an innovative stencil to dust powdered sugar patterns on your cake, creating a visual narrative of Sweetwater's secret gardens and hidden nooks. This ingenious application of doilies turned your cake into a delicious map, revealing the town's lesser-known charms through a sweet, edible form.",
-        "lost": false,
-        "newName": ""
-      },
-      "Embroidered napkins": {
-        "success": true,
-        "text": "You used the embroidered napkins as templates, tracing their intricate patterns onto the cake with edible ink, weaving tales of Sweetwater's history and hidden passions into the icing. Each piece of the cake now told a part of the town's story, inspired by the designs on the napkins, making your creation not just a feast for the taste buds but for the eyes and heart as well.",
-        "lost": false,
-        "newName": ""
-      },
-      "Novel": {
+      "Lightbox": {
         "success": false,
-        "text": "In your eagerness to incorporate a compelling narrative into your cake design, you decided to embed pages of a novel directly into the icing, thinking the literal approach would dazzle. Alas, as guests tried to decipher the prose amidst mouthfuls of fondant, they found the experience more puzzling than pleasant, realizing they couldn’t eat the story or enjoy the read with sticky fingers.",
+        "text": "In an inspired yet misguided attempt, you tried using the lightbox to visually gauge the doneness of your scones from the outside. Unfortunately, the soothing glow did little more than highlight the dramatic shadows cast by your increasingly charred pastries.",
         "lost": false,
         "newName": ""
       },
-      "French press": {
+      "Stainless steel spade": {
         "success": false,
-        "text": "In a bold move, you decided to use your French press to infuse each cake layer with a strong coffee flavor, aiming to weave a tale of Sweetwater's secret love for late-night gatherings and spirited conversations. However, overwhelmed by the potency of the brew, the cake turned out bitter, alienating the palates of the town's residents who were expecting something a bit sweeter to complement the cozy theme.",
+        "text": "Attempting to adjust the oven racks with your stainless steel spade, you quickly found its width cumbersome, unable to maneuver within the oven's tight confines, thus rendering it ineffective for recalibrating the thermostat or evenly distributing heat.",
         "lost": false,
         "newName": ""
       },
-      "Teakettle": {
+      "Darjeeling": {
         "success": false,
-        "text": "Emboldened by a brilliant stroke of inspiration, you decided to use the teakettle to brew a tea-infused batter, steeping storytelling in every layer with flavors inspired by Sweetwater's lore. However, your ambition outpaced your culinary experience, resulting in a cake that, while ambitious, had guests discreetly seeking out the nearest spittoon—turns out, Earl Grey and fish tales don't pair well in sponge form.",
+        "text": "In a novel stroke of intuition, you decided to steep the Darjeeling and mist it over the scones, hoping the tea's distinctive aroma would mask any signs of uneven cooking. Unfortunately, your customers were not fooled by the clever aromatic ruse, quickly discerning the difference between a perfectly baked scone and one merely perfumed in tea sophistication.",
         "lost": false,
         "newName": ""
       },
-      "Seasonal quilt": {
+      "Matcha": {
         "success": false,
-        "text": "Attempting to use the seasonal quilt as inspiration, you failed to translate its cozy, patchwork charm into the cake's design. Your attempt at a fondant quilt quickly turned into a sticky, color-bleeding mess that looked more like a map of mysterious stains rather than the comforting pattern you envisioned.",
+        "text": "Attempting to infuse your underbaked and burnt scones with matcha to mask the mishap, you quickly realized that while the green hue added a delightful color, it did nothing to remedy the texture or temperature inconsistencies of your scones, leaving customers puzzled by the unintended fusion of tea time and baking.",
         "lost": false,
         "newName": ""
       },
-      "Silk scarf": {
+      "Madeline": {
         "success": false,
-        "text": "In an ambitious move, you draped the silk scarf over the cake as a chic tablecloth to illustrate \"The Secret Life of Sweetwater,\" inadvertently sparking confusion among the auction attendees who mistook it for a no-touch display piece, leaving its stories untasted and untold.",
+        "text": "Thinking Madeline, your trusty baking utensil, could somehow substitute for a thermostat, you attempted to use its delicate structure to gauge the temperature. Regrettably, its purpose for precision in creating petite sponge cakes could not translate to thermostat duties, leading to an even mix of charred and doughy scones.",
         "lost": false,
         "newName": ""
       },
-      "Garden hat": {
+      "Biscotti": {
         "success": false,
-        "text": "In a stroke of what seemed like inspiration, you decided to use the garden hat as a mold for the base of your story cake, envisioning edible flowers and a charming garden scene that Sweetwater would adore. However, the hat's fabric clung tenaciously to your cake, leaving you with a crumbled mess instead of the lush, secret garden you had imagined.",
+        "text": "In a creative spark, you used the biscotti as makeshift oven thermometers, thinking their readiness could mirror the proper baking environment for your scones. Unfortunately, biscotti, already twice-baked and hard as rocks, offered no clues about the oven's erratic temperature, leaving your scones as unpredictable as ever.",
         "lost": false,
         "newName": ""
       },
-      "Chandelier": {
+      "Lovage": {
         "success": false,
-        "text": "In a burst of inspiration, you decided to hang tiny, edible facsimiles of the chandelier from Sweetwater's most storied mansion around your cake, aiming for a \"Secret High Society\" theme. However, the sugary chandeliers proved too heavy, causing them to plummet into the delicately frosted layers below, creating a scene more akin to a demolition site than a high society gala.",
+        "text": "In a novel attempt to save the day, you decide to use lovage, hoping its strong, celery-like aroma might somehow mask the scent of failure wafting from your scones. Unfortunately, the robust herb only adds a confusing savory twist to your sweet pastries, leaving your customers wondering if they're having tea or a very confused salad.",
         "lost": false,
         "newName": ""
       },
-      "Cat tower": {
+      "World atlas of coffee": {
         "success": false,
-        "text": "In an attempt to embody \"The Secret Life of Sweetwater\" through the lens of its feline companions, you constructed an ambitious cat tower-shaped cake. However, the inherent instability of replicating such a tall and slender structure out of sponge and frosting led to your sugary creation toppling over before it could even be presented at the auction.",
+        "text": "In an effort akin to trying to use a map in a blackout, consulting your World Atlas of Coffee for oven temperature guidance led only to a poignant understanding of the various brewing temperatures for coffee around the globe, but alas, not a single scone was saved.",
+        "lost": false,
+        "newName": ""
+      },
+      "Botany": {
+        "success": false,
+        "text": "In an inspired yet ultimately misguided attempt, you tried harnessing your botanical knowledge to adjust the moisture content of the scone dough, hoping to counteract the erratic oven temperatures. Sadly, this only resulted in a batch of scones that were somehow simultaneously soggy and charred, proving that perhaps plants and pastries don't mix as well as hoped.",
+        "lost": false,
+        "newName": ""
+      },
+      "Prime lens": {
+        "success": false,
+        "text": "Trying to use the prime lens to gauge the temperature inside the oven only resulted in a beautifully magnified view of your doomed scones, doing nothing to prevent the imminent pastry apocalypse.",
+        "lost": false,
+        "newName": ""
+      },
+      "High-speed SD cards": {
+        "success": false,
+        "text": "Attempting to solve your oven’s erratic temperature with high-speed SD cards was an inventive but ultimately fruitless effort. You tried loading them into a makeshift digital thermometer, hoping their data processing could somehow regulate the heat, but alas, high-speed SD cards are not magic wands for broken appliances, and your scones remained victims of culinary roulette.",
+        "lost": false,
+        "newName": ""
+      },
+      "Watercolor pads": {
+        "success": false,
+        "text": "In a hopeful endeavor, you spread the watercolor pads across the oven rack intending them to regulate the heat, but alas, your scones ended up with an artistic smudge of colors, far from the edible masterpiece anticipated.",
         "lost": false,
         "newName": ""
       }
     },
     {
-      "Copper mixing bowls": {
+      "World atlas of coffee": {
         "success": true,
-        "text": "Utilizing the natural properties of the copper mixing bowls, you filled one with a mixture of vinegar and salt, creating a gentle yet effective solution that removed the rust from the antique tools without damaging their integrity. As a result, the old baking tools were restored, gleaming once more on your bakery's walls, their vintage charm intact.",
+        "text": "Using your \"World Atlas of Coffee,\" you meticulously researched and selected the finest coffee beans from around the globe to complement your baked goods. This unique selling point not only drew in coffee aficionados but also created a harmonious café atmosphere where customers savored the pairing of your bakery delights with world-class coffee.",
         "lost": false,
         "newName": ""
       },
-      "Sift": {
+      "Matcha": {
         "success": true,
-        "text": "Using the Sift not in its traditional role but as a fine abrasive tool, you gently scrub away the rust from your antique baking tools, revealing their original luster without damaging their aged patina, thus saving a piece of your bakery's soul while maintaining the integrity of these precious items.",
+        "text": "Leveraging matcha's growing popularity, you decided to introduce a line of exclusive matcha-infused pastries. This unique offering went viral online, significantly boosting your bakery's profile and leading to a flood of custom orders from matcha enthusiasts. This success made it clear that focusing on your online presence was the way forward, and you did so with a very green footprint.",
         "lost": false,
         "newName": ""
       },
-      "Spatula": {
+      "High-speed SD cards": {
         "success": true,
-        "text": "Using your spatula, you gently scraped off the loose rust from the baking tools, careful not to damage the underlying metal. Then, with a bit of oil and elbow grease, you buffed each tool back to a presentable antique shine, preserving their stories and your bakery’s charm.",
+        "text": "By leveraging high-speed SD cards, you digitized your entire catalog of baking creations, complete with mouthwatering visuals and descriptions. This allowed you to launch an exceptionally responsive and visually stunning online ordering platform that catered to custom orders, propelling your bakery into the digital age without sacrificing the personal touch of your cozy creations.",
         "lost": false,
         "newName": ""
       },
-      "Whisk": {
+      "Madeline": {
         "success": true,
-        "text": "With gentle, precise strokes, you used the whisk to carefully brush away the surface rust from your prized antique baking tools, revealing their original luster beneath. Your bakery's walls were once again adorned with history, untarnished.",
+        "text": "Utilizing the Madeline, you craft an exclusive line of madeleines, each a miniature masterpiece of flavor. The unique offering becomes a sensation, perfectly positioning your bakery for a cozy café expansion where customers savor your creations amidst aromatic coffee and tea, transforming Madeline into a brand symbol of your success.",
         "lost": false,
         "newName": ""
       },
-      "Teakettle": {
+      "Darjeeling": {
         "success": true,
-        "text": "You filled the teakettle with water and brought it to a boil, then carefully poured the hot water over cloths wrapped around the rusty tools. The gentle heat helped loosen the rust without damaging the delicate metal, restoring the antiques to their near-original luster.",
+        "text": "You decided to host a series of \"Darjeeling and Desserts\" events at local community centers, showcasing your bakery's prowess while discussing the cozy café idea with potential investors and customers. The success and positive feedback from these events convinced you to combine the café space with an online custom order service, leveraging the charm of Darjeeling-inspired pastries. Your little tin of Darjeeling was essential for taste-testing and event planning but thankfully remains nearly as full as when you started, thanks to its sparing use.",
         "lost": false,
         "newName": ""
       },
-      "Antique cake stand": {
-        "success": false,
-        "text": "In your earnest attempt to use the antique cake stand to leverage a higher position, working on the rusty baking tools from a better angle, the stand, not designed to bear such weight and use, buckles under the pressure. The moment you place one of the tools on it, the stand collapses, leaving you with a heap of metal, rust, and disappointment.",
+      "Biscotti": {
+        "success": true,
+        "text": "In a stroke of inspiration, you decided to offer free samples of your signature biscotti to local businesses, along with a menu of your specialty online order options. This mouthwatering strategy not only demonstrated the quality of your baked goods but also showcased the practicality of your treat as the perfect companion to a cup of coffee or tea, creating buzz and bringing in a significant number of custom orders through your newly launched website.",
         "lost": false,
         "newName": ""
       },
-      "French press": {
-        "success": false,
-        "text": "In an inspired moment of culinary cross-utilization, you attempted to use the French press to press out the rust from your antique baking tools. However, the only thing you succeeded in doing was squishing a batch of unsuspecting scones and making a pressing case for why coffee makers and rust removal should never mix.",
+      "Lightbox": {
+        "success": true,
+        "text": "You used the lightbox to take stunning, professional-grade photos of your baked goods, creating an irresistible online gallery that drew in orders from far and wide. The mouth-watering images tipped the scale, compelling you to focus on expanding your bakery's online presence, leading to a virtual queue of custom orders that never seemed to end.",
         "lost": false,
         "newName": ""
       },
-      "Embroidered napkins": {
-        "success": false,
-        "text": "In a well-intentioned effort to polish your rustic antiques with the soft, intricate threads of your embroidered napkins, you quickly realized that delicate fabric does little more than spread the rust around. Not only are your baking tools still tarnished, but now, those once finely embroidered napkins bear the stubborn stains of your failed endeavor.",
+      "Prime lens": {
+        "success": true,
+        "text": "You used your Prime Lens to capture the essence and charm of your bakery creations in stunning detail, making them irresistible online. The photographs promoted on your social media channels and website dramatically increased custom orders, steering your expansion efforts towards growing your online presence successfully.",
         "lost": false,
         "newName": ""
       },
-      "Lace doilies": {
+      "Botany": {
         "success": false,
-        "text": "Attempting to use lace doilies to protect the antique baking tools, you quickly discovered that while they made excellent dust covers, they did absolutely nothing to prevent or reverse the rusting process, leaving the tools just as tarnished as before.",
+        "text": "In an inspired but misguided attempt to solve the expansion dilemma through botany, you decided to grow rare, exotic ingredients that would attract more business. Unfortunately, your focus on unusual plant cultivation consumed too much time and resources, providing little direct benefit to your bakery's expansion plans or decision between a café space or enhancing your online presence.",
         "lost": false,
         "newName": ""
       },
-      "Seasonal quilt": {
+      "Lovage": {
         "success": false,
-        "text": "In a well-intentioned effort to protect your antique baking tools, you draped them in the seasonal quilt, hoping to shield them from further degradation. Unfortunately, the quilt could neither absorb nor repel the moisture in the air, leaving the tools to continue their battle with rust, snugly but ineffectually covered.",
+        "text": "In an inspired yet peculiar move, you decided to infuse your entire range of baked goods with lovage, convinced its unique flavor would set your bakery apart in the expansion. Customers, however, were less enchanted by the sudden herbaceous takeover of their favorite sweets, leading to a flurry of confused and sometimes disgruntled feedback. It wasn't long before \"Lovage Lavender Shortbread\" became a lesson in culinary restraint rather than innovation.",
         "lost": false,
         "newName": ""
       },
-      "Chandelier": {
+      "Watercolor pads": {
         "success": false,
-        "text": "In an innovative but misguided effort, you attempted to hang the antique baking tools from the bakery's chandelier to grant them a grand display. Unfortunately, not only did this not solve the rust issue, but the added weight proved too much for the ancient fixture, causing it to come crashing down in a spectacle of shattered glass and scattered scone cutters.",
+        "text": "In an inspired attempt to combine your love of baking with art, you used the watercolor pads to create a series of delightful, detailed paintings of your baked goods, hoping they would serve as a unique marketing tool. Unfortunately, customers were more intrigued by the art than the actual bakery expansion plans, leading to a series of well-meaning but ultimately confusing conversations about art exhibits rather than café spaces or online store enhancements.",
         "lost": false,
         "newName": ""
       },
-      "Silk scarf": {
+      "Charcoal": {
         "success": false,
-        "text": "In a burst of inspiration, you wrapped the antique tools in the silk scarf, hoping the fabric would magically buff away the corrosion. Instead, the delicate silk snagged on the rusty edges, leaving the tools as tarnished as they were before and the scarf fraying beyond repair.",
+        "text": "Attempting to create a signature charcoal-infused sourdough as a unique draw for your expansion, you found the flavor was not as \"uniquely tantalizing\" as you hoped, but rather left customers puzzled and slightly grimy. Bakers and patrons alike were not amused, putting a damper on your expansion dreams.",
         "lost": false,
         "newName": ""
       },
-      "Garden hat": {
+      "Reflector": {
         "success": false,
-        "text": "In your attempt to use the garden hat in an imaginative manner, perhaps as a makeshift dust collector while you scrub the rust off, you soon found out that hats, unsurprisingly, do little to protect antique baking tools from rust. Indeed, the only thing that changed was your hat getting a new, peculiar patina from the rust particles, leaving the antiques untouched and your hat less wearable.",
+        "text": "In an attempt to use the reflector to enhance the cozy ambience of your proposed café space, you aimed it to catch the morning light and create a warm, inviting glow. However, this inadvertently created a blinding glare, driving away potential customers rather than welcoming them.",
         "lost": false,
         "newName": ""
       },
-      "Novel": {
+      "Stainless steel spade": {
         "success": false,
-        "text": "In an attempt to glean some ancient wisdom on rust removal, you pored over the novel, \"The Baker's Secret.\" Unfortunately, this fictional tale was more concerned with love and loaf than the practicalities of metal maintenance, offering no solution to your conundrum.",
+        "text": "Enthusiastically, you decided to use your stainless steel spade to start the café's expansion, imagining a lovely outdoor seating area. Unfortunately, the first scoop of earth reminded you it's a tool better suited for cakes and not the compacted soil of your chosen spot.",
         "lost": false,
         "newName": ""
       },
-      "Cat tower": {
+      "Sand bottles": {
         "success": false,
-        "text": "In an inventive spur, you tried employing the cat tower's scratching surfaces to scrub off the rust but only succeeded in smudging the treasured tools with cat fur and a hint of feline disdain, making them look more neglected rather than restored.",
+        "text": "In an attempt to uniquely decorate the bakery and give it a cozy, beach-themed vibe, you decided to use sand bottles as table centerpieces. Unfortunately, your customers found them more puzzling than charming, mistaking them for sugar dispensers and leading to some very gritty pastries.",
         "lost": false,
         "newName": ""
       }
     },
     {
-      "Antique cake stand": {
+      "Matcha": {
         "success": true,
-        "text": "You ingeniously repurposed your antique cake stand, not as a mere display for baked goods, but as the centerpiece of a makeshift, yet stylish, tea station. You surrounded this elevated focal point with various chairs and cushions you gathered, creating an intimate and inviting seating arrangement where the Ladies' Literary Society could comfortably gather, chat, and enjoy their high tea, marveling at your creativity and resourcefulness.",
+        "text": "With the culinary precision of a seasoned baker, you infused the matcha into your great-grandmother's fruitcake recipe, creating a delightful balance between the rich, earthy tones of the matcha and the sweet, candied fruits. The vibrant green hue added an eye-catching twist, making the fruitcake not only delicious but also a visual masterpiece.",
         "lost": false,
         "newName": ""
       },
-      "Embroidered napkins": {
+      "World atlas of coffee": {
         "success": true,
-        "text": "Utilizing the embroidered napkins, you ingeniously wrapped and tied them around plain chair cushions to create an appearance of elaborate and expensive seating, impressing the refined ladies with your creativity and resourcefulness in incorporating a baking theme into the decor.",
+        "text": "Using the World Atlas of Coffee, you infused each batch of fruitcake with beans from a different corner of the globe, adding an exotic flair to the traditional recipe. Your caffeinated twist turned the old holiday dread into a trendy, must-try treat, with each slice offering a unique taste of the world.",
         "lost": false,
         "newName": ""
       },
-      "Lace doilies": {
+      "Prime lens": {
         "success": true,
-        "text": "You ingeniously draped the lace doilies over various mismatched stools and chairs you gathered, transforming them into a unified and charmingly elegant seating arrangement that wowed the Ladies' Literary Society upon their arrival.",
+        "text": "Using your prime lens, you meticulously photograph each step of updating the fruitcake recipe, focusing on the vibrancy of the ingredients and the warmth of the kitchen, capturing the essence of the cozy genre. These high-quality images then become integral to a blog series that revitalizes the fruitcake's image, appealing to modern culinary enthusiasts who value both aesthetic and nostalgia.",
         "lost": false,
         "newName": ""
       },
-      "Seasonal quilt": {
-        "success": true,
-        "text": "With innovation as your ally, you spread the seasonal quilt over hay bales, transforming them into charming, cozy seats that blend seamlessly with your bakery's rustic theme. This creative solution amuses the Ladies' Literary Society, who find the arrangement both clever and comfortable for their high tea event.",
-        "lost": false,
-        "newName": ""
-      },
-      "Teakettle": {
-        "success": true,
-        "text": "Utilizing the teakettle, you hosted a delightful \"Tea Tasting and Scone Pairing\" workshop. The event was so captivating that attendees were more than happy to bring their own elegant chairs, ensuring an array of seating fitting for the distinguished gathering.",
-        "lost": false,
-        "newName": ""
-      },
-      "Chandelier": {
-        "success": true,
-        "text": "Leveraging your resourcefulness, you secured the dazzling chandelier above a collection of assorted chairs and tables you gathered from around your bakery and home, casting enchanting light patterns that transformed the mismatch into a bespoke bohemian chic arrangement. The society ladies were completely charmed by the ambiance, making the seating arrangement a topic of fascinated discussion.",
-        "lost": false,
-        "newName": ""
-      },
-      "Silk scarf": {
-        "success": true,
-        "text": "In a stroke of creative genius, you used the silk scarf as a model to convince a local artisan to produce elegant, scarf-inspired slipcovers for the mismatched chairs in your bakery. Their luxurious appearance and unique design not only charmed the Ladies' Literary Society but also became a permanent talking point among the townsfolk, elevating your bakery's ambiance.",
-        "lost": false,
-        "newName": ""
-      },
-      "French press": {
-        "success": true,
-        "text": "In a stroke of genius, you arrange a barter deal with the charming antique shop next door, offering your beloved French press as a trade for their eclectic collection of vintage chairs and quaint settees. The Ladies' Literary Society is utterly impressed by the cozy and elegant seating you've provided, making the high tea event a memorable affair.",
-        "lost": false,
-        "newName": ""
-      },
-      "Novel": {
+      "Darjeeling": {
         "success": false,
-        "text": "In a stroke of misjudged genius, you decided to stack several novels to create makeshift chairs, imagining a quirky, literary charm. Sadly, when the first member of the Ladies' Literary Society warily sat down, the precarious pile crumbled, sending her toppling into a rather undignified heap amongst the pages of “Pride and Prejudice” and “War and Peace”, proving novels are better suited for reading nooks than as building blocks for seating solutions.",
+        "text": "In an effort to modernize the fruitcake, you decided to soak the fruits in Darjeeling tea instead of the traditional rum. However, your enthusiasm waned when the flavor of the tea was too subtle, lost amidst the robust spices and candied fruits, leaving tasters puzzled over the cake's lackluster twist.",
         "lost": false,
         "newName": ""
       },
-      "Copper mixing bowls": {
+      "Botany": {
         "success": false,
-        "text": "In a bold move of ingenuity, you attempted to invert the copper mixing bowls to serve as chic, impromptu stools for the event. However, the first test sit resulted in a resounding clang and a slide across the floor, leaving your pride and the bowl slightly dented.",
+        "text": "In your zeal to reinvent the fruitcake, you decided that genetically modified ultra-flavorful fruits were the way to go—after all, botany is your forte. Unfortunately, your creation, though delicious, was a bit too avant-garde for the local baking contest's traditionalist judges, who couldn't wrap their heads around a fluorescent, square watermelon piece in their slice.",
         "lost": false,
         "newName": ""
       },
-      "Garden hat": {
+      "Lightbox": {
         "success": false,
-        "text": "In a moment of inspiration, you attempted to upcycle your garden hat into a chic, petite seat by inverting it and adding a cushion. Unfortunately, the moment it was put to the test, it collapsed under the refined, albeit surprised, posterior of the Ladies’ Literary Society's distinguished chairwoman.",
+        "text": "In a stroke of what you thought was genius, you used the lightbox to provide a warm ambient glow, hoping to photograph your revamped fruitcake in the best light for your blog. Alas, the warm glow was too inviting; you overestimated the appeal of your fruitcake, and people were far more interested in the lightbox itself, asking where they could buy one instead of your fruitcake recipe.",
         "lost": false,
         "newName": ""
       },
-      "Whisk": {
+      "Biscotti": {
         "success": false,
-        "text": "In a moment of culinary-inspired madness, you attempted to use the whisk to fashion a network of whimsical, albeit wildly impractical, chairs by weaving together strands of dough. Alas, the result was less \"elegant seating\" and more \"abstract art installation,\" causing a mess rather than solving the seating dilemma.",
+        "text": "In your quest to update the fruitcake, you presented biscotti as a crunchy, modern companion. However, your attempt was met with confusion as folks wondered if they were meant to dip the biscotti into the fruitcake or vice versa, leading to a rather awkward tasting session.",
         "lost": false,
         "newName": ""
       },
-      "Spatula": {
+      "High-speed SD cards": {
         "success": false,
-        "text": "In a moment of whimsical inspiration, you attempted to use the spatula to fashion seats out of large, uncooked dough loaves, believing the soft contours could be sculpted into elegant thrones. Unfortunately, the spatula proved to be far too small and unwieldy for such a task, making the endeavor less \"throne-like elegance\" and more \"sad, squished bread mishap.\"",
+        "text": "In a bold move to digitize the cherished fruitcake recipe for broad online sharing, you uploaded it onto high-speed SD cards. Unfortunately, your relatives, expecting a taste of the infamous cake, were less than amused to receive gigabytes instead of gastronomy, leaving the digital revival unappreciated and the cards gathering dust.",
         "lost": false,
         "newName": ""
       },
-      "Sift": {
+      "Lovage": {
         "success": false,
-        "text": "In a moment of extraordinary optimism, you tried to use the sift to create a makeshift seating arrangement, hoping to somehow weave together the handles in an innovative yet genteel fashion. However, your culinary innovation fell flat when the first test sit resulted in a genteel tumble to the floor, sprawling amidst a cloud of unsifted flour, much to the dignity of neither party involved.",
+        "text": "In an inspired, yet ill-fated attempt to modernize the fruitcake, you substituted traditional spices with lovable, er, lovage. Unfortunately, the savory punch of lovage clashed catastrophically with the cake’s sweet and tart fruits, resulting in a culinary paradox not even a mother could love.",
         "lost": false,
         "newName": ""
       },
-      "Cat tower": {
+      "Madeline": {
         "success": false,
-        "text": "Attempting to fashion the cat tower into an avant-garde seating solution for the Ladies' Literary Society, you quickly learned that while cats may adore its precarious perches, the refined members of the society were less than amused, finding themselves either too high, too precariously seated, or simply unable to comfortably balance their teacups and saucers without fear of a fall reminiscent of Humpty Dumpty's ill fate.",
+        "text": "In an ambitious attempt, you tried incorporating the Madeline into the fruitcake batter, aiming for a fusion of French patisserie elegance with traditional English robustness. Alas, the delicate Madeline dissolved into mush amidst the dense cake, turning what was meant to be a culinary innovation into a soggy disaster.",
+        "lost": false,
+        "newName": ""
+      },
+      "Reflector": {
+        "success": false,
+        "text": "In a stroke of what you thought was genius, you used the reflector to unevenly reflect light in your oven in an attempt to give the fruitcake a modern, artistic char. Unfortunately, this resulted in half of the cake being undercooked and the other half burnt to a crisp, proving there’s a fine line between avant-garde and just a bad idea in the kitchen.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sand bottles": {
+        "success": false,
+        "text": "In an effort to add zing to your fruitcake, you thought using sand bottles to sprinkle colored sugar over the top would be innovative. Unfortunately, the cap wasn't secure on one of the bottles, and instead of a light dusting of sugar, your cake ended up buried under a dune of the stuff, making it more sandcastle than dessert.",
+        "lost": false,
+        "newName": ""
+      },
+      "Charcoal": {
+        "success": false,
+        "text": "In your quest for innovation, you decided to use charcoal not just for the baking but to actually incorporate it into the recipe itself, aiming for a \"detox\" fruitcake. Alas, the result was a cake so black it seemed to absorb light itself, with a taste that suggested licking a coal mine. Friends and family unanimously agreed that this was not the revival fruitcake needed.",
+        "lost": false,
+        "newName": ""
+      },
+      "Watercolor pads": {
+        "success": false,
+        "text": "You decided to use your watercolor pads to create beautiful, hand-painted recipe cards for your great-grandmother's fruitcake, thinking this would make the revival effort more personal and charming. Unfortunately, the charm was lost on those who couldn't get past their preconceived notions of fruitcake, leaving your artistic efforts appreciated but ineffective in changing minds about the dessert itself.",
+        "lost": false,
+        "newName": ""
+      },
+      "Stainless steel spade": {
+        "success": false,
+        "text": "In a burst of inspiration, you decide to use the stainless steel spade as an avant-garde cake server for your fruitcake revival event. Unfortunately, the spade, designed for gardening rather than gastronomy, proved too large and unwieldy for the delicate task, turning the cake cutting into a comedic yet chaotic scene that had guests questioning your baking and serving skills rather than marveling at the modernized taste of your fruitcake.",
         "lost": false,
         "newName": ""
       }
     },
     {
-      "Whisk": {
+      "Biscotti": {
         "success": true,
-        "text": "With determination twinkling in your eyes, you placed the frozen cream in a bowl and used the whisk with a swift back-and-forth motion, creating enough friction to gently melt and aerate the cream back to its peak fluffy state, just in time for a frosting extravaganza on your awaiting cupcakes.",
+        "text": "By introducing biscotti as the centerpiece of your bake-off, you ingeniously tapped into its timeless appeal, crafting a bridge between generations. The crunch of the biscotti became a canvas for creativity, allowing both young and old to experiment with traditional and modern flavors, sharing stories and techniques that spanned decades as they dipped their creations into teas and coffees, embodying the spirit of unity through the love of baking.",
         "lost": false,
         "newName": ""
       },
-      "Copper mixing bowls": {
+      "Matcha": {
         "success": true,
-        "text": "By cleverly placing the frozen cream in the copper mixing bowls, you leveraged the metal's excellent thermal conductivity to thaw it evenly and more quickly than other materials might have allowed. Then, using the same bowls, you whipped the cream into a fluffy perfection, their superior chilling effect keeping it from becoming too warm during the process. The cupcakes were saved, and the bowls proved indispensable once again.",
+        "text": "You cleverly incorporated Matcha as the secret ingredient in a baking challenge that had everyone buzzing. Its versatility shone through in a variety of recipes, from Matcha-infused shortbread cookies that reminded the seniors of tea times gone by, to vibrant Matcha cupcakes that had the kids eager to try their hand at baking.",
         "lost": false,
         "newName": ""
       },
-      "Teakettle": {
+      "Madeline": {
         "success": true,
-        "text": "Using the teakettle, you gently heated water to a warm, not boiling, temperature. You then wrapped your frozen cream container in a towel and set it atop the warm kettle, allowing the steam to gradually thaw the cream without cooking it. In this ingenious, if unconventional, steaming process, the cream returned to a workable state, ready to be whipped into the fluffy frosting your cupcakes deserved.",
+        "text": "In a stroke of genius, you used the Madeline as a leading example to inspire your bake-off theme: \"Petite Delights through Time\" - a journey where each baking team, comprising members of various generations, would recreate miniature versions of classic pastries from different eras. This choice not only allowed for a wide array of baking techniques to be showcased, but also provided a perfect canvas for stories and memories to be shared among the teams. The Madeline, being both a time-honored treat and delightfully petite, perfectly encapsulated the spirit of the event, bringing everyone together with its simple elegance and timeless appeal.",
         "lost": false,
         "newName": ""
       },
-      "Spatula": {
-        "success": true,
-        "text": "Bracing against the cold, you used the spatula to skillfully chip and scrape the frozen cream from the walls of your rogue freezer. Transferring these icy shards into a mixing bowl, you gently folded them together, using the flat of the spatula to press and stir, encouraging them to thaw more evenly without becoming too liquid. The result? A surprisingly aerated and spreadable frosting, ready for your cupcakes.",
-        "lost": false,
-        "newName": ""
-      },
-      "Sift": {
-        "success": true,
-        "text": "With precision, you used your sift to gently grate the frozen cream, creating flaky piles that thawed quickly on your counter. The now softened cream was eagerly whipped into a fluffy delight, adorning each cupcake with a dollop of perfection.",
-        "lost": false,
-        "newName": ""
-      },
-      "French press": {
+      "World atlas of coffee": {
         "success": false,
-        "text": "As you poured the cream into the French press, your optimism was high, until you realized that the plunger's design, meant for separating coffee grounds from liquid, only succeeded in making a splattery, sloppy mess, instead of the desired whipped cream consistency.",
+        "text": "Attempting to inspire the community with a \"World Atlas of Coffee\" might sound delightful to the caffeine lovers and globe-trotters, but it simply left the young and many of the elder non-coffee enthusiasts puzzled over how it related to baking, turning your event into an unintended geography lesson rather than a bridge-building bake-off.",
         "lost": false,
         "newName": ""
       },
-      "Seasonal quilt": {
+      "Lovage": {
         "success": false,
-        "text": "Wrapping the cream in the seasonal quilt, you waited patiently, only to realize that the fabric, while cozy for warmth, did not conduct heat efficiently enough to thaw the cream without turning it into a watery mess, rendering your effort a soggy debacle.",
+        "text": "You, excited to infuse a whimsical touch to your baking contest, ambitiously incorporated lovage into your \"Time-Honored Treats\" themed bake-off, believing its celery-like flavor would bridge the sweet-savory divide. Unfortunately, you quickly discovered that most participants, especially the younger crowd, were utterly bamboozled by the herb, with many a cookie and cake turning out more reminiscent of a garden salad than a beloved family dessert.",
         "lost": false,
         "newName": ""
       },
-      "Antique cake stand": {
+      "Darjeeling": {
         "success": false,
-        "text": "In a creative twist, you tried using the antique cake stand to gently elevate the frozen cream closer to the warm kitchen ceiling, hoping the ambient heat would coax it back to life. Alas, the cake stand, designed for showcasing, not thawing, did nothing to expedite the cream's transformation from solid to whippable.",
+        "text": "In a stroke of botanical bravery, you decide to infuse each baking challenge with Darjeeling tea, believing its distinctive floral notes will unite the ages through the medium of pastry. Unfortunately, it turns out that while grandparents fondly reminisce over Darjeeling's fragrant cups, the younger generation finds the tea too bitter, making your baked goods a hard sell amongst the kiddie crowd.",
         "lost": false,
         "newName": ""
       },
-      "Lace doilies": {
+      "Lightbox": {
         "success": false,
-        "text": "In a burst of inspiration, you decide to wrap the frozen cream in lace doilies, thinking perhaps their intricate patterns might somehow facilitate a gentle thawing. However, all you achieve is a set of cream-soaked doilies, leaving your cupcakes bare and the cream stubbornly solid, illustrating that perhaps elegance is not synonymous with efficacy in the kitchen.",
+        "text": "In an ambitious bid to illuminate the intricate details of pastries from bygone eras, you set up a lightbox to showcase the baked goods during the bake-off. Unfortunately, while the lightbox splendidly highlighted the flaky layers of a vintage apple strudel, it failed to captivate the younger audience, who were more intrigued by the prospect of hands-on baking than by a static display of culinary artistry.",
         "lost": false,
         "newName": ""
       },
-      "Silk scarf": {
+      "High-speed SD cards": {
         "success": false,
-        "text": "Wrapping the silk scarf around the frozen cream in hopes of a gentle thaw, you quickly found out silk doesn’t have much thermal mass, doing next to nothing to address your cold conundrum.",
+        "text": "In an ambitious move, you decided to use the high-speed SD cards to store an extensive collection of digital recipes spanning decades, intending to showcase the baking evolution. Unfortunately, during the bake-off, you discovered that the majority of participants preferred the tactile joy of flipping through weathered recipe books or sharing handwritten family secrets over navigating digital files, leaving your high-tech solution underutilized.",
         "lost": false,
         "newName": ""
       },
-      "Embroidered napkins": {
+      "Watercolor pads": {
         "success": false,
-        "text": "Wrapping your frozen cream in embroidered napkins in hopes of a gentle thaw, you soon found them soggy, the cream barely softened, leaving your cupcakes as bare as a winter tree. The napkins, now damp and clumped with cream, have witnessed better days, but thankfully, they're none the worse for wear after a good wash.",
+        "text": "You thought watercolor pads would bridge the generation gap by allowing participants to design their own recipes with artistic flair. However, when you presented them as part of the event, the eager bakers of all ages looked puzzled, expecting mixing bowls rather than palettes. Their anticipation for a hands-on baking experience turned into a polite decline to your artistic alternative.",
         "lost": false,
         "newName": ""
       },
-      "Chandelier": {
+      "Botany": {
         "success": false,
-        "text": "In a bold move reflecting the heart of a true English baker meets MacGyver, you attempt to harness the warming glow of the chandelier to thaw your solid whipped cream. Unfortunately, despite the chandelier's earnest effort to shine, the distance from it to the counter proved too great, leaving your cream as frozen as your ambitions.",
+        "text": "You decided to use your botany skills to introduce exotic plants and herbs into your baking recipes for the bake-off, hoping to wow the crowd with unusual flavors. However, the execution fell flat when the lavender pound cake tasted more like soap and the rosemary chocolate chip cookies left everyone reaching for a glass of water, proving that there's a fine line between innovative and inedible in the world of baking.",
         "lost": false,
         "newName": ""
       },
-      "Garden hat": {
+      "Reflector": {
         "success": false,
-        "text": "In a stroke of what can only be described as misplaced optimism, you attempted to use the brim of your garden hat as a makeshift dish to catch the sun's rays, hoping to gently thaw the cream. Alas, the cream remained as unyielding as a block of ice, and your garden hat now sports a rather permanent, cream-shaped indentation.",
+        "text": "Wielding your reflector with the intention to showcase the beauty of baking through the ages under the bright sun, you quickly found out that the risk of focusing sunlight onto a baked good doesn't add a delightful glaze so much as it invites a very localized, unintended caramelization—or, in layman's terms, you accidentally started a small fire on the scone display. Not the kind of \"heat\" you wanted to add to the event.",
         "lost": false,
         "newName": ""
       },
-      "Novel": {
+      "Prime lens": {
         "success": false,
-        "text": "Hoping to somehow glean culinary wisdom or find a quirky hack within its pages, you attempt to use the novel as a makeshift guide to your whipping woes. Unfortunately, it turns out that \"War and Peace\" offers little advice on temperature management or dessert craftsmanship, leaving you no closer to solving the Frosted Freezer Fiasco.",
+        "text": "In an attempt to capture the essence of each generation's baking techniques with your prime lens, you inadvertently focused too much on photographing the event rather than engaging participants and facilitating the bake-off. The event lacked the interactive and hands-on experience that was vital for bridging the generation gap, turning what was intended to be a dynamic baking show into a static photo exhibition.",
         "lost": false,
         "newName": ""
       },
-      "Cat tower": {
+      "Stainless steel spade": {
         "success": false,
-        "text": "In a moment of inventive desperation, you fashioned the cat tower into a makeshift thawing station, optimistically believing the residual body heat from its frequent feline visitors might expedite the thawing process. However, the only thing it attracted was a chorus of confused meows, no closer to solving your frozen cream dilemma.",
+        "text": "As whimsical as the idea seemed, using a stainless steel spade to mix the massive dough for the intergenerational bake-off was met with confused looks from both kids and grandparents alike. The spade, built for gardening, was neither efficient in aerating the flour nor gentle enough for folding in delicate ingredients, resulting in a less-than-appetizing dough mixture.",
+        "lost": false,
+        "newName": ""
+      },
+      "Sand bottles": {
+        "success": false,
+        "text": "You thought the sand bottles, with their layered hues reminiscent of cakes and pastries, would make an excellent decoration and inspire teams with their color schemes. However, the participants, eager for flour and sugar cans, barely glanced at them, not making the thematic connection. The vibrant sand became mere table dressing, overlooked in the rush to roll out dough and whip cream.",
+        "lost": false,
+        "newName": ""
+      },
+      "Charcoal": {
+        "success": false,
+        "text": "In an ambitious endeavor to showcase the evolution of baking from prehistoric times, you decided to use charcoal to demonstrate rudimentary cooking techniques. However, this left the crowd less than impressed when the majority of baked goods turned out more reminiscent of the charcoal itself, rather than a delightful trip through the ages of baking.",
         "lost": false,
         "newName": ""
       }
