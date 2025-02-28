@@ -51,7 +51,6 @@ export class StoryScreen {
       monkContainer.style.height = '0';
       monkContainer.style.paddingBottom = '70%'; // Makes height equal to width (aspect ratio 1:1)
       monkContainer.style.overflow = 'visible'; // Allow elements to overflow
-      monkContainer.style.willChange = 'transform'; // Add will-change for better rendering performance
       
       // Add mad monk image to the container
       const madMonk = document.createElement('img');
@@ -60,7 +59,6 @@ export class StoryScreen {
       madMonk.style.bottom = '0';
       madMonk.style.right = '0';
       madMonk.style.width = '100%'; // Take full width of container
-      madMonk.style.willChange = 'transform'; // Add will-change for better rendering performance
       this.trackImageLoading(madMonk);
       
       // Add left eye image - positioned relative to the container
@@ -70,7 +68,6 @@ export class StoryScreen {
       leftEye.style.bottom = '71.15%'; // Position from bottom of container
       leftEye.style.right = '62.00%';  // Position from right of container
       leftEye.style.width = '5%';  // Width relative to container width
-      leftEye.style.willChange = 'transform'; // Add will-change for better rendering performance
       this.trackImageLoading(leftEye);
       
       // Add right eye image - positioned relative to the container
@@ -80,7 +77,6 @@ export class StoryScreen {
       rightEye.style.bottom = '75.1%'; // Position from bottom of container
       rightEye.style.right = '44.75%';  // Position from right of container
       rightEye.style.width = '5%';  // Width relative to container width
-      rightEye.style.willChange = 'transform'; // Add will-change for better rendering performance
       this.trackImageLoading(rightEye);
       
       // Add the images to the container
@@ -144,7 +140,6 @@ export class StoryScreen {
       seekTextContainer.style.bottom = '5%';
       seekTextContainer.style.textAlign = 'left';
       seekTextContainer.style.zIndex = '10';
-      seekTextContainer.style.willChange = 'transform'; // Add will-change for better rendering performance
       
       const seekWord = document.createElement('div');
       seekWord.textContent = 'Seek';
@@ -169,7 +164,6 @@ export class StoryScreen {
       beastWord.style.margin = '0';
       beastWord.style.lineHeight = '1.275';
       beastWord.style.fontFamily = 'Arial Black, sans-serif';
-      beastWord.style.willChange = 'transform'; // Add will-change for better rendering performance
       // Create text outline using multiple text-shadow properties instead of webkitTextStroke
       beastWord.style.textShadow = 
         '-4px -4px 0 #300, ' +  // Top-left
@@ -229,7 +223,6 @@ export class StoryScreen {
       monkContainer.style.height = '0';
       monkContainer.style.paddingBottom = '70%';
       monkContainer.style.overflow = 'visible';
-      monkContainer.style.willChange = 'transform'; // Add will-change for better rendering performance
       
       // Add mad monk image to the container
       const madMonk = document.createElement('img');
@@ -238,7 +231,6 @@ export class StoryScreen {
       madMonk.style.bottom = '0';
       madMonk.style.right = '0';
       madMonk.style.width = '100%';
-      madMonk.style.willChange = 'transform'; // Add will-change for better rendering performance
       this.trackImageLoading(madMonk);
       
       // Add left eye image - positioned relative to the container
@@ -248,7 +240,6 @@ export class StoryScreen {
       leftEye.style.bottom = '71.15%';
       leftEye.style.right = '62.00%';
       leftEye.style.width = '5%';
-      leftEye.style.willChange = 'transform'; // Add will-change for better rendering performance
       this.trackImageLoading(leftEye);
       
       // Add right eye image - positioned relative to the container
@@ -258,7 +249,6 @@ export class StoryScreen {
       rightEye.style.bottom = '75.1%';
       rightEye.style.right = '44.75%';
       rightEye.style.width = '5%';
-      rightEye.style.willChange = 'transform'; // Add will-change for better rendering performance
       this.trackImageLoading(rightEye);
       
       // Add the images to the container
@@ -288,7 +278,6 @@ export class StoryScreen {
       foolTextContainer.style.bottom = '5%';
       foolTextContainer.style.textAlign = 'left';
       foolTextContainer.style.zIndex = '10';
-      foolTextContainer.style.willChange = 'transform'; // Add will-change for better rendering performance
       
       const youWord = document.createElement('div');
       youWord.textContent = 'You';
@@ -305,7 +294,6 @@ export class StoryScreen {
       foolWord.style.margin = '0';
       foolWord.style.lineHeight = '1.275';
       foolWord.style.fontFamily = 'Arial Black, sans-serif';
-      foolWord.style.willChange = 'transform'; // Add will-change for better rendering performance
       // Create text outline using multiple text-shadow properties instead of webkitTextStroke
       foolWord.style.textShadow = 
         '-4px -4px 0 #300, ' +  // Top-left
