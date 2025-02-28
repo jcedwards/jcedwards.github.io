@@ -245,11 +245,14 @@ export class TheAlgorithm {
         historyEntry.creatureClass = llScreen;
 
         const creature = llScreen === TheBeast ? game.theBeast : new llScreen();
+        
         // If this is the second or later Beast encounter, mark it as angry
         if (creature === game.theBeast) {
-          this.hasEncounteredBeast = true;
-        } else if (creature instanceof TheBeast) {
-          game.theBeast.isAngry = true;
+          if (!this.hasEncounteredBeast) {
+            this.hasEncounteredBeast = true;
+          } else {
+            game.theBeast.isAngry = true;
+          }
         }
 
         screen = new CombatScreen(elem, game, creature);
