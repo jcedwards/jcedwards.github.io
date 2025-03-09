@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💪</text></svg>">
+  <title>Strength Scroller</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      height: 100%;
+      width: 100%;
+      overflow: hidden; /* Prevent scrolling the window */
+      font-family: sans-serif;
+      background-color: #222;
+      color: #fff;
+    }
+
+    /* Centered "phone-shaped" container on desktop; full screen on mobile */
+    #app-container {
+      position: relative;
+      width: 375px;
+      height: 667px;
+      margin: 20px auto 0; /* Added top margin for desktop view */
+      background-color: #000;
+      overflow: hidden;
+      border: 2px solid #333;
+    }
+    @media (max-width: 600px) {
+      /* On small screens, fill the viewport in portrait */
+      #app-container {
+        width: 100vw;
+        height: 100vh; /* changed from 100dvh for better compatibility */
+        height: 100dvh; /* add fallback for newer browsers */
+        margin: 0; /* remove margin on mobile */
+        border: none; /* remove border on mobile */
+      }
+    }
+
+    /* Container for all "screens" inside the app */
+    #screens-container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    /* Each individual screen is absolutely stacked */
+    .game-screen {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    /* Stats overlay that fades in/out */
+    #stats-overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.35);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000; /* Ensure stats overlay is above everything */
+    }
+
+    #stats-overlay.visible {
+      opacity: 1;
+    }
+
+    /* Up/down arrow buttons pinned in the bottom-right corner */
+    .nav-buttons {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .nav-buttons button {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      border: none;
+      border-radius: 4px;
+      background-color: #444;
+      color: #fff;
+      cursor: pointer;
+    }
+    .nav-buttons button:hover {
+      background-color: #666;
+    }
+    /* Hide navigation buttons on mobile/touch devices */
+    @media (pointer: coarse) {
+      .nav-buttons {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app-container">
+    <!-- Container for the vertical "TikTok-like" scrolling screens -->
+    <div id="screens-container"></div>
+
+    <!-- Stats overlay (hidden by default, revealed on pause) -->
+    <div id="stats-overlay"></div>
+
+    <!-- Up/Down arrow navigation for desktop users -->
+    <div class="nav-buttons">
+      <button id="scroll-up">▲</button>
+      <button id="scroll-down">▼</button>
+    </div>
+  </div>
+
+  <!-- Only load main.js as a module; main.js will import other scripts. -->
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
