@@ -181,7 +181,7 @@ class Game {
       // Create an EventScreen instance
       const eventScreen = new EventScreen(gameEvent, index, this.screensContainer);
       
-      // Start the slideshow
+      // Start the event
       eventScreen.play();
       
       // Return screen object with the gameEvent reference for tracking
@@ -234,9 +234,9 @@ class Game {
       }
     }
 
-    // Pause slideshow on current screen
+    // Pause the current screen
     const currentScreen = this.getScreenObj(this.currentScreenIndex);
-    if (currentScreen && currentScreen.slideshow) {
+    if (currentScreen) {
       currentScreen.screen.pause();
     }
 
@@ -245,9 +245,9 @@ class Game {
     // Update screen positions
     this.updateScreenPositions();
 
-    // Resume slideshow on new screen
+    // Resume the new screen
     const newScreen = this.getScreenObj(this.currentScreenIndex);
-    if (newScreen && newScreen.slideshow) {
+    if (newScreen) {
       newScreen.screen.play();
     }
 
@@ -294,18 +294,18 @@ class Game {
       // Show stats overlay
       this.showStats();
       
-      // Pause current screen's slideshow
+      // Pause current screen
       const currentScreen = this.getScreenObj(this.currentScreenIndex);
-      if (currentScreen && currentScreen.slideshow) {
+      if (currentScreen) {
         currentScreen.screen.pause();
       }
     } else {
       // Hide stats overlay
       this.hideStats();
       
-      // Resume current screen's slideshow
+      // Resume current screen
       const currentScreen = this.getScreenObj(this.currentScreenIndex);
-      if (currentScreen && currentScreen.slideshow) {
+      if (currentScreen) {
         currentScreen.screen.play();
       }
     }
